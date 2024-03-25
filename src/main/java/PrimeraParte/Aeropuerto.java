@@ -6,6 +6,11 @@ import java.util.concurrent.Semaphore;
 public class Aeropuerto {
     
     private Semaphore esperarPuertaEmbarque = new Semaphore(6, true);
+    
+    public synchronized void actualizarPasajeros(/* parámetros */) {
+        // Lógica para actualizar el número de pasajeros
+    }
+    
     public synchronized void entrarHangar(){
         
     }

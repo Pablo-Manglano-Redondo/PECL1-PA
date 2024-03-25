@@ -7,8 +7,9 @@ public class Main {
 
         Autobus autobus;
         Avion avion;
+        Compartida compartida = new Compartida();
         for (int i = 0; i < 4; i++) {
-            autobus = new Autobus(i);
+            autobus = new Autobus(i, compartida);
             Thread.sleep(500 + (int)Math.random()*501);
             System.out.println(autobus.imprimirAutobus());
             autobus.start();
