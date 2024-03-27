@@ -3,13 +3,15 @@ package PrimeraParte;
 import java.util.Random;
 
 public class Avion extends Thread {
-    private String id, destino;
+    public static String id, destino;
     private int capacidadPasajeros;
-    private int numeroDeVuelos;
+    public static int numeroDeVuelos;
     private final Compartida recursoCompartido;
     private static final String abecedario = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
-    private static final int MAX_VUELOS_ANTES_DE_INSPECCION = 15;
-
+    public static final int MAX_VUELOS_ANTES_DE_INSPECCION = 15;
+    private int numVuelos = 0;
+    private static int numAleatorio;
+    
     public Avion(int numero, Compartida recursoCompartido) {
         Random rand = new Random();
         char letra1 = abecedario.charAt(rand.nextInt(abecedario.length()));
@@ -21,19 +23,58 @@ public class Avion extends Thread {
         this.numeroDeVuelos = 0;
     }
 
+    Aeropuerto ae = new Aeropuerto();
+    
     @Override
     public void run() {
         try {
             while (!interrupted()) {
                 // Simula el ciclo de vida del avión aquí
-                recursoCompartido.realizarActividadesDelCicloDeVida();
+                //recursoCompartido.realizarActividadesDelCicloDeVida(id);
+                ae.entrarHangar(this);
+                ae.salirHangar(this);
+                ae.entrarEstacionamiento(this);
+                ae.esperarPuertaEmbarque();
+                ae.entrarPuertaEmbarque(this);
+                ae.embarcarPasajeros();
+                ae.salirPuertaEmbarque(this);
+                ae.entrarRodaje(this);
+                ae.esperarPista();
+                ae.entrarPista(this);
+                ae.despegar();
+                //Accede a la aerovía
+                ae.volar();
+                ae.esperarPista();
+                while (!ae.solicitarPista()) {
+                    ae.darRodeo();
+                }
+                ae.entrarPista(this);
+                ae.salirPista(this);
+                ae.entrarRodaje(this);
+                ae.esperarPuertaEmbarque();
+                ae.salirRodaje(this);
+                ae.entrarPuertaEmbarque(this);
+                ae.desembarcarPasajeros();
+                ae.entrarEstacionamiento(this);
+                if (numVuelos == 15) {
+                    ae.revisarNecesidadDeInspeccion(id, this);
+                } else {
+                    //sleep
+                } 
+                numAleatorio =(int) Math.random() * 2;
+                if (numAleatorio == 0) {
+                    ae.entrarHangar(this);
+                    //Sleep
+                } 
+                ae.entrarEstacionamiento(this);
+                numVuelos ++;
             }
         } catch (InterruptedException e) {
-            System.out.println(imprimirAvion() + " ha sido interrumpido.");
+            System.out.println("El avión con ID: " + id + " ha sido interrumpido.");
         }
     }
 
-    public String imprimirAvion() {
+   /* public String imprimirAvion() {
         return "Avión " + this.id + " con destino a " + this.destino + ", capacidad: " + this.capacidadPasajeros + " pasajeros";
-    }
+    }*/
 }

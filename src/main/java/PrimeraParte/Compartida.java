@@ -37,23 +37,23 @@ public class Compartida {
     
     // MÉTODOS AVIÓN
     
-    public void realizarActividadesDelCicloDeVida() throws InterruptedException {
+    /*public void realizarActividadesDelCicloDeVida(String id) throws InterruptedException {
         // Estas llamadas son ejemplos. Deberías implementar la lógica específica para cada etapa.
-        enHangar();
+        enHangar(id);
         enAreaDeEstacionamiento();
         embarcarPasajeros();
         enAreaDeRodaje();
-        despegar();
-        enVuelo();
+        despegar(id);
+        enVuelo(id);
         aterrizar();
         desembarcarPasajeros();
-        revisarNecesidadDeInspeccion();
-    }
+        revisarNecesidadDeInspeccion(id);
+    }*/
 
-    public void enHangar() throws InterruptedException {
+    /*public void enHangar(String id) throws InterruptedException {
         // Lógica para estar en el hangar
         Thread.sleep(1000); // Ejemplo de espera en el hangar
-        System.out.println(Avion.imprimirAvion() + " está en el hangar.");
+        System.out.println("El avión con ID: " + id + " está en el hangar.");
     }
 
     public void enAreaDeEstacionamiento() throws InterruptedException {
@@ -68,15 +68,15 @@ public class Compartida {
         // Lógica para estar en el área de rodaje
     }
 
-    public void despegar() throws InterruptedException {
+    public void despegar(String id) throws InterruptedException {
         // Lógica para despegar
-        System.out.println(imprimirAvion() + " está despegando.");
+        System.out.println("El avión con ID: " + id + " está despegando.");
     }
 
-    public void enVuelo() throws InterruptedException {
+    public void enVuelo(String id) throws InterruptedException {
         // Lógica para estar en vuelo
         Thread.sleep(5000); // Ejemplo de tiempo en vuelo
-        System.out.println(imprimirAvion() + " está en vuelo.");
+        System.out.println("El avión con ID: " + id + " está en vuelo.");
     }
 
     public void aterrizar() throws InterruptedException {
@@ -86,14 +86,14 @@ public class Compartida {
     public void desembarcarPasajeros() throws InterruptedException {
         // Lógica para desembarcar pasajeros
     }
-
-    public void revisarNecesidadDeInspeccion() throws InterruptedException {
+*/
+    /*public void revisarNecesidadDeInspeccion(String id) throws InterruptedException {
         Avion.numeroDeVuelos++;
-        if (numeroDeVuelos >= MAX_VUELOS_ANTES_DE_INSPECCION) {
+        if (Avion.numeroDeVuelos >= Avion.MAX_VUELOS_ANTES_DE_INSPECCION) {
             // Realizar inspección en el taller
-            numeroDeVuelos = 0; // Resetear contador después de inspección
-            System.out.println(imprimirAvion() + " está en inspección.");
+            Avion.numeroDeVuelos = 0; // Resetear contador después de inspección
+            System.out.println("El avión con ID: " + id + " está en inspección.");
             Thread.sleep(2000); // Simular tiempo de inspección
-        }
-    }
+        }
+    }*/
 }

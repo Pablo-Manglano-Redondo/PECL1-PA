@@ -25,7 +25,7 @@ public class EvolucionAeropuerto {
                 escribir.write(s + "\n");
                 escribir.close();
             } catch (IOException ex) {
-                Logger.getLogger(GeneradorLogs.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(EvolucionAeropuerto.class.getName()).log(Level.SEVERE, null, ex);
             }finally{
  
         lock.unlock();
