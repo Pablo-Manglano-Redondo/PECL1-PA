@@ -88,7 +88,7 @@ public class Compartida {
     }
 
     public void revisarNecesidadDeInspeccion() throws InterruptedException {
-        numeroDeVuelos++;
+        Avion.numeroDeVuelos++;
         if (numeroDeVuelos >= MAX_VUELOS_ANTES_DE_INSPECCION) {
             // Realizar inspección en el taller
             numeroDeVuelos = 0; // Resetear contador después de inspección
