@@ -16,9 +16,9 @@ public class Main {
         }
         
         for (int i = 0; i < 8; i++) {
-            avion = new Avion(i);
+            avion = new Avion(i, compartida);
             Thread.sleep(1000 + (int)Math.random()*2001);
-            System.out.println(avion.imprimirAvion(i));
+            System.out.println(avion.imprimirAvion());
             avion.start();
         }
         

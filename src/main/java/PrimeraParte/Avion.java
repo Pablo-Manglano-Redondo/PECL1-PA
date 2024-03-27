@@ -29,7 +29,7 @@ public class Avion extends Thread {
                 realizarActividadesDelCicloDeVida();
             }
         } catch (InterruptedException e) {
-            System.out.println(getDescripcion() + " ha sido interrumpido.");
+            System.out.println(imprimirAvion() + " ha sido interrumpido.");
         }
     }
 
@@ -49,7 +49,7 @@ public class Avion extends Thread {
     private void enHangar() throws InterruptedException {
         // Lógica para estar en el hangar
         Thread.sleep(1000); // Ejemplo de espera en el hangar
-        System.out.println(getDescripcion() + " está en el hangar.");
+        System.out.println(imprimirAvion() + " está en el hangar.");
     }
 
     private void enAreaDeEstacionamiento() throws InterruptedException {
@@ -66,13 +66,13 @@ public class Avion extends Thread {
 
     private void despegar() throws InterruptedException {
         // Lógica para despegar
-        System.out.println(getDescripcion() + " está despegando.");
+        System.out.println(imprimirAvion() + " está despegando.");
     }
 
     private void enVuelo() throws InterruptedException {
         // Lógica para estar en vuelo
         Thread.sleep(5000); // Ejemplo de tiempo en vuelo
-        System.out.println(getDescripcion() + " está en vuelo.");
+        System.out.println(imprimirAvion() + " está en vuelo.");
     }
 
     private void aterrizar() throws InterruptedException {
@@ -88,12 +88,12 @@ public class Avion extends Thread {
         if (numeroDeVuelos >= MAX_VUELOS_ANTES_DE_INSPECCION) {
             // Realizar inspección en el taller
             numeroDeVuelos = 0; // Resetear contador después de inspección
-            System.out.println(getDescripcion() + " está en inspección.");
+            System.out.println(imprimirAvion() + " está en inspección.");
             Thread.sleep(2000); // Simular tiempo de inspección
         }
     }
 
-    public String getDescripcion() {
+    public String imprimirAvion() {
         return "Avión " + this.id + " con destino a " + this.destino + ", capacidad: " + this.capacidadPasajeros + " pasajeros";
     }
 }
