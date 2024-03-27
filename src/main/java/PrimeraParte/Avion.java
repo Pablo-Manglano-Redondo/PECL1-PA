@@ -26,70 +26,10 @@ public class Avion extends Thread {
         try {
             while (!interrupted()) {
                 // Simula el ciclo de vida del avión aquí
-                realizarActividadesDelCicloDeVida();
+                recursoCompartido.realizarActividadesDelCicloDeVida();
             }
         } catch (InterruptedException e) {
             System.out.println(imprimirAvion() + " ha sido interrumpido.");
-        }
-    }
-
-    private void realizarActividadesDelCicloDeVida() throws InterruptedException {
-        // Estas llamadas son ejemplos. Deberías implementar la lógica específica para cada etapa.
-        enHangar();
-        enAreaDeEstacionamiento();
-        embarcarPasajeros();
-        enAreaDeRodaje();
-        despegar();
-        enVuelo();
-        aterrizar();
-        desembarcarPasajeros();
-        revisarNecesidadDeInspeccion();
-    }
-
-    private void enHangar() throws InterruptedException {
-        // Lógica para estar en el hangar
-        Thread.sleep(1000); // Ejemplo de espera en el hangar
-        System.out.println(imprimirAvion() + " está en el hangar.");
-    }
-
-    private void enAreaDeEstacionamiento() throws InterruptedException {
-        // Lógica para estar en el área de estacionamiento
-    }
-
-    private void embarcarPasajeros() throws InterruptedException {
-        // Lógica para embarcar pasajeros
-    }
-
-    private void enAreaDeRodaje() throws InterruptedException {
-        // Lógica para estar en el área de rodaje
-    }
-
-    private void despegar() throws InterruptedException {
-        // Lógica para despegar
-        System.out.println(imprimirAvion() + " está despegando.");
-    }
-
-    private void enVuelo() throws InterruptedException {
-        // Lógica para estar en vuelo
-        Thread.sleep(5000); // Ejemplo de tiempo en vuelo
-        System.out.println(imprimirAvion() + " está en vuelo.");
-    }
-
-    private void aterrizar() throws InterruptedException {
-        // Lógica para aterrizar
-    }
-
-    private void desembarcarPasajeros() throws InterruptedException {
-        // Lógica para desembarcar pasajeros
-    }
-
-    private void revisarNecesidadDeInspeccion() throws InterruptedException {
-        numeroDeVuelos++;
-        if (numeroDeVuelos >= MAX_VUELOS_ANTES_DE_INSPECCION) {
-            // Realizar inspección en el taller
-            numeroDeVuelos = 0; // Resetear contador después de inspección
-            System.out.println(imprimirAvion() + " está en inspección.");
-            Thread.sleep(2000); // Simular tiempo de inspección
         }
     }
 
