@@ -3,70 +3,65 @@ package PrimeraParte;
 import java.util.Random;
 
 public class Avion extends Thread {
-    public static String id, destino;
+    private String id;
     private int capacidadPasajeros;
-    public static int numeroDeVuelos;
-    private final Compartida recursoCompartido;
+    private int numeroDeVuelos;
     private static final String abecedario = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
-    public static final int MAX_VUELOS_ANTES_DE_INSPECCION = 15;
+    private final int MAX_VUELOS_ANTES_DE_INSPECCION = 15;
     private int numVuelos = 0;
-    private static int numAleatorio;
+    private int numAleatorio;
+    private Aeropuerto aeropuertoOrigen;
+
     
-    public Avion(int numero, Compartida recursoCompartido) {
-        Random rand = new Random();
-        char letra1 = abecedario.charAt(rand.nextInt(abecedario.length()));
-        char letra2 = abecedario.charAt(rand.nextInt(abecedario.length()));
-        this.id = String.format("%c%c-%04d", letra1, letra2, numero);
-        this.destino = (numero % 2 == 0) ? "Madrid" : "Barcelona";
-        this.capacidadPasajeros = 100 + rand.nextInt(201); // Capacidad entre 100 y 300
-        this.recursoCompartido = recursoCompartido;
-        this.numeroDeVuelos = 0;
+    public Avion(String id, Aeropuerto aeropuerto) {
+        this.id = id;
+        this.capacidadPasajeros = 100 + (int) (Math.random()*200); // Capacidad entre 100 y 300
+        this.aeropuertoOrigen = aeropuerto;
     }
 
-    Aeropuerto ae = new Aeropuerto();
-    
     @Override
     public void run() {
         try {
             while (!interrupted()) {
                 // Simula el ciclo de vida del avión aquí
-                //recursoCompartido.realizarActividadesDelCicloDeVida(id);
-                ae.entrarHangar(this);
-                ae.salirHangar(this);
-                ae.entrarEstacionamiento(this);
-                ae.esperarPuertaEmbarque();
-                ae.entrarPuertaEmbarque(this);
-                ae.embarcarPasajeros();
-                ae.salirPuertaEmbarque(this);
-                ae.entrarRodaje(this);
-                ae.esperarPista();
-                ae.entrarPista(this);
-                ae.despegar();
+                aeropuertoOrigen.entrarHangar(this);
+                Thread.sleep(15000 + (int) (Math.random()*15001)); // Reposo inicial entre 15 y 30 segundos
+                aeropuertoOrigen.salirHangar(this);
+                aeropuertoOrigen.entrarEstacionamiento(this);
+                aeropuertoOrigen.esperarPuertaEmbarque();
+                aeropuertoOrigen.entrarPuertaEmbarque(this);
+                aeropuertoOrigen.embarcarPasajeros();
+                aeropuertoOrigen.salirPuertaEmbarque(this);
+                aeropuertoOrigen.entrarRodaje(this);
+                Thread.sleep(1000 + (int) (Math.random()*4001)); // Reposo inicial entre 15 y 30 segundos
+                aeropuertoOrigen.esperarPista();
+                aeropuertoOrigen.entrarPista(this);
+                aeropuertoOrigen.despegar();
                 //Accede a la aerovía
-                ae.volar();
-                ae.esperarPista();
-                while (!ae.solicitarPista()) {
-                    ae.darRodeo();
+                aeropuertoOrigen.volar();
+                aeropuertoOrigen.esperarPista();
+                while (!aeropuertoOrigen.solicitarPista()) {
+                    aeropuertoOrigen.darRodeo();
                 }
-                ae.entrarPista(this);
-                ae.salirPista(this);
-                ae.entrarRodaje(this);
-                ae.esperarPuertaEmbarque();
-                ae.salirRodaje(this);
-                ae.entrarPuertaEmbarque(this);
-                ae.desembarcarPasajeros();
-                ae.entrarEstacionamiento(this);
+                aeropuertoOrigen.entrarPista(this);
+                aeropuertoOrigen.salirPista(this);
+                aeropuertoOrigen.entrarRodaje(this);
+                aeropuertoOrigen.esperarPuertaEmbarque();
+                aeropuertoOrigen.salirRodaje(this);
+                aeropuertoOrigen.entrarPuertaEmbarque(this);
+                aeropuertoOrigen.desembarcarPasajeros();
+                aeropuertoOrigen.entrarEstacionamiento(this);
                 if (numVuelos == 15) {
-                    ae.revisarNecesidadDeInspeccion(id, this);
+                    aeropuertoOrigen.revisarNecesidadDeInspeccion(this);
                 } else {
                     //sleep
                 } 
                 numAleatorio =(int) Math.random() * 2;
                 if (numAleatorio == 0) {
-                    ae.entrarHangar(this);
+                    aeropuertoOrigen.entrarHangar(this);
                     //Sleep
                 } 
-                ae.entrarEstacionamiento(this);
+                aeropuertoOrigen.entrarEstacionamiento(this);
                 numVuelos ++;
             }
         } catch (InterruptedException e) {
@@ -74,7 +69,31 @@ public class Avion extends Thread {
         }
     }
 
-   /* public String imprimirAvion() {
-        return "Avión " + this.id + " con destino a " + this.destino + ", capacidad: " + this.capacidadPasajeros + " pasajeros";
-    }*/
+    public static String generarIdAvion(int numero) {
+        Random rand = new Random();
+        char letra1 = abecedario.charAt(rand.nextInt(abecedario.length()));
+        char letra2 = abecedario.charAt(rand.nextInt(abecedario.length()));
+        String id = String.format("%c%c-%04d", letra1, letra2, numero);
+        return id;
+    }
+    
+    public String getAvionId() {
+        return id;
+    }
+
+    public int getCapacidadPasajeros() {
+        return capacidadPasajeros;
+    }
+
+    public int getNumeroDeVuelos() {
+        return numeroDeVuelos;
+    }
+
+    public void setNumeroDeVuelos(int numeroDeVuelos) {
+        this.numeroDeVuelos = numeroDeVuelos;
+    }
+
+    public int getMAX_VUELOS_ANTES_DE_INSPECCION() {
+        return MAX_VUELOS_ANTES_DE_INSPECCION;
+    }
 }
