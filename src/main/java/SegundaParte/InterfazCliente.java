@@ -9,7 +9,7 @@ public class InterfazCliente extends javax.swing.JFrame{
     
     public InterfazCliente() {
         initComponents();
-        c = new ClienteRMI(extColonia, intColonia, instruccion, invasion, zonaComer, refugio, botonInvasion);
+        c = new ClienteRMI();
         c.start();
     }
     

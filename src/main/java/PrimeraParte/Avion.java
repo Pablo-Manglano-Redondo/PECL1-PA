@@ -1,6 +1,7 @@
 package PrimeraParte;
 
 import java.util.Random;
+import java.util.concurrent.CountDownLatch;
 
 public class Avion extends Thread {
     private String id;
@@ -10,13 +11,15 @@ public class Avion extends Thread {
     private final int MAX_VUELOS_ANTES_DE_INSPECCION = 15;
     private int numVuelos = 0;
     private int numAleatorio;
+    private CountDownLatch latch;
     private Aeropuerto aeropuertoOrigen;
 
     
-    public Avion(String id, Aeropuerto aeropuerto) {
+    public Avion(String id, Aeropuerto aeropuerto, CountDownLatch latch) {
         this.id = id;
         this.capacidadPasajeros = 100 + (int) (Math.random()*200); // Capacidad entre 100 y 300
         this.aeropuertoOrigen = aeropuerto;
+        this.latch = latch;
     }
 
     @Override
@@ -28,7 +31,7 @@ public class Avion extends Thread {
                 Thread.sleep(15000 + (int) (Math.random()*15001)); // Reposo inicial entre 15 y 30 segundos
                 aeropuertoOrigen.salirHangar(this);
                 aeropuertoOrigen.entrarEstacionamiento(this);
-                aeropuertoOrigen.esperarPuertaEmbarque();
+                aeropuertoOrigen.esperarPuertaEmbarque(this);
                 aeropuertoOrigen.entrarPuertaEmbarque(this);
                 aeropuertoOrigen.embarcarPasajeros();
                 aeropuertoOrigen.salirPuertaEmbarque(this);
@@ -46,7 +49,7 @@ public class Avion extends Thread {
                 aeropuertoOrigen.entrarPista(this);
                 aeropuertoOrigen.salirPista(this);
                 aeropuertoOrigen.entrarRodaje(this);
-                aeropuertoOrigen.esperarPuertaEmbarque();
+                aeropuertoOrigen.esperarPuertaEmbarque(this);
                 aeropuertoOrigen.salirRodaje(this);
                 aeropuertoOrigen.entrarPuertaEmbarque(this);
                 aeropuertoOrigen.desembarcarPasajeros();
@@ -63,6 +66,7 @@ public class Avion extends Thread {
                 } 
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 numVuelos ++;
+                latch.countDown();
             }
         } catch (InterruptedException e) {
             System.out.println("El avión con ID: " + id + " ha sido interrumpido.");

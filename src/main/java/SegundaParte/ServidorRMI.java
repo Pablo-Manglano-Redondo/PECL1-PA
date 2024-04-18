@@ -1,25 +1,26 @@
 package SegundaParte;
 
-import PrimeraParte.Compartida;
+import PrimeraParte.Aeropuerto;
 import java.rmi.Naming;
+import java.rmi.Remote;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 public class ServidorRMI extends Thread{
     
-    private Compartida c;
+    private Aeropuerto a;
     
 
-    public ServidorRMI(Compartida c) {
-        this.c = c;
+    public ServidorRMI(Aeropuerto a) {
+        this.a = a;
        
     }
     
     public void run() {
         try{
-            Compartida2 cr = new Compartida2(c);
+            Aeropuerto2 cr = new Aeropuerto2();
             Registry r = LocateRegistry.createRegistry(1099);
-            Naming.rebind("//localhost/OR", cr);
+            Naming.rebind("//localhost/OR", (Remote) cr);
         } catch(Exception e){
             System.err.println("Error del servidor: " + e.getMessage());
         }

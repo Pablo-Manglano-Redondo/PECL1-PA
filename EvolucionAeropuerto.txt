@@ -19,3 +19,526 @@ se ha generado la hormiga WI-0017
 se ha generado la hormiga HE-0018
 se ha generado la hormiga DA-0019
 se ha generado la hormiga SW-0021
+El avi�n con ID: JB-0000 ha entrado en el hangar.
+El avi�n con ID: TS-0001 ha entrado en el hangar.
+El avi�n con ID: HH-0002 ha entrado en el hangar.
+El avi�n con ID: EV-0003 ha entrado en el hangar.
+El avi�n con ID: DN-0004 ha entrado en el hangar.
+El avi�n con ID: SL-0005 ha entrado en el hangar.
+El avi�n con ID: JR-0006 ha entrado en el hangar.
+El avi�n con ID: NK-0000 ha entrado en el hangar.
+El avi�n con ID: IG-0001 ha entrado en el hangar.
+El avi�n con ID: UA-0002 ha entrado en el hangar.
+El avi�n con ID: SV-0003 ha entrado en el hangar.
+El avi�n con ID: EG-0004 ha entrado en el hangar.
+El avi�n con ID: L�-0005 ha entrado en el hangar.
+El avi�n con ID: YD-0006 ha entrado en el hangar.
+El avi�n con ID: B�-0007 ha entrado en el hangar.
+El avi�n con ID: SI-0008 ha entrado en el hangar.
+El avi�n con ID: NC-0009 ha entrado en el hangar.
+El avi�n con ID: NK-0000 ha salido del hangar.
+El avi�n con ID: LN-0010 ha entrado en el hangar.
+El avi�n con ID: UA-0002 ha salido del hangar.
+El avi�n con ID: MB-0011 ha entrado en el hangar.
+El avi�n con ID: SV-0003 ha salido del hangar.
+El avi�n con ID: �C-0012 ha entrado en el hangar.
+El avi�n con ID: VF-0013 ha entrado en el hangar.
+El avi�n con ID: IG-0001 ha salido del hangar.
+El avi�n con ID: IQ-0014 ha entrado en el hangar.
+El avi�n con ID: YD-0006 ha salido del hangar.
+El avi�n con ID: LD-0015 ha entrado en el hangar.
+El avi�n con ID: SI-0008 ha salido del hangar.
+El avi�n con ID: VH-0016 ha entrado en el hangar.
+El avi�n con ID: B�-0007 ha salido del hangar.
+El avi�n con ID: TT-0017 ha entrado en el hangar.
+El avi�n con ID: L�-0005 ha salido del hangar.
+El avi�n con ID: OJ-0018 ha entrado en el hangar.
+El avi�n con ID: EG-0004 ha salido del hangar.
+El avi�n con ID: UQ-0019 ha entrado en el hangar.
+El avi�n con ID: RM-0020 ha entrado en el hangar.
+El avi�n con ID: LR-0021 ha entrado en el hangar.
+El avi�n con ID: �Y-0022 ha entrado en el hangar.
+El avi�n con ID: NC-0009 ha salido del hangar.
+El avi�n con ID: WR-0000 ha entrado en el hangar.
+El avi�n con ID: QM-0001 ha entrado en el hangar.
+El avi�n con ID: MH-0002 ha entrado en el hangar.
+El avi�n con ID: HO-0003 ha entrado en el hangar.
+El avi�n con ID: MU-0004 ha entrado en el hangar.
+El avi�n con ID: PB-0005 ha entrado en el hangar.
+El avi�n con ID: E�-0006 ha entrado en el hangar.
+El avi�n con ID: XV-0007 ha entrado en el hangar.
+El avi�n con ID: GW-0008 ha entrado en el hangar.
+El avi�n con ID: CO-0009 ha entrado en el hangar.
+El avi�n con ID: WR-0000 ha salido del hangar.
+El avi�n con ID: H�-0010 ha entrado en el hangar.
+El avi�n con ID: JY-0011 ha entrado en el hangar.
+El avi�n con ID: OE-0012 ha entrado en el hangar.
+El avi�n con ID: MH-0002 ha salido del hangar.
+El avi�n con ID: SX-0013 ha entrado en el hangar.
+El avi�n con ID: HJ-0014 ha entrado en el hangar.
+El avi�n con ID: PB-0005 ha salido del hangar.
+El avi�n con ID: QM-0001 ha salido del hangar.
+El avi�n con ID: JO-0015 ha entrado en el hangar.
+El avi�n con ID: MU-0004 ha salido del hangar.
+El avi�n con ID: RF-0016 ha entrado en el hangar.
+El avi�n con ID: E�-0006 ha salido del hangar.
+El avi�n con ID: ET-0017 ha entrado en el hangar.
+El avi�n con ID: HO-0003 ha salido del hangar.
+El avi�n con ID: RR-0018 ha entrado en el hangar.
+El avi�n con ID: JY-0011 ha salido del hangar.
+El avi�n con ID: H�-0010 ha salido del hangar.
+El avi�n con ID: IC-0019 ha entrado en el hangar.
+El avión con ID: JE-0000 ha entrado en el hangar.
+El avión con ID: MN-0001 ha entrado en el hangar.
+El avión con ID: CV-0002 ha entrado en el hangar.
+El avión con ID: SE-0003 ha entrado en el hangar.
+El avión con ID: SN-0004 ha entrado en el hangar.
+El avión con ID: XJ-0005 ha entrado en el hangar.
+El avión con ID: UK-0006 ha entrado en el hangar.
+El avión con ID: WH-0007 ha entrado en el hangar.
+El avión con ID: AQ-0008 ha entrado en el hangar.
+El avión con ID: HQ-0009 ha entrado en el hangar.
+El avión con ID: HL-0010 ha entrado en el hangar.
+El avión con ID: TV-0011 ha entrado en el hangar.
+El avión con ID: XH-0012 ha entrado en el hangar.
+El avión con ID: JE-0000 ha salido del hangar.
+El avión con ID: RH-0013 ha entrado en el hangar.
+El avión con ID: CV-0002 ha salido del hangar.
+El avión con ID: VW-0014 ha entrado en el hangar.
+El avión con ID: SN-0004 ha salido del hangar.
+El avión con ID: FT-0015 ha entrado en el hangar.
+El avión con ID: UK-0006 ha salido del hangar.
+El avión con ID: MN-0001 ha salido del hangar.
+El avión con ID: SE-0003 ha salido del hangar.
+El avión con ID: MG-0016 ha entrado en el hangar.
+El avión con ID: HQ-0009 ha salido del hangar.
+El avión con ID: WH-0007 ha salido del hangar.
+El avión con ID: KW-0017 ha entrado en el hangar.
+El avión con ID: LÑ-0018 ha entrado en el hangar.
+El avión con ID: XJ-0005 ha salido del hangar.
+El avión con ID: AQ-0008 ha salido del hangar.
+El avión con ID: MK-0000 ha entrado en el hangar.
+El avión con ID: KB-0001 ha entrado en el hangar.
+El avión con ID: DC-0002 ha entrado en el hangar.
+El avión con ID: BR-0003 ha entrado en el hangar.
+El avión con ID: WQ-0004 ha entrado en el hangar.
+El avión con ID: NS-0005 ha entrado en el hangar.
+El avión con ID: SF-0006 ha entrado en el hangar.
+El avión con ID: NM-0007 ha entrado en el hangar.
+El avión con ID: MK-0000 ha salido del hangar.
+El avión con ID: CL-0008 ha entrado en el hangar.
+El avión con ID: VÑ-0009 ha entrado en el hangar.
+El avión con ID: XM-0010 ha entrado en el hangar.
+El avión con ID: DC-0002 ha salido del hangar.
+El avión con ID: BF-0011 ha entrado en el hangar.
+El avión con ID: BC-0012 ha entrado en el hangar.
+El avión con ID: WH-0013 ha entrado en el hangar.
+El avión con ID: WQ-0004 ha salido del hangar.
+El avión con ID: BR-0003 ha salido del hangar.
+El avión con ID: EG-0014 ha entrado en el hangar.
+El avión con ID: ÑM-0015 ha entrado en el hangar.
+El avión con ID: KB-0001 ha salido del hangar.
+El avión con ID: BY-0016 ha entrado en el hangar.
+El avión con ID: YX-0017 ha entrado en el hangar.
+El avión con ID: NS-0005 ha salido del hangar.
+El avión con ID: UL-0018 ha entrado en el hangar.
+El avión con ID: FF-0019 ha entrado en el hangar.
+El avión con ID: SF-0006 ha salido del hangar.
+El avión con ID: FZ-0020 ha entrado en el hangar.
+El avión con ID: VÑ-0009 ha salido del hangar.
+El avión con ID: NM-0007 ha salido del hangar.
+El avión con ID: BF-0011 ha salido del hangar.
+El avión con ID: CL-0008 ha salido del hangar.
+El avión con ID: XM-0010 ha salido del hangar.
+El avión con ID: BY-0016 ha salido del hangar.
+El avión con ID: OX-0000 ha entrado en el hangar.
+El avión con ID: VJ-0001 ha entrado en el hangar.
+El avión con ID: BC-0002 ha entrado en el hangar.
+El avión con ID: JJ-0003 ha entrado en el hangar.
+El avión con ID: TL-0000 ha entrado en el hangar.
+El avión con ID: XY-0001 ha entrado en el hangar.
+El avión con ID: IG-0002 ha entrado en el hangar.
+El avión con ID: XA-0003 ha entrado en el hangar.
+El avión con ID: YÑ-0004 ha entrado en el hangar.
+El avión con ID: MJ-0005 ha entrado en el hangar.
+El avión con ID: WR-0006 ha entrado en el hangar.
+El avión con ID: PJ-0007 ha entrado en el hangar.
+El avión con ID: NZ-0000 ha entrado en el hangar.
+El avión con ID: IN-0001 ha entrado en el hangar.
+El avión con ID: VL-0002 ha entrado en el hangar.
+El avión con ID: JM-0003 ha entrado en el hangar.
+El avión con ID: DX-0004 ha entrado en el hangar.
+El avión con ID: RV-0005 ha entrado en el hangar.
+El avión con ID: PB-0006 ha entrado en el hangar.
+El avión con ID: UU-0007 ha entrado en el hangar.
+El avión con ID: NZ-0000 ha salido del hangar.
+El avión con ID: IX-0008 ha entrado en el hangar.
+El avión con ID: PW-0009 ha entrado en el hangar.
+El avión con ID: VL-0002 ha salido del hangar.
+El avión con ID: UQ-0010 ha entrado en el hangar.
+El avión con ID: UL-0011 ha entrado en el hangar.
+El avión con ID: IN-0001 ha salido del hangar.
+El avión con ID: VA-0012 ha entrado en el hangar.
+El avión con ID: JM-0003 ha salido del hangar.
+El avión con ID: JH-0013 ha entrado en el hangar.
+El avión con ID: PB-0006 ha salido del hangar.
+El avión con ID: ÑÑ-0014 ha entrado en el hangar.
+El avión con ID: FW-0015 ha entrado en el hangar.
+El avión con ID: DS-0016 ha entrado en el hangar.
+El avión con ID: DX-0004 ha salido del hangar.
+El avión con ID: RV-0005 ha salido del hangar.
+El avión con ID: AE-0017 ha entrado en el hangar.
+El avión con ID: UU-0007 ha salido del hangar.
+El avión con ID: PW-0009 ha salido del hangar.
+El avión con ID: JH-0013 ha salido del hangar.
+El avión con ID: MS-0000 ha entrado en el hangar.
+El avión con ID: ÑC-0001 ha entrado en el hangar.
+El avión con ID: FX-0002 ha entrado en el hangar.
+El avión con ID: ÑO-0003 ha entrado en el hangar.
+El avión con ID: EU-0004 ha entrado en el hangar.
+El avión con ID: HH-0005 ha entrado en el hangar.
+El avión con ID: PV-0006 ha entrado en el hangar.
+El avión con ID: FW-0007 ha entrado en el hangar.
+El avión con ID: NC-0008 ha entrado en el hangar.
+El avión con ID: LX-0009 ha entrado en el hangar.
+El avión con ID: FX-0002 ha salido del hangar.
+El avión con ID: OT-0010 ha entrado en el hangar.
+El avión con ID: MS-0000 ha salido del hangar.
+El avión con ID: II-0011 ha entrado en el hangar.
+El avión con ID: ME-0012 ha entrado en el hangar.
+El avión con ID: IB-0013 ha entrado en el hangar.
+El avión con ID: EU-0004 ha salido del hangar.
+El avión con ID: ÑO-0003 ha salido del hangar.
+El avión con ID: AN-0014 ha entrado en el hangar.
+El avión con ID: HH-0005 ha salido del hangar.
+El avión con ID: GK-0015 ha entrado en el hangar.
+El avión con ID: ÑC-0001 ha salido del hangar.
+El avión con ID: OU-0016 ha entrado en el hangar.
+El avión con ID: NC-0008 ha salido del hangar.
+El avión con ID: TD-0017 ha entrado en el hangar.
+El avión con ID: DK-0018 ha entrado en el hangar.
+El avión con ID: FW-0007 ha salido del hangar.
+El avión con ID: PV-0006 ha salido del hangar.
+El avión con ID: OT-0010 ha salido del hangar.
+El avión con ID: RI-0019 ha entrado en el hangar.
+El avión con ID: QO-0000 ha entrado en el hangar.
+El avión con ID: RK-0001 ha entrado en el hangar.
+El avión con ID: VV-0002 ha entrado en el hangar.
+El avión con ID: XJ-0003 ha entrado en el hangar.
+El avión con ID: ÑD-0004 ha entrado en el hangar.
+El avión con ID: XQ-0005 ha entrado en el hangar.
+El avión con ID: LL-0006 ha entrado en el hangar.
+El avión con ID: MZ-0007 ha entrado en el hangar.
+El avión con ID: AC-0008 ha entrado en el hangar.
+El avión con ID: MB-0009 ha entrado en el hangar.
+El avión con ID: PZ-0010 ha entrado en el hangar.
+El avión con ID: VV-0002 ha salido del hangar.
+El avión con ID: RK-0001 ha salido del hangar.
+El avión con ID: KY-0011 ha entrado en el hangar.
+El avión con ID: XJ-0003 ha salido del hangar.
+El avión con ID: IG-0012 ha entrado en el hangar.
+El avión con ID: ÑD-0004 ha salido del hangar.
+El avión con ID: KN-0013 ha entrado en el hangar.
+El avión con ID: QO-0000 ha salido del hangar.
+El avión con ID: LU-0014 ha entrado en el hangar.
+El avión con ID: PP-0000 ha entrado en el hangar.
+El avión con ID: GZ-0001 ha entrado en el hangar.
+El avión con ID: EE-0002 ha entrado en el hangar.
+El avión con ID: NT-0003 ha entrado en el hangar.
+El avión con ID: OQ-0004 ha entrado en el hangar.
+El avión con ID: EN-0005 ha entrado en el hangar.
+El avión con ID: JM-0006 ha entrado en el hangar.
+El avión con ID: ZP-0007 ha entrado en el hangar.
+El avión con ID: MF-0008 ha entrado en el hangar.
+El avión con ID: QM-0009 ha entrado en el hangar.
+El avión con ID: XF-0010 ha entrado en el hangar.
+El avión con ID: WF-0011 ha entrado en el hangar.
+El avión con ID: PP-0000 ha salido del hangar.
+El avión con ID: BT-0012 ha entrado en el hangar.
+El avión con ID: ÑL-0013 ha entrado en el hangar.
+El avión con ID: AA-0014 ha entrado en el hangar.
+El avión con ID: NT-0003 ha salido del hangar.
+El avión con ID: JW-0015 ha entrado en el hangar.
+El avión con ID: GZ-0001 ha salido del hangar.
+El avión con ID: NG-0016 ha entrado en el hangar.
+El avión con ID: EE-0002 ha salido del hangar.
+El avión con ID: YQ-0017 ha entrado en el hangar.
+El avión con ID: OQ-0004 ha salido del hangar.
+El avión con ID: EN-0005 ha salido del hangar.
+El avión con ID: AB-0018 ha entrado en el hangar.
+El avión con ID: ZP-0007 ha salido del hangar.
+El avión con ID: JM-0006 ha salido del hangar.
+El avión con ID: MÑ-0019 ha entrado en el hangar.
+El avión con ID: MF-0008 ha salido del hangar.
+El avión con ID: LX-0020 ha entrado en el hangar.
+El avión con ID: RM-0021 ha entrado en el hangar.
+El avión con ID: XF-0010 ha salido del hangar.
+El avión con ID: QM-0009 ha salido del hangar.
+El avión con ID: BT-0012 ha salido del hangar.
+El avión con ID: WF-0011 ha salido del hangar.
+El avión con ID: QH-0000 ha entrado en el hangar.
+El avión con ID: NC-0001 ha entrado en el hangar.
+El avión con ID: TO-0002 ha entrado en el hangar.
+El avión con ID: OH-0003 ha entrado en el hangar.
+El avión con ID: FC-0004 ha entrado en el hangar.
+El avión con ID: VZ-0005 ha entrado en el hangar.
+El avión con ID: OM-0006 ha entrado en el hangar.
+El avión con ID: NA-0007 ha entrado en el hangar.
+El avión con ID: CC-0008 ha entrado en el hangar.
+El avión con ID: ZY-0009 ha entrado en el hangar.
+El avión con ID: PL-0010 ha entrado en el hangar.
+El avión con ID: TO-0002 ha salido del hangar.
+El avión con ID: NM-0011 ha entrado en el hangar.
+El avión con ID: WU-0012 ha entrado en el hangar.
+El avión con ID: YK-0013 ha entrado en el hangar.
+El avión con ID: HR-0014 ha entrado en el hangar.
+El avión con ID: FC-0004 ha salido del hangar.
+El avión con ID: QH-0000 ha salido del hangar.
+El avión con ID: KL-0015 ha entrado en el hangar.
+El avión con ID: NC-0001 ha salido del hangar.
+El avión con ID: HX-0016 ha entrado en el hangar.
+El avión con ID: ED-0017 ha entrado en el hangar.
+El avión con ID: IA-0018 ha entrado en el hangar.
+El avión con ID: OH-0003 ha salido del hangar.
+El avión con ID: NA-0007 ha salido del hangar.
+El avión con ID: BX-0019 ha entrado en el hangar.
+El avión con ID: HI-0020 ha entrado en el hangar.
+El avión con ID: EK-0021 ha entrado en el hangar.
+El avión con ID: ZY-0009 ha salido del hangar.
+El avión con ID: WL-0022 ha entrado en el hangar.
+El avión con ID: VZ-0005 ha salido del hangar.
+El avión con ID: WU-0012 ha salido del hangar.
+El avión con ID: ED-0017 ha salido del hangar.
+El avión con ID: VD-0000 ha entrado en el hangar.
+El avión con ID: KB-0001 ha entrado en el hangar.
+El avión con ID: EG-0002 ha entrado en el hangar.
+El avión con ID: WF-0003 ha entrado en el hangar.
+El avión con ID: PS-0004 ha entrado en el hangar.
+El avión con ID: FÑ-0005 ha entrado en el hangar.
+El avión con ID: RU-0006 ha entrado en el hangar.
+El avión con ID: JT-0007 ha entrado en el hangar.
+El avión con ID: VD-0000 ha salido del hangar.
+El avión con ID: MA-0008 ha entrado en el hangar.
+El avión con ID: YB-0000 ha entrado en el hangar.
+El avión con ID: ÑV-0001 ha entrado en el hangar.
+El avión con ID: KY-0002 ha entrado en el hangar.
+El avión con ID: LÑ-0003 ha entrado en el hangar.
+El avión con ID: IV-0004 ha entrado en el hangar.
+El avión con ID: JR-0005 ha entrado en el hangar.
+El avión con ID: RO-0006 ha entrado en el hangar.
+El avión con ID: SI-0007 ha entrado en el hangar.
+El avión con ID: MG-0008 ha entrado en el hangar.
+El avión con ID: OÑ-0009 ha entrado en el hangar.
+El avión con ID: NF-0010 ha entrado en el hangar.
+El avión con ID: NB-0011 ha entrado en el hangar.
+El avión con ID: LÑ-0003 ha salido del hangar.
+El avión con ID: EQ-0012 ha entrado en el hangar.
+El avión con ID: KU-0000 ha entrado en el hangar.
+El avión con ID: DJ-0001 ha entrado en el hangar.
+El avión con ID: JU-0002 ha entrado en el hangar.
+El avión con ID: LÑ-0003 ha entrado en el hangar.
+El avión con ID: EW-0004 ha entrado en el hangar.
+El avión con ID: ZP-0000 ha entrado en el hangar.
+El avión con ID: AA-0001 ha entrado en el hangar.
+El avión con ID: QS-0002 ha entrado en el hangar.
+El avión con ID: MY-0003 ha entrado en el hangar.
+El avión con ID: AÑ-0004 ha entrado en el hangar.
+El avión con ID: HV-0005 ha entrado en el hangar.
+El avión con ID: XK-0006 ha entrado en el hangar.
+El avión con ID: FR-0007 ha entrado en el hangar.
+El avión con ID: OT-0008 ha entrado en el hangar.
+El avión con ID: FE-0000 ha entrado en el hangar.
+El avión con ID: IY-0001 ha entrado en el hangar.
+El avión con ID: DN-0002 ha entrado en el hangar.
+El avión con ID: SB-0000 ha entrado en el hangar.
+El avión con ID: AQ-0001 ha entrado en el hangar.
+El avión con ID: PK-0002 ha entrado en el hangar.
+El avión con ID: HQ-0003 ha entrado en el hangar.
+El avión con ID: TA-0000 ha entrado en el hangar.
+El avión con ID: ED-0001 ha entrado en el hangar.
+El avión con ID: LN-0002 ha entrado en el hangar.
+El avión con ID: QM-0000 ha entrado en el hangar.
+El avión con ID: EY-0000 ha entrado en el hangar.
+El avión con ID: VV-0001 ha entrado en el hangar.
+El avión con ID: YX-0002 ha entrado en el hangar.
+El avión con ID: KT-0003 ha entrado en el hangar.
+El avión con ID: NÑ-0004 ha entrado en el hangar.
+El avión con ID: VK-0005 ha entrado en el hangar.
+El avión con ID: KV-0006 ha entrado en el hangar.
+El avión con ID: AM-0007 ha entrado en el hangar.
+El avión con ID: PX-0008 ha entrado en el hangar.
+El avión con ID: VV-0001 ha salido del hangar.
+El avión con ID: HI-0009 ha entrado en el hangar.
+El avión con ID: YX-0002 ha salido del hangar.
+El avión con ID: AB-0010 ha entrado en el hangar.
+El avión con ID: ER-0011 ha entrado en el hangar.
+El avión con ID: KT-0003 ha salido del hangar.
+El avión con ID: NÑ-0004 ha salido del hangar.
+El avión con ID: WA-0012 ha entrado en el hangar.
+El avión con ID: VJ-0013 ha entrado en el hangar.
+El avión con ID: VK-0005 ha salido del hangar.
+El avión con ID: EY-0000 ha salido del hangar.
+El avión con ID: TC-0014 ha entrado en el hangar.
+El avión con ID: AM-0007 ha salido del hangar.
+El avión con ID: XW-0015 ha entrado en el hangar.
+El avión con ID: YL-0016 ha entrado en el hangar.
+El avión con ID: WA-0000 ha entrado en el hangar.
+El avión con ID: BR-0001 ha entrado en el hangar.
+El avión con ID: LC-0002 ha entrado en el hangar.
+El avión con ID: KC-0003 ha entrado en el hangar.
+El avión con ID: OL-0004 ha entrado en el hangar.
+El avión con ID: CC-0005 ha entrado en el hangar.
+El avión con ID: ZL-0006 ha entrado en el hangar.
+El avión con ID: EH-0007 ha entrado en el hangar.
+El avión con ID: BR-0001 ha salido del hangar.
+El avión con ID: WA-0000 ha salido del hangar.
+El avión con ID: CC-0005 ha salido del hangar.
+El avión con ID: LC-0002 ha salido del hangar.
+El avión con ID: KC-0003 ha salido del hangar.
+El avión con ID: OL-0004 ha salido del hangar.
+El avión con ID: FÑ-0000 ha entrado en el hangar.
+El avión con ID: ÑS-0001 ha entrado en el hangar.
+El avión con ID: JU-0002 ha entrado en el hangar.
+El avión con ID: SD-0003 ha entrado en el hangar.
+El avión con ID: IN-0004 ha entrado en el hangar.
+El avión con ID: ZA-0005 ha entrado en el hangar.
+El avión con ID: YÑ-0006 ha entrado en el hangar.
+El avión con ID: WD-0007 ha entrado en el hangar.
+El avión con ID: NN-0008 ha entrado en el hangar.
+El avión con ID: NU-0009 ha entrado en el hangar.
+El avión con ID: JU-0002 ha salido del hangar.
+El avión con ID: UB-0010 ha entrado en el hangar.
+El avión con ID: ÑD-0011 ha entrado en el hangar.
+El avión con ID: SD-0003 ha salido del hangar.
+El avión con ID: FÑ-0000 ha salido del hangar.
+El avión con ID: JL-0012 ha entrado en el hangar.
+El avión con ID: GZ-0013 ha entrado en el hangar.
+El avión con ID: YÑ-0006 ha salido del hangar.
+El avión con ID: ÑS-0001 ha salido del hangar.
+El avión con ID: JP-0014 ha entrado en el hangar.
+El avión con ID: SC-0015 ha entrado en el hangar.
+El avión con ID: BQ-0000 ha entrado en el hangar.
+El avión con ID: EA-0001 ha entrado en el hangar.
+El avión con ID: QC-0002 ha entrado en el hangar.
+El avión con ID: QG-0003 ha entrado en el hangar.
+El avión con ID: AI-0004 ha entrado en el hangar.
+El avión con ID: HZ-0005 ha entrado en el hangar.
+El avión con ID: AW-0006 ha entrado en el hangar.
+El avión con ID: YL-0007 ha entrado en el hangar.
+El avión con ID: BQ-0000 ha salido del hangar.
+El avión con ID: CI-0008 ha entrado en el hangar.
+El avión con ID: SÑ-0009 ha entrado en el hangar.
+El avión con ID: EA-0001 ha salido del hangar.
+El avión con ID: KL-0000 ha entrado en el hangar.
+El avión con ID: OZ-0001 ha entrado en el hangar.
+El avión con ID: ÑE-0002 ha entrado en el hangar.
+El avión con ID: WO-0003 ha entrado en el hangar.
+El avión con ID: AR-0004 ha entrado en el hangar.
+El avión con ID: RR-0005 ha entrado en el hangar.
+El avión con ID: AG-0006 ha entrado en el hangar.
+El avión con ID: HQ-0007 ha entrado en el hangar.
+El avión con ID: QÑ-0008 ha entrado en el hangar.
+El avión con ID: ED-0009 ha entrado en el hangar.
+El avión con ID: EO-0010 ha entrado en el hangar.
+El avión con ID: WO-0003 ha salido del hangar.
+El avión con ID: BN-0000 ha entrado en el hangar.
+El avión con ID: RU-0001 ha entrado en el hangar.
+El avión con ID: HZ-0002 ha entrado en el hangar.
+El avión con ID: FE-0003 ha entrado en el hangar.
+El avión con ID: PS-0004 ha entrado en el hangar.
+El avión con ID: BO-0005 ha entrado en el hangar.
+El avión con ID: KQ-0006 ha entrado en el hangar.
+El avión con ID: WX-0007 ha entrado en el hangar.
+El avión con ID: YP-0008 ha entrado en el hangar.
+El avión con ID: US-0009 ha entrado en el hangar.
+El avión con ID: NV-0000 ha entrado en el hangar.
+El avión con ID: WB-0001 ha entrado en el hangar.
+El avión con ID: OI-0002 ha entrado en el hangar.
+El avión con ID: FG-0003 ha entrado en el hangar.
+El avión con ID: VF-0004 ha entrado en el hangar.
+El avión con ID: ÑF-0000 ha entrado en el hangar.
+El avión con ID: FW-0001 ha entrado en el hangar.
+El avión con ID: ZE-0002 ha entrado en el hangar.
+El avión con ID: JO-0003 ha entrado en el hangar.
+El avión con ID: AE-0004 ha entrado en el hangar.
+El avión con ID: VY-0005 ha entrado en el hangar.
+El avión con ID: ED-0006 ha entrado en el hangar.
+El avión con ID: CN-0007 ha entrado en el hangar.
+El avión con ID: ÑF-0000 ha salido del hangar.
+El avión con ID: DZ-0008 ha entrado en el hangar.
+El avión con ID: ÑL-0009 ha entrado en el hangar.
+El avión con ID: SF-0010 ha entrado en el hangar.
+El avión con ID: DL-0011 ha entrado en el hangar.
+El avión con ID: NO-0012 ha entrado en el hangar.
+El avión con ID: FW-0001 ha salido del hangar.
+El avión con ID: NS-0000 ha entrado en el hangar.
+El avión con ID: RL-0001 ha entrado en el hangar.
+El avión con ID: JL-0002 ha entrado en el hangar.
+El avión con ID: HU-0003 ha entrado en el hangar.
+El avión con ID: QT-0004 ha entrado en el hangar.
+El avión con ID: ME-0000 ha entrado en el hangar.
+El avión con ID: JJ-0001 ha entrado en el hangar.
+El avión con ID: VD-0002 ha entrado en el hangar.
+El avión con ID: ÑG-0003 ha entrado en el hangar.
+El avión con ID: OL-0004 ha entrado en el hangar.
+El avión con ID: JL-0005 ha entrado en el hangar.
+El avión con ID: XR-0006 ha entrado en el hangar.
+El avión con ID: DR-0007 ha entrado en el hangar.
+El avión con ID: PU-0008 ha entrado en el hangar.
+El avión con ID: EJ-0009 ha entrado en el hangar.
+El avión con ID: WL-0010 ha entrado en el hangar.
+El avión con ID: JJ-0001 ha salido del hangar.
+El avión con ID: ME-0000 ha salido del hangar.
+El avión con ID: CF-0011 ha entrado en el hangar.
+El avión con ID: FX-0012 ha entrado en el hangar.
+El avión con ID: PZ-0013 ha entrado en el hangar.
+El avión con ID: OL-0004 ha salido del hangar.
+El avión con ID: DW-0014 ha entrado en el hangar.
+El avión con ID: CN-0015 ha entrado en el hangar.
+El avión con ID: QG-0016 ha entrado en el hangar.
+El avión con ID: ZY-0017 ha entrado en el hangar.
+El avión con ID: ÑG-0003 ha salido del hangar.
+El avión con ID: BB-0018 ha entrado en el hangar.
+El avión con ID: VD-0002 ha salido del hangar.
+El avión con ID: PU-0008 ha salido del hangar.
+El avión con ID: EJ-0009 ha salido del hangar.
+El avión con ID: JL-0005 ha salido del hangar.
+El avión con ID: OK-0019 ha entrado en el hangar.
+El avión con ID: QC-0020 ha entrado en el hangar.
+El avión con ID: ÑE-0021 ha entrado en el hangar.
+El avión con ID: DR-0007 ha salido del hangar.
+El avión con ID: CN-0015 ha salido del hangar.
+El avión con ID: KZ-0000 ha entrado en el hangar.
+El avión con ID: KI-0001 ha entrado en el hangar.
+El avión con ID: QZ-0002 ha entrado en el hangar.
+El avión con ID: DA-0003 ha entrado en el hangar.
+El avión con ID: IK-0004 ha entrado en el hangar.
+El avión con ID: IF-0005 ha entrado en el hangar.
+El avión con ID: IO-0006 ha entrado en el hangar.
+El avión con ID: LA-0007 ha entrado en el hangar.
+El avión con ID: MI-0008 ha entrado en el hangar.
+El avión con ID: KI-0009 ha entrado en el hangar.
+El avión con ID: WX-0010 ha entrado en el hangar.
+El avión con ID: KZ-0000 ha salido del hangar.
+El avión con ID: KI-0001 ha salido del hangar.
+El avión con ID: VF-0011 ha entrado en el hangar.
+El avión con ID: HU-0012 ha entrado en el hangar.
+El avión con ID: IK-0004 ha salido del hangar.
+El avión con ID: IF-0005 ha salido del hangar.
+El avión con ID: JH-0013 ha entrado en el hangar.
+El avión con ID: QZ-0002 ha salido del hangar.
+El avión con ID: BN-0014 ha entrado en el hangar.
+El avión con ID: WJ-0015 ha entrado en el hangar.
+El avión con ID: LA-0007 ha salido del hangar.
+El avión con ID: DA-0003 ha salido del hangar.
+El avión con ID: SV-0016 ha entrado en el hangar.
+El avión con ID: NO-0017 ha entrado en el hangar.
+El avión con ID: UK-0018 ha entrado en el hangar.
+El avión con ID: TJ-0019 ha entrado en el hangar.
+El avión con ID: IO-0006 ha salido del hangar.
+El avión con ID: WX-0010 ha salido del hangar.
+El avión con ID: KT-0020 ha entrado en el hangar.
+El avión con ID: KI-0009 ha salido del hangar.
+El avión con ID: BN-0014 ha salido del hangar.
+El avión con ID: MI-0008 ha salido del hangar.
+El avión con ID: EM-0021 ha entrado en el hangar.
