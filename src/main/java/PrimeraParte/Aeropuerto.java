@@ -1,6 +1,7 @@
 package PrimeraParte;
 
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -13,9 +14,10 @@ public class Aeropuerto {
     private Semaphore capacidadTaller = new Semaphore(20, true);
     private Semaphore capacidadPistas = new Semaphore(4, true);
     private int ocupacionActual = 0; 
-    private int pasajerosAeropuerto = 0;
     private EvolucionAeropuerto ea = new EvolucionAeropuerto();
     private ArrayList<Avion> aviones = new ArrayList<>();
+    private int pasajerosAeropuerto = 0;
+    private int pasajerosEnAvion = 0;
     public Aeropuerto(String nombre) {
         this.nombre = nombre;
     }
@@ -61,24 +63,91 @@ public class Aeropuerto {
         System.out.println("El avión con ID: " + a.getAvionId() + " está esperando en la puerta de embarque");
     }
     
-    public void embarcarPasajeros() {
-        System.out.println("Los pasajeros han embarcado");
+    public synchronized void embarcarPasajeros(Avion a, int capacidad) {
+        int intentos = 0;
+        while (intentos < 3 && pasajerosAeropuerto > 0 && pasajerosEnAvion < capacidad) {
+            int pasajerosQueSeIntentanCoger = Math.min(pasajerosAeropuerto, capacidad - pasajerosEnAvion);
+            pasajerosEnAvion += pasajerosQueSeIntentanCoger;
+            pasajerosAeropuerto -= pasajerosQueSeIntentanCoger;
+            System.out.println("En el avión con ID " + a.getAvionId() + " se han subido " + pasajerosEnAvion + " pasajeros");
+            try {
+                Thread.sleep((int) (Math.random()*42001) + 1000);
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            intentos++;
+        }
+        if (pasajerosEnAvion < capacidad) {
+           System.out.println("La puerta de embarque del avión con ID " + a.getAvionId() + " se cierra. No se admiten más pasajeros"); 
+           return;
+        }
+        try {
+                Thread.sleep((int) (Math.random()*4001) + 1000);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
-    public void desembarcarPasajeros() {
-        System.out.println("Los pasajeros han desembarcado");
+    public synchronized void desembarcarPasajeros(Avion a, int capacidad) {
+        pasajerosAeropuerto += pasajerosEnAvion;
+        System.out.println("Del avión con ID " + a.getAvionId() + " se han bajado " + pasajerosEnAvion + " pasajeros");
+        pasajerosEnAvion = 0;
     }
     
-    public void esperarPista() {
-        
+    public synchronized void esperarPista(Avion a) {
+        capacidadPistas.release();
+        System.out.println("El avión con ID " + a.getAvionId() + " ha abandonado la pista");
+    }
+    public synchronized void salirPista(Avion a) {
+        try {
+            capacidadPistas.acquire();
+            System.out.println("El avión con ID " + a.getAvionId() + " está esperando en la pista para despegar");
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
+            Thread.currentThread().interrupt();
+        }   
     }
     
-    public void despegar() {
-        
+    public void despegar(Avion a) {
+        try {
+            System.out.println("El avión con ID " + a.getAvionId() + " está realizando las últimas verificaciones antes del despegue");
+            Thread.sleep((int)(Math.random() * 3001) + 1000);
+            System.out.println("El avión con ID " + a.getAvionId() + " ha despegado con éxito");
+            salirPista(a);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
+            Thread.currentThread().interrupt();
+        }
     }
-    
-    public void volar() {
-        
+    public void accederAerovia(Avion a, Aeropuerto aero) {
+        try {
+            System.out.println("El abvión con ID " + a.getAvionId() + " está accediendo a la aerovía hacia " + aero.getNombre());
+            Thread.sleep((int)(Math.random()*9001) + 1000);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    public void volar(Avion a, Aeropuerto aero) {
+        try {
+            System.out.println("El avión con ID " + a.getAvionId() + " está volando hacia " + aero);
+            Thread.sleep((int)(Math.random()*15001) + 15000);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
+            Thread.currentThread().interrupt();
+        }
+    }
+    public void aterrizar(Avion a, Aeropuerto aero) {
+        try {
+            System.out.println("El avión con ID " + a.getAvionId() + " está solicitando una pista para aterrizar");
+            esperarPista(a);
+            System.out.println("El avión con ID " + a.getAvionId() + " ha accedido a una pista y está aterrizando");
+            Thread.sleep((int) (Math.random()*4001) + 1000);
+            System.out.println("El avión con ID " + a.getAvionId() + " ha aterrizado");
+            salirPista(a);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
+            Thread.currentThread().interrupt();
+        }
     }
     
     public boolean solicitarPista() {
@@ -86,8 +155,14 @@ public class Aeropuerto {
         return false;
     }
     
-    public void darRodeo() {
-        
+    public void darRodeo(Avion a) {
+        try {
+            System.out.println("El avión con ID " + a.getAvionId() + " está dando un rodeo antes solicitar pista nuevamente");
+            Thread.sleep((int)(Math.random()* 4001) + 1000);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Aeropuerto.class.getName()).log(Level.SEVERE, null, ex);
+            Thread.currentThread().interrupt();
+        }
     }
     public void salirPuertaEmbarque(Avion a) {
         esperarPuertaEmbarque.release();
@@ -95,10 +170,6 @@ public class Aeropuerto {
     
     public synchronized void entrarPista(Avion a) throws InterruptedException {
         capacidadPistas.acquire();
-    }
-    
-    public synchronized void salirPista(Avion a) {
-        capacidadPistas.release();
     }
     
     public synchronized void entrarEstacionamiento(Avion a) {
@@ -128,6 +199,8 @@ public class Aeropuerto {
         a.setNumeroDeVuelos(0); // Resetear contador después de inspección
         }
     }
+   
+   // Métodos autobus
    
    public void llegadaParadaCentro(String id, Aeropuerto aero) {
         try {

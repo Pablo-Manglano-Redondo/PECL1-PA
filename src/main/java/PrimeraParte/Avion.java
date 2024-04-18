@@ -2,6 +2,7 @@ package PrimeraParte;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
+import static java.lang.Thread.interrupted;
 
 public class Avion extends Thread {
     private String id;
@@ -33,18 +34,18 @@ public class Avion extends Thread {
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 aeropuertoOrigen.esperarPuertaEmbarque(this);
                 aeropuertoOrigen.entrarPuertaEmbarque(this);
-                aeropuertoOrigen.embarcarPasajeros();
+                aeropuertoOrigen.embarcarPasajeros(this, capacidadPasajeros);
                 aeropuertoOrigen.salirPuertaEmbarque(this);
                 aeropuertoOrigen.entrarRodaje(this);
                 Thread.sleep(1000 + (int) (Math.random()*4001)); // Reposo inicial entre 15 y 30 segundos
-                aeropuertoOrigen.esperarPista();
+                aeropuertoOrigen.esperarPista(this);
                 aeropuertoOrigen.entrarPista(this);
-                aeropuertoOrigen.despegar();
-                //Accede a la aerovía
-                aeropuertoOrigen.volar();
-                aeropuertoOrigen.esperarPista();
+                aeropuertoOrigen.despegar(this);
+                aeropuertoOrigen.accederAerovia(this, aeropuertoOrigen);
+                aeropuertoOrigen.volar(this, aeropuertoOrigen);
+                aeropuertoOrigen.esperarPista(this);
                 while (!aeropuertoOrigen.solicitarPista()) {
-                    aeropuertoOrigen.darRodeo();
+                    aeropuertoOrigen.darRodeo(this);
                 }
                 aeropuertoOrigen.entrarPista(this);
                 aeropuertoOrigen.salirPista(this);
@@ -52,21 +53,20 @@ public class Avion extends Thread {
                 aeropuertoOrigen.esperarPuertaEmbarque(this);
                 aeropuertoOrigen.salirRodaje(this);
                 aeropuertoOrigen.entrarPuertaEmbarque(this);
-                aeropuertoOrigen.desembarcarPasajeros();
+                aeropuertoOrigen.desembarcarPasajeros(this, capacidadPasajeros);
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 if (numVuelos == 15) {
                     aeropuertoOrigen.revisarNecesidadDeInspeccion(this);
                 } else {
-                    //sleep
+                    Thread.sleep((int)(Math.random()* 4001) + 1000);
                 } 
                 numAleatorio =(int) Math.random() * 2;
                 if (numAleatorio == 0) {
                     aeropuertoOrigen.entrarHangar(this);
-                    //Sleep
+                    Thread.sleep((int)(Math.random()* 4001) + 1000);
                 } 
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 numVuelos ++;
-                latch.countDown();
             }
         } catch (InterruptedException e) {
             System.out.println("El avión con ID: " + id + " ha sido interrumpido.");
