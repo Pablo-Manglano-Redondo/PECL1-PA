@@ -12,14 +12,17 @@ public class Avion extends Thread {
     private final int MAX_VUELOS_ANTES_DE_INSPECCION = 15;
     private int numVuelos = 0;
     private int numAleatorio;
+    private PuertaEmbarque puerta;
     private CountDownLatch latch;
+    private Aerovia aerovia;
     private Aeropuerto aeropuertoOrigen;
 
     
-    public Avion(String id, Aeropuerto aeropuerto, CountDownLatch latch) {
+    public Avion(String id, Aeropuerto aeropuerto, CountDownLatch latch, Aerovia aerovia) {
         this.id = id;
         this.capacidadPasajeros = 100 + (int) (Math.random()*200); // Capacidad entre 100 y 300
         this.aeropuertoOrigen = aeropuerto;
+        this.aerovia = aerovia;
         this.latch = latch;
     }
 
@@ -32,28 +35,28 @@ public class Avion extends Thread {
                 Thread.sleep(15000 + (int) (Math.random()*15001)); // Reposo inicial entre 15 y 30 segundos
                 aeropuertoOrigen.salirHangar(this);
                 aeropuertoOrigen.entrarEstacionamiento(this);
-                aeropuertoOrigen.esperarPuertaEmbarque(this);
-                aeropuertoOrigen.entrarPuertaEmbarque(this);
+                aeropuertoOrigen.obtenerPuertaEmbarque(this);
                 aeropuertoOrigen.embarcarPasajeros(this, capacidadPasajeros);
-                aeropuertoOrigen.salirPuertaEmbarque(this);
+                aeropuertoOrigen.liberarPuerta(this.puerta);
                 aeropuertoOrigen.entrarRodaje(this);
                 Thread.sleep(1000 + (int) (Math.random()*4001)); // Reposo inicial entre 15 y 30 segundos
                 aeropuertoOrigen.esperarPista(this);
                 aeropuertoOrigen.entrarPista(this);
                 aeropuertoOrigen.despegar(this);
-                aeropuertoOrigen.accederAerovia(this, aeropuertoOrigen);
+                aerovia.accederAerovia(this.id);
                 aeropuertoOrigen.volar(this, aeropuertoOrigen);
                 aeropuertoOrigen.esperarPista(this);
                 while (!aeropuertoOrigen.solicitarPista()) {
                     aeropuertoOrigen.darRodeo(this);
                 }
+                aerovia.liberarAerovia(this.id);
                 aeropuertoOrigen.entrarPista(this);
                 aeropuertoOrigen.salirPista(this);
                 aeropuertoOrigen.entrarRodaje(this);
-                aeropuertoOrigen.esperarPuertaEmbarque(this);
                 aeropuertoOrigen.salirRodaje(this);
-                aeropuertoOrigen.entrarPuertaEmbarque(this);
+                aeropuertoOrigen.obtenerPuertaDesembarque(this);
                 aeropuertoOrigen.desembarcarPasajeros(this, capacidadPasajeros);
+                aeropuertoOrigen.liberarPuerta(this.puerta);
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 if (numVuelos == 15) {
                     aeropuertoOrigen.revisarNecesidadDeInspeccion(this);
@@ -99,5 +102,13 @@ public class Avion extends Thread {
 
     public int getMAX_VUELOS_ANTES_DE_INSPECCION() {
         return MAX_VUELOS_ANTES_DE_INSPECCION;
+    }
+
+    public PuertaEmbarque getPuerta() {
+        return puerta;
+    }
+    
+    public void setPuerta(PuertaEmbarque puerta) {
+        this.puerta = puerta;
     }
 }

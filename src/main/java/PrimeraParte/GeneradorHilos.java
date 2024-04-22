@@ -9,16 +9,19 @@ public class GeneradorHilos extends Thread{
      
     private Aeropuerto madrid;
     private Aeropuerto barcelona;
+    private Aerovia aeroviaMadridBarcelona;
+    private Aerovia aeroviaBarcelonaMadrid;
     private int numAviones;
     private int numAutobuses;
     private CountDownLatch latch;
-    private static final String abecedario = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
     
-    public GeneradorHilos(int numAviones, int numAutobuses) {   
+    public GeneradorHilos(int numAviones, int numAutobuses, Aerovia aeroviaMadridBarcelona, Aerovia aeroviaBarcelonaMadrid, Aeropuerto madrid, Aeropuerto barcelona) {   
         this.numAviones = numAviones;
         this.numAutobuses = numAutobuses;
-        this.madrid = new Aeropuerto("Aeropuerto de Madrid");
-        this.barcelona = new Aeropuerto("Aeropuerto de Barcelona");
+        this.madrid = madrid;
+        this.barcelona = barcelona;
+        this.aeroviaMadridBarcelona = aeroviaMadridBarcelona;
+        this.aeroviaBarcelonaMadrid = aeroviaBarcelonaMadrid;
         this.latch = new CountDownLatch(numAviones + numAutobuses);
     }
     
@@ -39,13 +42,13 @@ public class GeneradorHilos extends Thread{
     
     private void generarAviones() {
         System.out.println("Comenzando a generar aviones, cantidad: " + numAviones);
-        Random rand = new Random();
         for (int i = 0; i < numAviones; i++) {
             try {
                 String idAvion = Avion.generarIdAvion(i);
-                Aeropuerto ae = rand.nextBoolean() ? madrid: barcelona;
-                Avion a = new Avion(idAvion, ae, latch);
-                ae.agregarAvion(a);
+                Aeropuerto origen = (i % 2 == 0) ? madrid : barcelona;
+                Aerovia aerovia = (origen == madrid) ? aeroviaMadridBarcelona : aeroviaBarcelonaMadrid;
+                Avion a = new Avion(idAvion, origen, latch, aerovia);
+                origen.agregarAvion(a);
                 a.start();
                 Thread.sleep((int)(Math.random()*2000) + 1000);
             } catch (InterruptedException ex) {

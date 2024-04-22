@@ -2,6 +2,7 @@ PrimeraParte\GeneradorHilos.class
 SegundaParte\InterfazCliente$7.class
 SegundaParte\Compartida2.class
 SegundaParte\InterfazCliente$2.class
+PrimeraParte\Aerovia.class
 SegundaParte\InterfazCliente$22.class
 SegundaParte\InterfazCliente$19.class
 PrimeraParte\Main.class
@@ -27,6 +28,7 @@ PrimeraParte\InterfazAeropuertos$1.class
 SegundaParte\InterfazCliente$21.class
 SegundaParte\InterfazCliente$6.class
 SegundaParte\InterfazCliente$15.class
+PrimeraParte\PuertaEmbarque.class
 SegundaParte\ServidorRMI.class
 SegundaParte\InterfazCliente$11.class
 PrimeraParte\Aeropuerto.class
@@ -34,8 +36,8 @@ PrimeraParte\InterfazAeropuertos$3.class
 SegundaParte\InterfazCliente$10.class
 SegundaParte\InterfazCliente$16.class
 PrimeraParte\Avion.class
-PrimeraParte\Compartida.class
 SegundaParte\InterfazCliente$20.class
 SegundaParte\InterfazCliente$4.class
+PrimeraParte\PuertaEmbarque$TipoPuerta.class
 SegundaParte\Aeropuerto2.class
 SegundaParte\InterfazCliente$18.class
