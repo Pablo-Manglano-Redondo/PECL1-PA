@@ -1,7 +1,6 @@
 package PrimeraParte;
 
 import java.util.ArrayList;
-import java.util.concurrent.CountDownLatch;
 
 public class Autobus extends Thread {
     private final String id;
@@ -19,23 +18,25 @@ public class Autobus extends Thread {
             while (!Thread.interrupted()) {
                 // Llegada a la parada del centro de la ciudad y espera de pasajeros                
                 a.llegadaParadaCentro(id, a);
+                Thread.sleep(2000 + (int) (Math.random() * 3001));
                 // Se generan los pasajeros
                 int pasajeros = generarPasajeros();
                 // Viaje hacia el aeropuerto
                 a.marchaAeropuerto(pasajeros, id, a);
+                Thread.sleep(5000 + (int) (Math.random() * 5001));
                 // Llegada de los pasajeros al aeropuerto
                 a.llegadaAeropuerto(pasajeros, a);
                 // Espera nuevos pasajeros
                 a.esperarNuevosPasajeros(id, a);
-                // Generar nuevos pasajeros
-                int nuevosPasajeros = generarPasajeros();
                 // Salida del aeropuerto
-                a.salidaAeropuerto(nuevosPasajeros, a);
+                a.salidaAeropuerto(generarPasajeros(), a);
             }
         } catch (Exception e) {
             System.out.println(this.id + " ha sido interrumpido.");
         }
     }
+    
+    
     public synchronized void agregarAutobus(Autobus autobus) {
         autobuses.add(this);
     }
@@ -45,8 +46,7 @@ public class Autobus extends Thread {
     }
      
      public int generarPasajeros() {
-         System.out.println("Arreglar esto para que se sincronice con los pasajeros que han aterrizado");
-         return (1);
+         return (int) (Math.random() * 51);
      }
      
 }

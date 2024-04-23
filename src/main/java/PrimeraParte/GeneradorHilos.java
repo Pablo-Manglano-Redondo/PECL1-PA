@@ -1,9 +1,7 @@
 package PrimeraParte;
 
-import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.concurrent.CountDownLatch;
 
 public class GeneradorHilos extends Thread{
      
@@ -13,7 +11,6 @@ public class GeneradorHilos extends Thread{
     private Aerovia aeroviaBarcelonaMadrid;
     private int numAviones;
     private int numAutobuses;
-    private CountDownLatch latch;
     
     public GeneradorHilos(int numAviones, int numAutobuses, Aerovia aeroviaMadridBarcelona, Aerovia aeroviaBarcelonaMadrid, Aeropuerto madrid, Aeropuerto barcelona) {   
         this.numAviones = numAviones;
@@ -22,7 +19,6 @@ public class GeneradorHilos extends Thread{
         this.barcelona = barcelona;
         this.aeroviaMadridBarcelona = aeroviaMadridBarcelona;
         this.aeroviaBarcelonaMadrid = aeroviaBarcelonaMadrid;
-        this.latch = new CountDownLatch(numAviones + numAutobuses);
     }
     
     public void run() {
@@ -31,13 +27,6 @@ public class GeneradorHilos extends Thread{
 
         threadAviones.start();
         threadAutobuses.start();
-
-        try {
-            latch.await(); // Espera a que todos los hilos se completen
-        } catch (InterruptedException ex) {
-            Logger.getLogger(GeneradorHilos.class.getName()).log(Level.SEVERE, null, ex);
-            Thread.currentThread().interrupt();
-        }
     }
     
     private void generarAviones() {

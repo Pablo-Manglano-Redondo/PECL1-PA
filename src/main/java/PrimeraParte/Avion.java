@@ -1,7 +1,6 @@
 package PrimeraParte;
 
 import java.util.Random;
-import java.util.concurrent.CountDownLatch;
 import static java.lang.Thread.interrupted;
 
 public class Avion extends Thread {
@@ -13,7 +12,6 @@ public class Avion extends Thread {
     private int numVuelos = 0;
     private int numAleatorio;
     private PuertaEmbarque puerta;
-    private CountDownLatch latch;
     private Aerovia aerovia;
     private Aeropuerto aeropuertoOrigen;
 
@@ -31,27 +29,33 @@ public class Avion extends Thread {
             while (!interrupted()) {
                 // Simula el ciclo de vida del avión aquí
                 aeropuertoOrigen.entrarHangar(this);
-                Thread.sleep(15000 + (int) (Math.random()*15001)); // Reposo inicial entre 15 y 30 segundos
                 aeropuertoOrigen.salirHangar(this);
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 aeropuertoOrigen.obtenerPuertaEmbarque(this, aeropuertoOrigen);
                 aeropuertoOrigen.liberarPuerta(this.puerta);
                 aeropuertoOrigen.entrarRodaje(this);
-                Thread.sleep(1000 + (int) (Math.random()*4001)); // Reposo inicial entre 15 y 30 segundos
+                Thread.sleep(1000 + (int) (Math.random()*4001)); // Reposo inicial entre 1 y 5 segundos
+                aeropuertoOrigen.solicitarPista();
+                Thread.sleep(1000 + (int) (Math.random()*2001)); // Reposo inicial entre 1 y 3 segundos
                 aeropuertoOrigen.despegar(this, aeropuertoOrigen);
+                Thread.sleep(1000 + (int) (Math.random()*4001));
                 aerovia.accederAerovia(this.id);
                 aeropuertoOrigen.volar(this, aeropuertoOrigen);
-                aeropuertoOrigen.esperarPista(this);
+                Thread.sleep(15000 + (int) (Math.random()*15001));
                 while (!aeropuertoOrigen.solicitarPista()) {
                     aeropuertoOrigen.darRodeo(this);
                 }
                 aerovia.liberarAerovia(this.id);
                 aeropuertoOrigen.aterrizar(this, aeropuertoOrigen);
+                Thread.sleep(1000 + (int) (Math.random()*4001));
                 aeropuertoOrigen.entrarRodaje(this);
-                aeropuertoOrigen.salirRodaje(this);
+                Thread.sleep(3000 + (int) (Math.random()*2001));
                 aeropuertoOrigen.obtenerPuertaDesembarque(this, aeropuertoOrigen);
+                Thread.sleep(1000 + (int) (Math.random()*4001));
+                aeropuertoOrigen.salirRodaje(this);
                 aeropuertoOrigen.liberarPuerta(this.puerta);
                 aeropuertoOrigen.entrarEstacionamiento(this);
+                Thread.sleep(1000 + (int) (Math.random()*4001));
                 if (numVuelos == 15) {
                     aeropuertoOrigen.revisarNecesidadDeInspeccion(this);
                 } else {
@@ -60,7 +64,7 @@ public class Avion extends Thread {
                 numAleatorio =(int) Math.random() * 2;
                 if (numAleatorio == 0) {
                     aeropuertoOrigen.entrarHangar(this);
-                    Thread.sleep((int)(Math.random()* 4001) + 1000);
+                    Thread.sleep((int)(Math.random()* 15001) + 15001);
                 } 
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 numVuelos ++;
@@ -77,7 +81,9 @@ public class Avion extends Thread {
         String id = String.format("%c%c-%04d", letra1, letra2, numero);
         return id;
     }
-    
+    // ------------------------------------------------------------------------------------------------------------------------------------------------------
+    // ------------------------------------------------------ GETTERS Y SETTERS -----------------------------------------------------------------------------
+    // ------------------------------------------------------------------------------------------------------------------------------------------------------
     public String getAvionId() {
         return id;
     }
