@@ -18,12 +18,11 @@ public class Avion extends Thread {
     private Aeropuerto aeropuertoOrigen;
 
     
-    public Avion(String id, Aeropuerto aeropuerto, CountDownLatch latch, Aerovia aerovia) {
+    public Avion(String id, Aeropuerto aeropuerto, Aerovia aerovia) {
         this.id = id;
         this.capacidadPasajeros = 100 + (int) (Math.random()*200); // Capacidad entre 100 y 300
         this.aeropuertoOrigen = aeropuerto;
         this.aerovia = aerovia;
-        this.latch = latch;
     }
 
     @Override
@@ -35,14 +34,11 @@ public class Avion extends Thread {
                 Thread.sleep(15000 + (int) (Math.random()*15001)); // Reposo inicial entre 15 y 30 segundos
                 aeropuertoOrigen.salirHangar(this);
                 aeropuertoOrigen.entrarEstacionamiento(this);
-                aeropuertoOrigen.obtenerPuertaEmbarque(this);
-                aeropuertoOrigen.embarcarPasajeros(this, capacidadPasajeros);
+                aeropuertoOrigen.obtenerPuertaEmbarque(this, aeropuertoOrigen);
                 aeropuertoOrigen.liberarPuerta(this.puerta);
                 aeropuertoOrigen.entrarRodaje(this);
                 Thread.sleep(1000 + (int) (Math.random()*4001)); // Reposo inicial entre 15 y 30 segundos
-                aeropuertoOrigen.esperarPista(this);
-                aeropuertoOrigen.entrarPista(this);
-                aeropuertoOrigen.despegar(this);
+                aeropuertoOrigen.despegar(this, aeropuertoOrigen);
                 aerovia.accederAerovia(this.id);
                 aeropuertoOrigen.volar(this, aeropuertoOrigen);
                 aeropuertoOrigen.esperarPista(this);
@@ -50,12 +46,10 @@ public class Avion extends Thread {
                     aeropuertoOrigen.darRodeo(this);
                 }
                 aerovia.liberarAerovia(this.id);
-                aeropuertoOrigen.entrarPista(this);
-                aeropuertoOrigen.salirPista(this);
+                aeropuertoOrigen.aterrizar(this, aeropuertoOrigen);
                 aeropuertoOrigen.entrarRodaje(this);
                 aeropuertoOrigen.salirRodaje(this);
-                aeropuertoOrigen.obtenerPuertaDesembarque(this);
-                aeropuertoOrigen.desembarcarPasajeros(this, capacidadPasajeros);
+                aeropuertoOrigen.obtenerPuertaDesembarque(this, aeropuertoOrigen);
                 aeropuertoOrigen.liberarPuerta(this.puerta);
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 if (numVuelos == 15) {

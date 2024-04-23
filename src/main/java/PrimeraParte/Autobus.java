@@ -7,12 +7,10 @@ public class Autobus extends Thread {
     private final String id;
     private ArrayList <Autobus> autobuses = new ArrayList<>();
     private final Aeropuerto a;
-    private CountDownLatch latch;
     
-    public Autobus(String id, Aeropuerto a, CountDownLatch latch) {
+    public Autobus(String id, Aeropuerto a) {
         this.id = id;
         this.a = a;
-        this.latch = latch;
     }
 
     @Override
@@ -33,8 +31,6 @@ public class Autobus extends Thread {
                 int nuevosPasajeros = generarPasajeros();
                 // Salida del aeropuerto
                 a.salidaAeropuerto(nuevosPasajeros, a);
-                
-                latch.countDown();
             }
         } catch (Exception e) {
             System.out.println(this.id + " ha sido interrumpido.");
@@ -49,7 +45,8 @@ public class Autobus extends Thread {
     }
      
      public int generarPasajeros() {
-         return (int) (Math.random() * 51);
+         System.out.println("Arreglar esto para que se sincronice con los pasajeros que han aterrizado");
+         return (1);
      }
      
 }

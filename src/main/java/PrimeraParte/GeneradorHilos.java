@@ -41,13 +41,12 @@ public class GeneradorHilos extends Thread{
     }
     
     private void generarAviones() {
-        System.out.println("Comenzando a generar aviones, cantidad: " + numAviones);
         for (int i = 0; i < numAviones; i++) {
             try {
                 String idAvion = Avion.generarIdAvion(i);
                 Aeropuerto origen = (i % 2 == 0) ? madrid : barcelona;
                 Aerovia aerovia = (origen == madrid) ? aeroviaMadridBarcelona : aeroviaBarcelonaMadrid;
-                Avion a = new Avion(idAvion, origen, latch, aerovia);
+                Avion a = new Avion(idAvion, origen, aerovia);
                 origen.agregarAvion(a);
                 a.start();
                 Thread.sleep((int)(Math.random()*2000) + 1000);
@@ -62,7 +61,7 @@ public class GeneradorHilos extends Thread{
             try {
                 String idAutobus = "B-" + String.format("%04d", i);  // Genera el ID aquí
                 Aeropuerto ae = (i % 2 == 0) ? madrid : barcelona;  // Asigna según par o impar
-                Autobus autobus = new Autobus(idAutobus, ae, latch);
+                Autobus autobus = new Autobus(idAutobus, ae);
                 autobus.start();
                 Thread.sleep((int)(Math.random()* 500) + 500);
             } catch (InterruptedException ex) {
