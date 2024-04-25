@@ -11,6 +11,7 @@ public class Avion extends Thread {
     private final int MAX_VUELOS_ANTES_DE_INSPECCION = 15;
     private int numVuelos = 0;
     private int numAleatorio;
+    private int numeroPista;
     private PuertaEmbarque puerta;
     private Aerovia aerovia;
     private Aeropuerto aeropuertoOrigen;
@@ -28,22 +29,29 @@ public class Avion extends Thread {
         try {
             while (!interrupted()) {
                 // Simula el ciclo de vida del avión aquí
-                aeropuertoOrigen.entrarHangar(this);
                 aeropuertoOrigen.salirHangar(this);
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 aeropuertoOrigen.obtenerPuertaEmbarque(this, aeropuertoOrigen);
                 aeropuertoOrigen.liberarPuerta(this.puerta);
                 aeropuertoOrigen.entrarRodaje(this);
                 Thread.sleep(1000 + (int) (Math.random()*4001)); // Reposo inicial entre 1 y 5 segundos
-                aeropuertoOrigen.solicitarPista();
+                aeropuertoOrigen.solicitarPista(this);
                 Thread.sleep(1000 + (int) (Math.random()*2001)); // Reposo inicial entre 1 y 3 segundos
                 aeropuertoOrigen.despegar(this, aeropuertoOrigen);
                 Thread.sleep(1000 + (int) (Math.random()*4001));
                 aerovia.accederAerovia(this.id);
                 aeropuertoOrigen.volar(this, aeropuertoOrigen);
                 Thread.sleep(15000 + (int) (Math.random()*15001));
-                while (!aeropuertoOrigen.solicitarPista()) {
-                    aeropuertoOrigen.darRodeo(this);
+                while ((numeroPista = aeropuertoOrigen.solicitarPista(this)) == -1) {
+                    System.out.println("No hay pistas disponibles para el avión con ID " + this.getAvionId() + ". Esperando...");
+                    try {
+                        aeropuertoOrigen.darRodeo(this);
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        System.out.println("Avión con ID " + this.getAvionId() + " interrumpido mientras esperaba una pista.");
+                        Thread.currentThread().interrupt(); // Asegurar una correcta gestión de la interrupción
+                        return; // Terminar ejecución del método run si el hilo es interrumpido
+                    }
                 }
                 aerovia.liberarAerovia(this.id);
                 aeropuertoOrigen.aterrizar(this, aeropuertoOrigen);
