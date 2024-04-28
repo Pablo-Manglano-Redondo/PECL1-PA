@@ -32,6 +32,7 @@ PrimeraParte\PuertaEmbarque.class
 SegundaParte\ServidorRMI.class
 SegundaParte\InterfazCliente$11.class
 PrimeraParte\Aeropuerto.class
+PrimeraParte\Errores_por_corregir.class
 PrimeraParte\InterfazAeropuertos$3.class
 SegundaParte\InterfazCliente$10.class
 SegundaParte\InterfazCliente$16.class

@@ -29,19 +29,20 @@ public class Avion extends Thread {
         try {
             while (!interrupted()) {
                 // Simula el ciclo de vida del avión aquí
+                aeropuertoOrigen.entrarHangar(this);
                 aeropuertoOrigen.salirHangar(this);
                 aeropuertoOrigen.entrarEstacionamiento(this);
                 aeropuertoOrigen.obtenerPuertaEmbarque(this, aeropuertoOrigen);
                 aeropuertoOrigen.liberarPuerta(this.puerta);
                 aeropuertoOrigen.entrarRodaje(this);
-                Thread.sleep(1000 + (int) (Math.random()*4001)); // Reposo inicial entre 1 y 5 segundos
+                Thread.sleep(1000 + (int) (Math.random()*4001)); 
                 aeropuertoOrigen.solicitarPista(this);
-                Thread.sleep(1000 + (int) (Math.random()*2001)); // Reposo inicial entre 1 y 3 segundos
+                Thread.sleep(1000 + (int)(Math.random()*2001));
                 aeropuertoOrigen.despegar(this, aeropuertoOrigen);
-                Thread.sleep(1000 + (int) (Math.random()*4001));
+                Thread.sleep(1000 + (int)(Math.random()*4001));
                 aerovia.accederAerovia(this.id);
                 aeropuertoOrigen.volar(this, aeropuertoOrigen);
-                Thread.sleep(15000 + (int) (Math.random()*15001));
+                Thread.sleep(15000 + (int)(Math.random()*15001));
                 while ((numeroPista = aeropuertoOrigen.solicitarPista(this)) == -1) {
                     System.out.println("No hay pistas disponibles para el avión con ID " + this.getAvionId() + ". Esperando...");
                     try {
@@ -80,6 +81,7 @@ public class Avion extends Thread {
         } catch (InterruptedException e) {
             System.out.println("El avión con ID: " + id + " ha sido interrumpido.");
         }
+                
     }
 
     public static String generarIdAvion(int numero) {
@@ -89,9 +91,11 @@ public class Avion extends Thread {
         String id = String.format("%c%c-%04d", letra1, letra2, numero);
         return id;
     }
+    
     // ------------------------------------------------------------------------------------------------------------------------------------------------------
     // ------------------------------------------------------ GETTERS Y SETTERS -----------------------------------------------------------------------------
     // ------------------------------------------------------------------------------------------------------------------------------------------------------
+    
     public String getAvionId() {
         return id;
     }

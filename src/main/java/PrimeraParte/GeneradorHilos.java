@@ -1,7 +1,7 @@
 package PrimeraParte;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
+import java.util.logging.*;
 
 public class GeneradorHilos extends Thread{
      
