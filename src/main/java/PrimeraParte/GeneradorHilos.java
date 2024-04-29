@@ -11,14 +11,16 @@ public class GeneradorHilos extends Thread{
     private Aerovia aeroviaBarcelonaMadrid;
     private int numAviones;
     private int numAutobuses;
+    private Detener d;
     
-    public GeneradorHilos(int numAviones, int numAutobuses, Aerovia aeroviaMadridBarcelona, Aerovia aeroviaBarcelonaMadrid, Aeropuerto madrid, Aeropuerto barcelona) {   
+    public GeneradorHilos(int numAviones, int numAutobuses, Aerovia aeroviaMadridBarcelona, Aerovia aeroviaBarcelonaMadrid, Aeropuerto madrid, Aeropuerto barcelona, Detener d) {   
         this.numAviones = numAviones;
         this.numAutobuses = numAutobuses;
         this.madrid = madrid;
         this.barcelona = barcelona;
         this.aeroviaMadridBarcelona = aeroviaMadridBarcelona;
         this.aeroviaBarcelonaMadrid = aeroviaBarcelonaMadrid;
+        this.d = d;
     }
     
     public void run() {
@@ -37,7 +39,7 @@ public class GeneradorHilos extends Thread{
                 Aeropuerto destino = (i % 2 == 0) ? barcelona : madrid;
                 Aerovia aeroviaO = (origen == madrid) ? aeroviaMadridBarcelona : aeroviaBarcelonaMadrid;
                 Aerovia aeroviaD = (origen == madrid) ? aeroviaBarcelonaMadrid : aeroviaMadridBarcelona;
-                Avion a = new Avion(idAvion, origen, destino,  aeroviaO, aeroviaD);
+                Avion a = new Avion(idAvion, origen, destino,  aeroviaO, aeroviaD, d);
                 origen.agregarAvion(a);
                 a.start();
                 Thread.sleep((int)(Math.random()*2000) + 1000);
@@ -52,7 +54,7 @@ public class GeneradorHilos extends Thread{
             try {
                 String idAutobus = "B-" + String.format("%04d", i);  // Genera el ID aquí
                 Aeropuerto ae = (i % 2 == 0) ? madrid : barcelona;  // Asigna según par o impar
-                Autobus autobus = new Autobus(idAutobus, ae);
+                Autobus autobus = new Autobus(idAutobus, ae, d);
                 autobus.start();
                 Thread.sleep((int)(Math.random()* 500) + 500);
             } catch (InterruptedException ex) {

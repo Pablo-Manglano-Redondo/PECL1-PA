@@ -23,7 +23,7 @@ public class InterfazAeropuertos extends javax.swing.JFrame {
         
         aeroviaMadridBarcelona = new Aerovia("aeroviaMadridBarcelona", AeroviaMadridBarcelona);
         aeroviaBarcelonaMadrid = new Aerovia("aeroviaBarcelonaMadrid", AeroviaBarcelonaMadrid);
-        gh = new GeneradorHilos(8, 4, aeroviaMadridBarcelona, aeroviaBarcelonaMadrid, madrid, barcelona);
+        gh = new GeneradorHilos(8, 4000, aeroviaMadridBarcelona, aeroviaBarcelonaMadrid, madrid, barcelona, d);
         
         try {
             gh.start();

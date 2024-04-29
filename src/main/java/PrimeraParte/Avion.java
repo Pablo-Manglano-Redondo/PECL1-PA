@@ -17,15 +17,17 @@ public class Avion extends Thread {
     private Aerovia aeroviaD;
     private Aeropuerto aeropuertoOrigen;
     private Aeropuerto aeropuertoDestino;
+    private Detener d;
 
     
-    public Avion(String id, Aeropuerto origen, Aeropuerto destino, Aerovia aeroviaO, Aerovia aeroviaD) {
+    public Avion(String id, Aeropuerto origen, Aeropuerto destino, Aerovia aeroviaO, Aerovia aeroviaD, Detener d) {
         this.id = id;
         this.capacidadPasajeros = 100 + (int) (Math.random()*200); // Capacidad entre 100 y 300
         this.aeropuertoOrigen = origen;
         this.aeropuertoDestino = destino;
         this.aeroviaO = aeroviaO;
         this.aeroviaD = aeroviaD;
+        this.d = d;
     }
 
     @Override
@@ -37,21 +39,33 @@ public class Avion extends Thread {
                 
                 // DESPEGAR
                 
+                d.esperar();
                 aeropuertoOrigen.aparecerHangar(this);
+                d.esperar();
                 aeropuertoOrigen.salirHangar(this);
+                d.esperar();
                 aeropuertoOrigen.entrarEstacionamiento(this);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*2001)); 
                 aeropuertoOrigen.salirEstacionamiento(this);
+                d.esperar();
                 aeropuertoOrigen.obtenerPuertaEmbarque(this, aeropuertoOrigen);
+                d.esperar();
                 aeropuertoOrigen.liberarPuerta(this.puerta, this);
+                d.esperar();
                 aeropuertoOrigen.entrarRodaje(this);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001)); 
                 aeropuertoOrigen.solicitarPista(this);
+                d.esperar();
                 Thread.sleep(1000 + (int)(Math.random()*2001));
                 aeropuertoOrigen.despegar(this, aeropuertoOrigen, numeroPista);
+                d.esperar();
                 Thread.sleep(1000 + (int)(Math.random()*4001));
                 aeroviaO.accederAerovia(this.id);
+                d.esperar();
                 aeropuertoOrigen.volar(this, aeropuertoDestino);
+                d.esperar();
                 Thread.sleep(15000 + (int)(Math.random()*15001));
                 
                 
@@ -62,6 +76,7 @@ public class Avion extends Thread {
                     System.out.println("No hay pistas disponibles para el avión con ID " + this.getAvionId() + ". Esperando...");
                     try {
                         aeropuertoDestino.darRodeo(this);
+                        d.esperar();
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         System.out.println("Avión con ID " + this.getAvionId() + " interrumpido mientras esperaba una pista.");
@@ -70,28 +85,39 @@ public class Avion extends Thread {
                     }
                 }
                 aeropuertoDestino.aterrizar(this, aeropuertoOrigen, numeroPista);
+                d.esperar();
                 aeroviaO.liberarAerovia(id);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001));
                 aeropuertoDestino.entrarRodaje(this);
+                d.esperar();
                 Thread.sleep(3000 + (int) (Math.random()*2001));
                 aeropuertoDestino.obtenerPuertaDesembarque(this, aeropuertoOrigen);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001));
                 aeropuertoDestino.salirRodaje(this);
+                d.esperar();
                 aeropuertoDestino.liberarPuerta(this.puerta, this);
+                d.esperar();
                 aeropuertoDestino.entrarEstacionamiento(this);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001));
                 aeropuertoDestino.salirEstacionamiento(this);
+                d.esperar();
                 if (numVuelos == 15) {
                     aeropuertoDestino.revisarNecesidadDeInspeccion(this);
+                d.esperar();
                 } else {
                     Thread.sleep((int)(Math.random()* 4001) + 1000);
                 } 
                 numAleatorio = (int) (Math.random() * 2);
                 if (numAleatorio == 0) {
                     aeropuertoDestino.aparecerHangar(this);
+                    d.esperar();
                     Thread.sleep((int)(Math.random()* 15001) + 15001);
                 } 
                 aeropuertoDestino.entrarEstacionamiento(this);
+                d.esperar();
                 numVuelos ++;
                 
                 
@@ -100,20 +126,31 @@ public class Avion extends Thread {
                 // DESPEGAR
                 
                 aeropuertoDestino.aparecerHangar(this);
+                d.esperar();
                 aeropuertoDestino.salirHangar(this);
+                d.esperar();
                 aeropuertoDestino.entrarEstacionamiento(this);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*2001)); 
                 aeropuertoDestino.salirEstacionamiento(this);
+                d.esperar();
                 aeropuertoDestino.obtenerPuertaEmbarque(this, aeropuertoOrigen);
+                d.esperar();
                 aeropuertoDestino.liberarPuerta(this.puerta, this);
+                d.esperar();
                 aeropuertoDestino.entrarRodaje(this);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001)); 
                 aeropuertoDestino.solicitarPista(this);
+                d.esperar();
                 Thread.sleep(1000 + (int)(Math.random()*2001));
                 aeropuertoDestino.despegar(this, aeropuertoOrigen, numeroPista);
+                d.esperar();
                 Thread.sleep(1000 + (int)(Math.random()*4001));
                 aeroviaD.accederAerovia(this.id);
+                d.esperar();
                 aeropuertoDestino.volar(this, aeropuertoOrigen);
+                d.esperar();
                 Thread.sleep(15000 + (int)(Math.random()*15001));
                 
                 
@@ -124,6 +161,7 @@ public class Avion extends Thread {
                     System.out.println("No hay pistas disponibles para el avión con ID " + this.getAvionId() + ". Esperando...");
                     try {
                         aeropuertoOrigen.darRodeo(this);
+                        d.esperar();
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         System.out.println("Avión con ID " + this.getAvionId() + " interrumpido mientras esperaba una pista.");
@@ -132,28 +170,39 @@ public class Avion extends Thread {
                     }
                 }
                 aeropuertoOrigen.aterrizar(this, aeropuertoOrigen, numeroPista);
+                d.esperar();
                 aeroviaD.liberarAerovia(id);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001));
                 aeropuertoOrigen.entrarRodaje(this);
+                d.esperar();
                 Thread.sleep(3000 + (int) (Math.random()*2001));
                 aeropuertoOrigen.obtenerPuertaDesembarque(this, aeropuertoOrigen);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001));
                 aeropuertoOrigen.salirRodaje(this);
+                d.esperar();
                 aeropuertoOrigen.liberarPuerta(this.puerta, this);
+                d.esperar();
                 aeropuertoOrigen.entrarEstacionamiento(this);
+                d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001));
                 aeropuertoOrigen.salirEstacionamiento(this);
+                d.esperar();
                 if (numVuelos == 15) {
                     aeropuertoOrigen.revisarNecesidadDeInspeccion(this);
+                    d.esperar();
                 } else {
                     Thread.sleep((int)(Math.random()* 4001) + 1000);
                 } 
                 numAleatorio = (int) (Math.random() * 2);
                 if (numAleatorio == 0) {
                     aeropuertoOrigen.aparecerHangar(this);
+                    d.esperar();
                     Thread.sleep((int)(Math.random()* 15001) + 15001);
                 } 
                 aeropuertoOrigen.entrarEstacionamiento(this);
+                d.esperar();
                 numVuelos ++;
             
             }
