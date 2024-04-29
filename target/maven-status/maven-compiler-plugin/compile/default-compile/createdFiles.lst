@@ -5,7 +5,6 @@ SegundaParte\InterfazCliente$2.class
 PrimeraParte\Aerovia.class
 SegundaParte\InterfazCliente$22.class
 SegundaParte\InterfazCliente$19.class
-PrimeraParte\Main.class
 SegundaParte\InterfazCliente$12.class
 PrimeraParte\Detener.class
 SegundaParte\InterfazCliente$9.class
@@ -24,6 +23,7 @@ SegundaParte\InterfazCliente$13.class
 SegundaParte\InterfazCliente$1.class
 SegundaParte\InterfazCliente$23.class
 SegundaParte\InterfazCliente$8.class
+PrimeraParte\ListaVehiculos.class
 PrimeraParte\InterfazAeropuertos$1.class
 SegundaParte\InterfazCliente$21.class
 SegundaParte\InterfazCliente$6.class
@@ -32,13 +32,13 @@ PrimeraParte\PuertaEmbarque.class
 SegundaParte\ServidorRMI.class
 SegundaParte\InterfazCliente$11.class
 PrimeraParte\Aeropuerto.class
-PrimeraParte\Errores_por_corregir.class
 PrimeraParte\InterfazAeropuertos$3.class
 SegundaParte\InterfazCliente$10.class
 SegundaParte\InterfazCliente$16.class
 PrimeraParte\Avion.class
 SegundaParte\InterfazCliente$20.class
 SegundaParte\InterfazCliente$4.class
+PrimeraParte\InterfazAeropuertos$5.class
 PrimeraParte\PuertaEmbarque$TipoPuerta.class
 SegundaParte\Aeropuerto2.class
 SegundaParte\InterfazCliente$18.class

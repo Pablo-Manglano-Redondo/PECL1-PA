@@ -1,7 +1,6 @@
 package PrimeraParte;
 
 import java.util.ArrayList;
-import java.util.concurrent.CountDownLatch;
 
 public class Autobus extends Thread {
     private final String id;

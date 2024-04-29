@@ -1,4 +1,3 @@
-
 package PrimeraParte;
 
 import java.util.ArrayList;
@@ -8,11 +7,11 @@ public class ListaVehiculos {
     private JTextField textField;
     private ArrayList<String> lista;
     
+    
     public ListaVehiculos(JTextField textField){
         this.textField = textField;
         lista = new ArrayList<>();
     }
-    
     
     public synchronized void añadir(String s){
         lista.add(s);
