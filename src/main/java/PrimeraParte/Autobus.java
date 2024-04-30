@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public class Autobus extends Thread {
     private final String id;
     private ArrayList <Autobus> autobuses = new ArrayList<>();
-    private final Aeropuerto a;
+    private final Aeropuerto aero;
     private Detener d;
-    public Autobus(String id, Aeropuerto a, Detener d) {
+    public Autobus(String id, Aeropuerto aero, Detener d) {
         this.id = id;
-        this.a = a;
+        this.aero = aero;
         this.d = d;
     }
 
@@ -17,25 +17,28 @@ public class Autobus extends Thread {
     public void run() {
         try {
             while (!Thread.interrupted()) {
+                aero.actualizarPasajeros();
                 // Llegada a la parada del centro de la ciudad y espera de pasajeros   
                 d.esperar();
-                a.llegadaParadaCentro(id, a);
+                aero.llegadaParadaCentro(id, aero);
                 Thread.sleep(2000 + (int)(Math.random()*3001));
                 // Se generan los pasajeros
-                int pasajeros = generarPasajeros();
+                int pasajeros = 1 + (int)(Math.random()*49);
                 // Viaje hacia el aeropuerto
                 d.esperar();
-                a.marchaAeropuerto(pasajeros, id, a);
+                aero.marchaAeropuerto(pasajeros, id, aero);
                 Thread.sleep(5000 + (int)(Math.random()*5001));
                 // Llegada de los pasajeros al aeropuerto
                 d.esperar();
-                a.llegadaAeropuerto(pasajeros, a);
+                aero.llegadaAeropuerto(pasajeros, aero);
+                aero.actualizarPasajeros();
                 // Espera nuevos pasajeros
                 d.esperar();
-                a.esperarNuevosPasajeros(id, a);
+                aero.esperarNuevosPasajeros(id, aero);
                 // Salida del aeropuerto
                 d.esperar();
-                a.salidaAeropuerto(generarPasajeros(), a);
+                aero.salidaAeropuerto(1 + (int)(Math.random()*49), aero);
+                aero.actualizarPasajeros();
             }
         } catch (Exception e) {
             System.out.println(this.id + " ha sido interrumpido.");
@@ -48,10 +51,5 @@ public class Autobus extends Thread {
      public String generarIdAutobus(int n) {
         return "B-" + String.format("%04d", n);
     }
-     
-     public int generarPasajeros() {
-         System.out.println("Arreglar esto para que se sincronice con los pasajeros que han aterrizado");
-         return (1);
-     }
      
 }

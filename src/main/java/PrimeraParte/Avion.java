@@ -11,7 +11,7 @@ public class Avion extends Thread {
     private final int MAX_VUELOS_ANTES_DE_INSPECCION = 15;
     private int numVuelos = 0;
     private int numAleatorio;
-    private int numeroPista;
+    private int numeroPista = -1;
     private PuertaEmbarque puerta;
     private Aerovia aeroviaO;
     private Aerovia aeroviaD;
@@ -38,7 +38,6 @@ public class Avion extends Thread {
             // VUELO DE IDA    
                 
                 // DESPEGAR
-                
                 d.esperar();
                 aeropuertoOrigen.aparecerHangar(this);
                 d.esperar();
@@ -57,6 +56,7 @@ public class Avion extends Thread {
                 d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001)); 
                 aeropuertoOrigen.solicitarPista(this);
+                aeropuertoOrigen.salirRodaje(this);
                 d.esperar();
                 Thread.sleep(1000 + (int)(Math.random()*2001));
                 aeropuertoOrigen.despegar(this, aeropuertoOrigen, numeroPista);
@@ -93,9 +93,9 @@ public class Avion extends Thread {
                 d.esperar();
                 Thread.sleep(3000 + (int) (Math.random()*2001));
                 aeropuertoDestino.obtenerPuertaDesembarque(this, aeropuertoOrigen);
+                aeropuertoDestino.salirRodaje(this);
                 d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001));
-                aeropuertoDestino.salirRodaje(this);
                 d.esperar();
                 aeropuertoDestino.liberarPuerta(this.puerta, this);
                 d.esperar();
@@ -142,6 +142,7 @@ public class Avion extends Thread {
                 d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001)); 
                 aeropuertoDestino.solicitarPista(this);
+                aeropuertoDestino.salirRodaje(this);
                 d.esperar();
                 Thread.sleep(1000 + (int)(Math.random()*2001));
                 aeropuertoDestino.despegar(this, aeropuertoOrigen, numeroPista);
@@ -178,9 +179,9 @@ public class Avion extends Thread {
                 d.esperar();
                 Thread.sleep(3000 + (int) (Math.random()*2001));
                 aeropuertoOrigen.obtenerPuertaDesembarque(this, aeropuertoOrigen);
+                aeropuertoOrigen.salirRodaje(this);
                 d.esperar();
                 Thread.sleep(1000 + (int) (Math.random()*4001));
-                aeropuertoOrigen.salirRodaje(this);
                 d.esperar();
                 aeropuertoOrigen.liberarPuerta(this.puerta, this);
                 d.esperar();
@@ -261,7 +262,9 @@ public class Avion extends Thread {
     public Aeropuerto getAeropuertoDestino() {
         return aeropuertoDestino;
     }
-    
-    
+
+    public void setNumeroPista(int numeroPista) {
+        this.numeroPista = numeroPista;
+    }
     
 }
