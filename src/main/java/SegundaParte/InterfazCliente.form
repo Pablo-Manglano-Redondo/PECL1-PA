@@ -34,7 +34,7 @@
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="jTextField1" max="32767" attributes="0"/>
+                  <Component id="aeroviaBarcelonaMadrid" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -81,11 +81,11 @@
                               </Group>
                               <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="zonaComer" alignment="1" pref="0" max="32767" attributes="0"/>
-                                  <Component id="invasion" alignment="1" pref="0" max="32767" attributes="0"/>
-                                  <Component id="instruccion" alignment="1" pref="0" max="32767" attributes="0"/>
-                                  <Component id="extColonia" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
-                                  <Component id="intColonia" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="areaRodajeMadrid" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="areaEstacionamientoMadrid" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="tallerMadrid" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="pasajerosAeropuertoMadrid" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="hangarMadrid" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
@@ -136,16 +136,16 @@
                               </Group>
                               <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="zonaComer2" alignment="1" pref="0" max="32767" attributes="0"/>
-                                  <Component id="invasion2" alignment="1" pref="0" max="32767" attributes="0"/>
-                                  <Component id="instruccion2" alignment="1" pref="0" max="32767" attributes="0"/>
-                                  <Component id="extColonia2" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
-                                  <Component id="intColonia2" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="areaRodajeBarcelona" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="areaEstacionamientoBarcelona" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="tallerBarcelona" alignment="1" pref="0" max="32767" attributes="0"/>
+                                  <Component id="pasajerosBarcelona" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="hangarBarcelona" alignment="1" min="-2" pref="50" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                   </Group>
-                  <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
+                  <Component id="aeroviaMadridBarcelona" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
           </Group>
@@ -164,53 +164,53 @@
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="extColonia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pasajerosAeropuertoMadrid" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="intColonia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hangarMadrid" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="instruccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tallerMadrid" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="invasion" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="areaEstacionamientoMadrid" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="zonaComer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="areaRodajeMadrid" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="extColonia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pasajerosBarcelona" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="intColonia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hangarBarcelona" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="instruccion2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tallerBarcelona" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="invasion2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="areaEstacionamientoBarcelona" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="zonaComer2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="areaRodajeBarcelona" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -267,11 +267,11 @@
               <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
               <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jTextField2" pref="38" max="32767" attributes="0"/>
+              <Component id="aeroviaMadridBarcelona" pref="38" max="32767" attributes="0"/>
               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jTextField1" pref="38" max="32767" attributes="0"/>
+              <Component id="aeroviaBarcelonaMadrid" pref="38" max="32767" attributes="0"/>
               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -303,7 +303,7 @@
         <Property name="text" type="java.lang.String" value="N&#xba; aviones en &#xc1;rea Rodaje:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="extColonia">
+    <Component class="javax.swing.JTextField" name="pasajerosAeropuertoMadrid">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -311,10 +311,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="extColoniaActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pasajerosAeropuertoMadridActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="intColonia">
+    <Component class="javax.swing.JTextField" name="hangarMadrid">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -322,7 +322,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="instruccion">
+    <Component class="javax.swing.JTextField" name="tallerMadrid">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -330,7 +330,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="invasion">
+    <Component class="javax.swing.JTextField" name="areaEstacionamientoMadrid">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -338,10 +338,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="invasionActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="areaEstacionamientoMadridActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="zonaComer">
+    <Component class="javax.swing.JTextField" name="areaRodajeMadrid">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -349,7 +349,7 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="zonaComerActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="areaRodajeMadridActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel13">
@@ -387,7 +387,7 @@
         <Property name="text" type="java.lang.String" value="N&#xba; aviones en &#xc1;rea Rodaje:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="extColonia2">
+    <Component class="javax.swing.JTextField" name="pasajerosBarcelona">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -395,10 +395,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="extColonia2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pasajerosBarcelonaActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="intColonia2">
+    <Component class="javax.swing.JTextField" name="hangarBarcelona">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -406,7 +406,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="instruccion2">
+    <Component class="javax.swing.JTextField" name="tallerBarcelona">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -414,7 +414,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="invasion2">
+    <Component class="javax.swing.JTextField" name="areaEstacionamientoBarcelona">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -422,10 +422,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="invasion2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="areaEstacionamientoBarcelonaActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="zonaComer2">
+    <Component class="javax.swing.JTextField" name="areaRodajeBarcelona">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -433,7 +433,7 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="zonaComer2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="areaRodajeBarcelonaActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
@@ -614,14 +614,20 @@
         <Property name="text" type="java.lang.String" value="Aerov&#xed;a Barcelona-Madrid"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField1">
+    <Component class="javax.swing.JTextField" name="aeroviaBarcelonaMadrid">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField2">
+    <Component class="javax.swing.JTextField" name="aeroviaMadridBarcelona">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField1"/>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
       </Properties>
     </Component>
   </SubComponents>

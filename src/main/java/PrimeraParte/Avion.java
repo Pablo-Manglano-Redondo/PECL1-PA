@@ -2,6 +2,7 @@ package PrimeraParte;
 
 import java.util.Random;
 import static java.lang.Thread.interrupted;
+import java.time.LocalTime;
 
 public class Avion extends Thread {
     private String id;
@@ -18,7 +19,8 @@ public class Avion extends Thread {
     private Aeropuerto aeropuertoOrigen;
     private Aeropuerto aeropuertoDestino;
     private Detener d;
-
+    private EvolucionAeropuerto ea = new EvolucionAeropuerto();
+    private LocalTime horaActual;
     
     public Avion(String id, Aeropuerto origen, Aeropuerto destino, Aerovia aeroviaO, Aerovia aeroviaD, Detener d) {
         this.id = id;
@@ -38,6 +40,10 @@ public class Avion extends Thread {
             // VUELO DE IDA    
                 
                 // DESPEGAR
+                horaActual = LocalTime.now();
+                int h = horaActual.getHour();
+                int m = horaActual.getMinute();
+                int s = horaActual.getSecond();
                 d.esperar();
                 aeropuertoOrigen.aparecerHangar(this);
                 d.esperar();
@@ -73,7 +79,7 @@ public class Avion extends Thread {
                 
                 
                 while ((numeroPista = aeropuertoDestino.solicitarPista(this)) == -1) {
-                    System.out.println("No hay pistas disponibles para el avión con ID " + this.getAvionId() + ". Esperando...");
+                    ea.escribirLog(h + ":" + m + ":" + s + "--No hay pistas disponibles para el avión con ID " + this.getAvionId() + ". Esperando...");
                     try {
                         aeropuertoDestino.darRodeo(this);
                         d.esperar();
@@ -159,7 +165,7 @@ public class Avion extends Thread {
                 
                 
                 while ((numeroPista = aeropuertoOrigen.solicitarPista(this)) == -1) {
-                    System.out.println("No hay pistas disponibles para el avión con ID " + this.getAvionId() + ". Esperando...");
+                    ea.escribirLog(h + ":" + m + ":" + s + "--No hay pistas disponibles para el avión con ID " + this.getAvionId() + ". Esperando...");
                     try {
                         aeropuertoOrigen.darRodeo(this);
                         d.esperar();

@@ -1,5 +1,7 @@
 package PrimeraParte;
 
+import SegundaParte.ServidorRMI;
+
 public class InterfazAeropuertos extends javax.swing.JFrame {
 
     private Detener d;
@@ -8,7 +10,8 @@ public class InterfazAeropuertos extends javax.swing.JFrame {
     GeneradorHilos gh;
     Aerovia aeroviaMadridBarcelona;
     Aerovia aeroviaBarcelonaMadrid;
-    
+    private ServidorRMI servidorMadrid;
+    private ServidorRMI servidorBarcelona;
     public InterfazAeropuertos() {
         
         initComponents();
@@ -24,9 +27,12 @@ public class InterfazAeropuertos extends javax.swing.JFrame {
         aeroviaMadridBarcelona = new Aerovia("aeroviaMadridBarcelona", AeroviaMadridBarcelona);
         aeroviaBarcelonaMadrid = new Aerovia("aeroviaBarcelonaMadrid", AeroviaBarcelonaMadrid);
         gh = new GeneradorHilos(8000, 4000, aeroviaMadridBarcelona, aeroviaBarcelonaMadrid, madrid, barcelona, d);
-        
+        servidorMadrid = new ServidorRMI(madrid);
+        servidorBarcelona = new ServidorRMI(barcelona);
         try {
             gh.start();
+            servidorMadrid.start();
+            servidorBarcelona.start();
         } catch (Exception ex) {
             
         }
@@ -787,7 +793,7 @@ public class InterfazAeropuertos extends javax.swing.JFrame {
     }//GEN-LAST:event_Gate4BarcelonaActionPerformed
 
     private void BotonReanudarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonReanudarActionPerformed
-        d.reanudar();
+       d.reanudar();      
     }//GEN-LAST:event_BotonReanudarActionPerformed
 
     private void BotonPausarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonPausarActionPerformed

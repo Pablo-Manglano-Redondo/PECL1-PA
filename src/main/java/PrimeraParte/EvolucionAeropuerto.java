@@ -14,14 +14,14 @@ public class EvolucionAeropuerto {
     private File f;
 
     public void escribirLog(String s){
-        f = new File("EvolucionAeropuerto.txt");
+        f = new File("EvolucionAeropuertos.txt");
         
         lock.lock();
         
             if(!f.exists()){
               try {
                 f.createNewFile();
-                escribir = new FileWriter("EvolucionAeropuerto.txt",true);
+                escribir = new FileWriter("EvolucionAeropuertos.txt",true);
                 escribir.write(s + "\n");
                 escribir.close();
             } catch (IOException ex) {
@@ -33,7 +33,7 @@ public class EvolucionAeropuerto {
             }else{
               try {
                 
-                escribir = new FileWriter("EvolucionAeropuerto.txt",true);
+                escribir = new FileWriter("EvolucionAeropuertos.txt",true);
                 escribir.write(s + "\n");
                 escribir.close();
             } catch (IOException ex) {
