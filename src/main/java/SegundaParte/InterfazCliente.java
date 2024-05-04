@@ -1,8 +1,5 @@
 package SegundaParte;
 
-import PrimeraParte.Aeropuerto;
-
-
 public class InterfazCliente extends javax.swing.JFrame{
 
     private ClienteRMI cMadrid;
@@ -10,9 +7,10 @@ public class InterfazCliente extends javax.swing.JFrame{
     
     public InterfazCliente() {
         initComponents();
-        cMadrid = new ClienteRMI(hangarMadrid, tallerMadrid, areaEstacionamientoMadrid, areaRodajeMadrid);
-        cBarcelona = new ClienteRMI(hangarBarcelona, tallerBarcelona, areaEstacionamientoBarcelona, areaRodajeBarcelona);
+        cMadrid = new ClienteRMI(pasajerosMadrid, hangarMadrid, tallerMadrid, areaEstacionamientoMadrid, areaRodajeMadrid, aeroviaMadridBarcelona, "M");
+        cBarcelona = new ClienteRMI(pasajerosBarcelona, hangarBarcelona, tallerBarcelona, areaEstacionamientoBarcelona, areaRodajeBarcelona, aeroviaBarcelonaMadrid, "B");
         cMadrid.start();
+        cBarcelona.start();
     }
     
     /**
@@ -29,7 +27,7 @@ public class InterfazCliente extends javax.swing.JFrame{
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        pasajerosAeropuertoMadrid = new javax.swing.JTextField();
+        pasajerosMadrid = new javax.swing.JTextField();
         hangarMadrid = new javax.swing.JTextField();
         tallerMadrid = new javax.swing.JTextField();
         areaEstacionamientoMadrid = new javax.swing.JTextField();
@@ -87,11 +85,11 @@ public class InterfazCliente extends javax.swing.JFrame{
 
         jLabel5.setText("Nº aviones en Área Rodaje:");
 
-        pasajerosAeropuertoMadrid.setEditable(false);
-        pasajerosAeropuertoMadrid.setBackground(new java.awt.Color(255, 255, 255));
-        pasajerosAeropuertoMadrid.addActionListener(new java.awt.event.ActionListener() {
+        pasajerosMadrid.setEditable(false);
+        pasajerosMadrid.setBackground(new java.awt.Color(255, 255, 255));
+        pasajerosMadrid.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pasajerosAeropuertoMadridActionPerformed(evt);
+                pasajerosMadridActionPerformed(evt);
             }
         });
 
@@ -355,7 +353,7 @@ public class InterfazCliente extends javax.swing.JFrame{
                                     .addComponent(areaRodajeMadrid, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
                                     .addComponent(areaEstacionamientoMadrid, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
                                     .addComponent(tallerMadrid, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
-                                    .addComponent(pasajerosAeropuertoMadrid, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(pasajerosMadrid, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(hangarMadrid, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addComponent(jLabel13)
@@ -418,7 +416,7 @@ public class InterfazCliente extends javax.swing.JFrame{
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel1)
-                            .addComponent(pasajerosAeropuertoMadrid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(pasajerosMadrid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel2)
@@ -508,9 +506,9 @@ public class InterfazCliente extends javax.swing.JFrame{
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void pasajerosAeropuertoMadridActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pasajerosAeropuertoMadridActionPerformed
+    private void pasajerosMadridActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pasajerosMadridActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pasajerosAeropuertoMadridActionPerformed
+    }//GEN-LAST:event_pasajerosMadridActionPerformed
 
     private void areaRodajeMadridActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_areaRodajeMadridActionPerformed
         // TODO add your handling code here:
@@ -679,8 +677,8 @@ public class InterfazCliente extends javax.swing.JFrame{
     private javax.swing.JRadioButton jRadioButton7;
     private javax.swing.JRadioButton jRadioButton8;
     private javax.swing.JRadioButton jRadioButton9;
-    private javax.swing.JTextField pasajerosAeropuertoMadrid;
     private javax.swing.JTextField pasajerosBarcelona;
+    private javax.swing.JTextField pasajerosMadrid;
     private javax.swing.JTextField tallerBarcelona;
     private javax.swing.JTextField tallerMadrid;
     // End of variables declaration//GEN-END:variables

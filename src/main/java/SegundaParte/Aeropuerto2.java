@@ -1,17 +1,23 @@
 package SegundaParte;
 
 import PrimeraParte.Aeropuerto;
+import PrimeraParte.Aerovia;
+import PrimeraParte.ListaVehiculos;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
 public class Aeropuerto2 extends UnicastRemoteObject implements AeropuertoRemoto{
     
     private Aeropuerto aero;
-    
-    public Aeropuerto2(Aeropuerto aero) throws RemoteException{
+    private Aerovia aerovia;
+    public Aeropuerto2(Aeropuerto aero, Aerovia aerovia) throws RemoteException{
         this.aero = aero;
+        this.aerovia = aerovia;
     }
-    
+
+    public int pasajerosAeropuerto() throws RemoteException {
+        return aero.getPasajerosAeropuerto(aero);
+    }
     public int avionesEnHangar() throws RemoteException{
         return aero.getAvionesEnHangar();       
     }
@@ -26,5 +32,10 @@ public class Aeropuerto2 extends UnicastRemoteObject implements AeropuertoRemoto
     
     public int avionesEnAreaRodaje() throws RemoteException{
         return aero.getAvionesEnAeraRodaje();
+    }
+    
+    
+    public String aerovia() throws RemoteException {
+        return aerovia.getAerovia().obtenerLista();
     }
 }

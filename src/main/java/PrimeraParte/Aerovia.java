@@ -37,6 +37,10 @@ public class Aerovia {
         aerovia.quitar(idAvion);
     }
 
+    public ListaVehiculos getAerovia() {
+        return aerovia;
+    }
+
     public String getId() {
         return idAerovia;
     }

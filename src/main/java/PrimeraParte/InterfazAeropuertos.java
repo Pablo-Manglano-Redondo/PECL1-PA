@@ -16,6 +16,7 @@ public class InterfazAeropuertos extends javax.swing.JFrame {
         
         initComponents();
         d = new Detener();
+        BotonReanudar.setVisible(false);
         madrid = new Aeropuerto("Aeropuerto de Madrid", 1000, 6, 4, TransfersAeropuertoMadrid, TransfersCiudadMadrid, NumPasajerosAeropuertoMadrid, HangarMadrid, 
              TallerMadrid, AreaEstacionamientoMadrid, Gate1Madrid, Gate2Madrid, Gate3Madrid, Gate4Madrid,
              Gate5Madrid, Gate6Madrid, AreaRodajeMadrid, Pista1Madrid, Pista2Madrid, Pista3Madrid, Pista4Madrid);
@@ -27,8 +28,8 @@ public class InterfazAeropuertos extends javax.swing.JFrame {
         aeroviaMadridBarcelona = new Aerovia("aeroviaMadridBarcelona", AeroviaMadridBarcelona);
         aeroviaBarcelonaMadrid = new Aerovia("aeroviaBarcelonaMadrid", AeroviaBarcelonaMadrid);
         gh = new GeneradorHilos(8000, 4000, aeroviaMadridBarcelona, aeroviaBarcelonaMadrid, madrid, barcelona, d);
-        servidorMadrid = new ServidorRMI(madrid);
-        servidorBarcelona = new ServidorRMI(barcelona);
+        servidorMadrid = new ServidorRMI(madrid, 1099, "M", aeroviaMadridBarcelona);
+        servidorBarcelona = new ServidorRMI(barcelona, 1100, "B", aeroviaBarcelonaMadrid);
         try {
             gh.start();
             servidorMadrid.start();
@@ -794,10 +795,14 @@ public class InterfazAeropuertos extends javax.swing.JFrame {
 
     private void BotonReanudarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonReanudarActionPerformed
        d.reanudar();      
+       BotonReanudar.setVisible(false);
+       BotonPausar.setVisible(true);
     }//GEN-LAST:event_BotonReanudarActionPerformed
 
     private void BotonPausarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonPausarActionPerformed
         d.pausar();
+        BotonReanudar.setVisible(true);
+       BotonPausar.setVisible(false);
     }//GEN-LAST:event_BotonPausarActionPerformed
 
     public static void main(String args[]) {

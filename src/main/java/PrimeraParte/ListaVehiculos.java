@@ -33,4 +33,13 @@ public class ListaVehiculos {
     public synchronized ArrayList<String> getLista(){
         return lista;
     }
+    
+    public String obtenerLista() {
+        String contenedor="";
+        for(int i=0; i<lista.size();i++){
+            contenedor=contenedor+lista.get(i)+",";
+                    
+        }
+        return contenedor;
+    }
 }
