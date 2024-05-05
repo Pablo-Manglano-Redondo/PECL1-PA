@@ -22,6 +22,14 @@ public class InterfazCliente extends javax.swing.JFrame{
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup2 = new javax.swing.ButtonGroup();
+        buttonGroup3 = new javax.swing.ButtonGroup();
+        buttonGroup4 = new javax.swing.ButtonGroup();
+        buttonGroup5 = new javax.swing.ButtonGroup();
+        buttonGroup6 = new javax.swing.ButtonGroup();
+        buttonGroup7 = new javax.swing.ButtonGroup();
+        buttonGroup8 = new javax.swing.ButtonGroup();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -167,6 +175,7 @@ public class InterfazCliente extends javax.swing.JFrame{
 
         jLabel9.setText("Pista 4");
 
+        buttonGroup2.add(jRadioButton1);
         jRadioButton1.setText("Cerrar");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -174,6 +183,8 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup2.add(jRadioButton2);
+        jRadioButton2.setSelected(true);
         jRadioButton2.setText("Abrir");
         jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -181,6 +192,7 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup1.add(jRadioButton3);
         jRadioButton3.setText("Cerrar");
         jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -188,6 +200,8 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup1.add(jRadioButton4);
+        jRadioButton4.setSelected(true);
         jRadioButton4.setText("Abrir");
         jRadioButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,6 +209,7 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup3.add(jRadioButton5);
         jRadioButton5.setText("Cerrar");
         jRadioButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -202,6 +217,8 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup3.add(jRadioButton6);
+        jRadioButton6.setSelected(true);
         jRadioButton6.setText("Abrir");
         jRadioButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -209,6 +226,7 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup4.add(jRadioButton7);
         jRadioButton7.setText("Cerrar");
         jRadioButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -216,6 +234,8 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup4.add(jRadioButton8);
+        jRadioButton8.setSelected(true);
         jRadioButton8.setText("Abrir");
         jRadioButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -223,6 +243,8 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup8.add(jRadioButton9);
+        jRadioButton9.setSelected(true);
         jRadioButton9.setText("Abrir");
         jRadioButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -238,6 +260,7 @@ public class InterfazCliente extends javax.swing.JFrame{
 
         jLabel20.setText("Pista 4");
 
+        buttonGroup6.add(jRadioButton10);
         jRadioButton10.setText("Cerrar");
         jRadioButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -245,6 +268,8 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup6.add(jRadioButton11);
+        jRadioButton11.setSelected(true);
         jRadioButton11.setText("Abrir");
         jRadioButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -252,6 +277,7 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup5.add(jRadioButton12);
         jRadioButton12.setText("Cerrar");
         jRadioButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -259,6 +285,8 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup5.add(jRadioButton13);
+        jRadioButton13.setSelected(true);
         jRadioButton13.setText("Abrir");
         jRadioButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -266,6 +294,7 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup7.add(jRadioButton14);
         jRadioButton14.setText("Cerrar");
         jRadioButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -273,6 +302,8 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup7.add(jRadioButton15);
+        jRadioButton15.setSelected(true);
         jRadioButton15.setText("Abrir");
         jRadioButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -280,6 +311,7 @@ public class InterfazCliente extends javax.swing.JFrame{
             }
         });
 
+        buttonGroup8.add(jRadioButton16);
         jRadioButton16.setText("Cerrar");
         jRadioButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -531,67 +563,67 @@ public class InterfazCliente extends javax.swing.JFrame{
     }//GEN-LAST:event_areaRodajeBarcelonaActionPerformed
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-        // TODO add your handling code here:
+        // Cerrar pista 2 madrid
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
-        // TODO add your handling code here:
+        // Abrir pista 2 madrid
     }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
-        // TODO add your handling code here:
+        // Cerrar pista 1 madrid
     }//GEN-LAST:event_jRadioButton3ActionPerformed
 
     private void jRadioButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton4ActionPerformed
-        // TODO add your handling code here:
+        // Abrir pista 1 madrid
     }//GEN-LAST:event_jRadioButton4ActionPerformed
 
     private void jRadioButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton5ActionPerformed
-        // TODO add your handling code here:
+        // Cerrar pista 3 madrid
     }//GEN-LAST:event_jRadioButton5ActionPerformed
 
     private void jRadioButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton6ActionPerformed
-        // TODO add your handling code here:
+        // Abrir pista 3 madrid
     }//GEN-LAST:event_jRadioButton6ActionPerformed
 
     private void jRadioButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton7ActionPerformed
-        // TODO add your handling code here:
+        // Cerrar pista 4 madrid
     }//GEN-LAST:event_jRadioButton7ActionPerformed
 
     private void jRadioButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton8ActionPerformed
-        // TODO add your handling code here:
+        // Abrir pista 4 madrid
     }//GEN-LAST:event_jRadioButton8ActionPerformed
 
     private void jRadioButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton9ActionPerformed
-        // TODO add your handling code here:
+        // Abrir pista 4 barcelona
     }//GEN-LAST:event_jRadioButton9ActionPerformed
 
     private void jRadioButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton10ActionPerformed
-        // TODO add your handling code here:
+        // Cerrar pista 2 barcelona
     }//GEN-LAST:event_jRadioButton10ActionPerformed
 
     private void jRadioButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton11ActionPerformed
-        // TODO add your handling code here:
+        // Abrir pista 2 barcelona
     }//GEN-LAST:event_jRadioButton11ActionPerformed
 
     private void jRadioButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton12ActionPerformed
-        // TODO add your handling code here:
+        // Cerrar pista 1 barcelona
     }//GEN-LAST:event_jRadioButton12ActionPerformed
 
     private void jRadioButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton13ActionPerformed
-        // TODO add your handling code here:
+        // Abrir pista 1 barcelona
     }//GEN-LAST:event_jRadioButton13ActionPerformed
 
     private void jRadioButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton14ActionPerformed
-        // TODO add your handling code here:
+        // Cerrar pista 3 barcelona
     }//GEN-LAST:event_jRadioButton14ActionPerformed
 
     private void jRadioButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton15ActionPerformed
-        // TODO add your handling code here:
+        // Abrir pista 3 barcelona
     }//GEN-LAST:event_jRadioButton15ActionPerformed
 
     private void jRadioButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton16ActionPerformed
-        // TODO add your handling code here:
+        // Cerrar pista 4 barcelona
     }//GEN-LAST:event_jRadioButton16ActionPerformed
 
     /**
@@ -637,6 +669,14 @@ public class InterfazCliente extends javax.swing.JFrame{
     private javax.swing.JTextField areaEstacionamientoMadrid;
     private javax.swing.JTextField areaRodajeBarcelona;
     private javax.swing.JTextField areaRodajeMadrid;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
+    private javax.swing.ButtonGroup buttonGroup3;
+    private javax.swing.ButtonGroup buttonGroup4;
+    private javax.swing.ButtonGroup buttonGroup5;
+    private javax.swing.ButtonGroup buttonGroup6;
+    private javax.swing.ButtonGroup buttonGroup7;
+    private javax.swing.ButtonGroup buttonGroup8;
     private javax.swing.JTextField hangarBarcelona;
     private javax.swing.JTextField hangarMadrid;
     private javax.swing.JLabel jLabel1;

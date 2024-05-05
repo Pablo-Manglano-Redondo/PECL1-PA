@@ -9615,3 +9615,1454 @@
 16:27:55--Se le ha asignado la pista 0 al avi�n con ID: QB-0000 en el Aeropuerto de Madrid
 16:27:55--El avi�n con ID: QB-0000 ha salido del �rea de rodaje del Aeropuerto de Madrid
 16:27:55--El avi�n con ID: WU-0002 ha salido en el �rea de estacionamiento del Aeropuerto de Madrid
+12:13:13--El avión con ID: PW-0000 está en el hangar del Aeropuerto de Madrid
+12:13:13--El autobús con ID B-0000 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:13--El autobús con ID B-0001 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:14--El avión con ID: PW-0000 ha salido del hangar del Aeropuerto de Madrid
+12:13:14--El avión con ID: PW-0000 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:13:14--El autobús con ID B-0002 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:14--El avión con ID: SJ-0001 está en el hangar del Aeropuerto de Barcelona
+12:13:15--El avión con ID: SJ-0001 ha salido del hangar del Aeropuerto de Barcelona
+12:13:15--El avión con ID: SJ-0001 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:15--El autobús con ID B-0003 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:15--El autobús con ID B-0004 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:16--El autobús con ID B-0001 yendo hacia el Aeropuerto de Barcelona con 39 pasajeros.
+12:13:16--El avión con ID: GE-0002 está en el hangar del Aeropuerto de Madrid
+12:13:16--El autobús con ID B-0005 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:16--El autobús con ID B-0000 yendo hacia el Aeropuerto de Madrid con 3 pasajeros.
+12:13:17--El autobús con ID B-0002 yendo hacia el Aeropuerto de Madrid con 20 pasajeros.
+12:13:17--El avión con ID: GE-0002 ha salido del hangar del Aeropuerto de Madrid
+12:13:17--El avión con ID: GE-0002 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:13:17--El autobús con ID B-0006 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:17--El avión con ID: PW-0000 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:13:17--Avión con ID PW-0000 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Madrid
+12:13:17--En el avión con ID PW-0000 se han subido 137 pasajeros en el Aeropuerto de Madrid
+12:13:17--El avión con ID: SJ-0001 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:17--Avión con ID SJ-0001 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Barcelona
+12:13:17--En el avión con ID SJ-0001 se han subido 252 pasajeros en el Aeropuerto de Barcelona
+12:13:19--El autobús con ID B-0003 yendo hacia el Aeropuerto de Barcelona con 5 pasajeros.
+12:13:20--El autobús con ID B-0006 yendo hacia el Aeropuerto de Madrid con 17 pasajeros.
+12:13:20--El autobús con ID B-0005 yendo hacia el Aeropuerto de Barcelona con 26 pasajeros.
+12:13:20--El autobús con ID B-0004 yendo hacia el Aeropuerto de Madrid con 45 pasajeros.
+12:13:17--La puerta de embarque del avión con ID SJ-0001 en el Aeropuerto de Barcelona se cierra. No se admiten más pasajeros
+12:13:17--La puerta de embarque del avión con ID PW-0000 en el Aeropuerto de Madrid se cierra. No se admiten más pasajeros
+12:13:23--El autobús con ID B-0016 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:23--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Madrid
+12:13:23--Han entrado 3 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1003
+12:13:23--El autobús con ID B-0000 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:23--El autobús con ID B-0014 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:23--El autobús con ID B-0012 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:23--El autobús con ID B-0010 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:23--El avión con ID: GE-0002 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:13:23--Avión con ID GE-0002 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Madrid
+12:13:23--En el avión con ID GE-0002 se han subido 225 pasajeros en el Aeropuerto de Madrid
+12:13:24--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Barcelona
+12:13:24--El autobús con ID B-0017 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:25--El autobús con ID B-0015 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:25--El avión con ID: SJ-0001 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:13:25--El autobús con ID B-0013 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:25--El autobús con ID B-0011 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:25--El autobús con ID B-0009 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:25--El autobús con ID B-0007 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:25--El avión con ID: MZ-0003 está en el hangar del Aeropuerto de Barcelona
+12:13:26--El avión con ID: MZ-0003 ha salido del hangar del Aeropuerto de Barcelona
+12:13:26--El autobús con ID B-0019 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:26--El avión con ID: MZ-0003 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:26--Han entrado 39 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1039
+12:13:26--El autobús con ID B-0001 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:26--El autobús con ID B-0010 yendo hacia el Aeropuerto de Madrid con 25 pasajeros.
+12:13:27--El autobús con ID B-0017 yendo hacia el Aeropuerto de Barcelona con 18 pasajeros.
+12:13:27--El avión con ID: MZ-0003 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:27--Avión con ID MZ-0003 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Barcelona
+12:13:27--El autobús con ID B-0007 yendo hacia el Aeropuerto de Barcelona con 10 pasajeros.
+12:13:28--El autobús con ID B-0016 yendo hacia el Aeropuerto de Madrid con 4 pasajeros.
+12:13:28--El autobús con ID B-0009 yendo hacia el Aeropuerto de Barcelona con 32 pasajeros.
+12:13:23--La puerta de embarque del avión con ID GE-0002 en el Aeropuerto de Madrid se cierra. No se admiten más pasajeros
+12:13:28--El autobús con ID B-0014 yendo hacia el Aeropuerto de Madrid con 3 pasajeros.
+12:13:28--El autobús con ID B-0012 yendo hacia el Aeropuerto de Madrid con 26 pasajeros.
+12:13:28--El autobús con ID B-0011 yendo hacia el Aeropuerto de Barcelona con 41 pasajeros.
+12:13:29--El autobús con ID B-0019 yendo hacia el Aeropuerto de Barcelona con 9 pasajeros.
+12:13:29--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Barcelona
+12:13:29--El autobús con ID B-0023 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:28--Se le ha asignado la pista 0 al avión con ID: SJ-0001 en el Aeropuerto de Barcelona
+12:13:29--Han entrado 5 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1044
+12:13:29--El autobús con ID B-0003 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:29--El avión con ID: SJ-0001 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:13:29--El autobús con ID B-0021 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:29--El avión con ID: MZ-0003 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:13:29--El autobús con ID B-0013 yendo hacia el Aeropuerto de Barcelona con 18 pasajeros.
+12:13:29--El autobús con ID B-0015 yendo hacia el Aeropuerto de Barcelona con 25 pasajeros.
+12:13:30--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Madrid
+12:13:30--El autobús con ID B-0024 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:30--El autobús con ID B-0008 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:30--Han entrado 17 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1020
+12:13:30--El autobús con ID B-0006 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:30--El autobús con ID B-0022 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:30--Han salido 6 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1014
+12:13:30--El autobús con ID B-0000 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:30--El avión con ID: PG-0004 está en el hangar del Aeropuerto de Madrid
+12:13:30--El avión con ID SJ-0001 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Barcelona
+12:13:30--El avión con ID SJ-0001 ha accedido a una pista y está despegando en el Aeropuerto de Barcelona
+12:13:30--El avión con ID SJ-0001 ha despegado con éxito desde el Aeropuerto de Barcelona
+12:13:30--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:13:30--El avión con ID SJ-0001 ha salido de la pista.
+12:13:30--Han entrado 26 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1070
+12:13:30--El autobús con ID B-0005 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:30--El autobús con ID B-0025 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:30--Han salido 12 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1058
+12:13:30--El autobús con ID B-0001 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:31--El avión con ID: PG-0004 ha salido del hangar del Aeropuerto de Madrid
+12:13:31--El avión con ID: PG-0004 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:13:31--El autobús con ID B-0020 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:31--Han entrado 20 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1034
+12:13:31--El autobús con ID B-0002 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:31--Han entrado 45 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1079
+12:13:31--El autobús con ID B-0004 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:31--El autobús con ID B-0018 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:31--El avión con ID: PW-0000 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:13:31--El avión con ID: GE-0002 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:13:31--El autobús con ID B-0026 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:31--El autobús con ID B-0021 yendo hacia el Aeropuerto de Barcelona con 19 pasajeros.
+12:13:31--El avión con ID: JW-0005 está en el hangar del Aeropuerto de Barcelona
+12:13:32--El avión con ID: PG-0004 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:13:32--Avión con ID PG-0004 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Madrid
+12:13:32--En el avión con ID PG-0004 se han subido 255 pasajeros en el Aeropuerto de Madrid
+12:13:32--El avión con ID: JW-0005 ha salido del hangar del Aeropuerto de Barcelona
+12:13:32--El avión con ID: JW-0005 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:32--Se le ha asignado la pista 0 al avión con ID: MZ-0003 en el Aeropuerto de Barcelona
+12:13:32--Han entrado 18 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1076
+12:13:32--El autobús con ID B-0017 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:32--El autobús con ID B-0027 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:32--El avión con ID: MZ-0003 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:13:32--El autobús con ID B-0024 yendo hacia el Aeropuerto de Madrid con 43 pasajeros.
+12:13:32--Han salido 15 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1061
+12:13:32--El autobús con ID B-0003 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:32--El autobús con ID B-0008 yendo hacia el Aeropuerto de Madrid con 20 pasajeros.
+12:13:32--El autobús con ID B-0000 yendo hacia el Aeropuerto de Madrid con 13 pasajeros.
+12:13:32--Han salido 1 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1060
+12:13:32--El autobús con ID B-0005 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:33--El autobús con ID B-0022 yendo hacia el Aeropuerto de Madrid con 9 pasajeros.
+12:13:33--El autobús con ID B-0023 yendo hacia el Aeropuerto de Barcelona con 8 pasajeros.
+12:13:33--El autobús con ID B-0025 yendo hacia el Aeropuerto de Barcelona con 23 pasajeros.
+12:13:33--Avión con ID SJ-0001 usando aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 1
+12:13:33--El avión con ID SJ-0001 está volando hacia Aeropuerto de Madrid
+12:13:33--El avión con ID: JW-0005 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:33--Avión con ID JW-0005 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Barcelona
+12:13:33--En el avión con ID JW-0005 se han subido 253 pasajeros en el Aeropuerto de Barcelona
+12:13:33--El avión con ID MZ-0003 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Barcelona
+12:13:33--El avión con ID MZ-0003 ha accedido a una pista y está despegando en el Aeropuerto de Barcelona
+12:13:33--El avión con ID MZ-0003 ha despegado con éxito desde el Aeropuerto de Barcelona
+12:13:34--El autobús con ID B-0018 yendo hacia el Aeropuerto de Madrid con 10 pasajeros.
+12:13:35--El autobús con ID B-0001 yendo hacia el Aeropuerto de Barcelona con 25 pasajeros.
+12:13:35--El autobús con ID B-0020 yendo hacia el Aeropuerto de Madrid con 5 pasajeros.
+12:13:35--El autobús con ID B-0027 yendo hacia el Aeropuerto de Barcelona con 27 pasajeros.
+12:13:33--La puerta de embarque del avión con ID JW-0005 en el Aeropuerto de Barcelona se cierra. No se admiten más pasajeros
+12:13:35--El autobús con ID B-0003 yendo hacia el Aeropuerto de Barcelona con 45 pasajeros.
+12:13:36--El autobús con ID B-0026 yendo hacia el Aeropuerto de Madrid con 44 pasajeros.
+12:13:32--La puerta de embarque del avión con ID PG-0004 en el Aeropuerto de Madrid se cierra. No se admiten más pasajeros
+12:13:36--El autobús con ID B-0005 yendo hacia el Aeropuerto de Barcelona con 35 pasajeros.
+12:13:37--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Barcelona
+12:13:37--Han entrado 41 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1101
+12:13:37--El autobús con ID B-0033 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:37--Han entrado 18 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1119
+12:13:37--El autobús con ID B-0013 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:37--Han entrado 10 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1129
+12:13:37--El autobús con ID B-0007 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:37--El autobús con ID B-0031 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:37--Han salido 1 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1128
+12:13:37--El autobús con ID B-0017 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:37--Han entrado 9 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1137
+12:13:37--El autobús con ID B-0019 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:37--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:13:37--El avión con ID MZ-0003 ha salido de la pista.
+12:13:37--Han entrado 32 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1169
+12:13:37--El autobús con ID B-0009 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:37--El autobús con ID B-0029 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:37--El autobús con ID B-0011 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:37--El avión con ID: JW-0005 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:13:38--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Madrid
+12:13:38--Han entrado 26 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1105
+12:13:38--El autobús con ID B-0012 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--Han entrado 20 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1125
+12:13:38--El autobús con ID B-0008 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--Han entrado 3 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1128
+12:13:38--El autobús con ID B-0014 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--El autobús con ID B-0034 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--El autobús con ID B-0032 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:35--Se le ha asignado la pista 1 al avión con ID: GE-0002 en el Aeropuerto de Madrid
+12:13:38--Han salido 23 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1105
+12:13:38--El autobús con ID B-0004 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--Han entrado 4 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1109
+12:13:38--El autobús con ID B-0016 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--Han salido 15 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1094
+12:13:38--El autobús con ID B-0030 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--El autobús con ID B-0035 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:38--Han salido 34 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1060
+12:13:38--El autobús con ID B-0002 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--Han entrado 25 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1085
+12:13:38--El autobús con ID B-0010 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:32--Se le ha asignado la pista 0 al avión con ID: PW-0000 en el Aeropuerto de Madrid
+12:13:38--El autobús con ID B-0028 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--El autobús con ID B-0006 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:38--El avión con ID: GE-0002 ha salido del área de rodaje del Aeropuerto de Madrid
+12:13:38--El avión con ID: PG-0004 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:13:38--El avión con ID: ZR-0006 está en el hangar del Aeropuerto de Madrid
+12:13:39--Han entrado 25 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1194
+12:13:39--El autobús con ID B-0015 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:39--El avión con ID: ZR-0006 ha salido del hangar del Aeropuerto de Madrid
+12:13:39--El avión con ID: ZR-0006 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:13:39--El avión con ID: PW-0000 ha salido del área de rodaje del Aeropuerto de Madrid
+12:13:39--El autobús con ID B-0036 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:39--Han entrado 43 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1128
+12:13:39--El autobús con ID B-0024 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:39--El avión con ID: TD-0007 está en el hangar del Aeropuerto de Barcelona
+12:13:39--El avión con ID GE-0002 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Madrid
+12:13:39--El avión con ID GE-0002 ha accedido a una pista y está despegando en el Aeropuerto de Madrid
+12:13:39--El avión con ID GE-0002 ha despegado con éxito desde el Aeropuerto de Madrid
+12:13:39--Se ha liberado la pista 1 del Aeropuerto de Madrid
+12:13:39--El avión con ID GE-0002 ha salido de la pista.
+12:13:40--El autobús con ID B-0031 yendo hacia el Aeropuerto de Barcelona con 13 pasajeros.
+12:13:40--El avión con ID: TD-0007 ha salido del hangar del Aeropuerto de Barcelona
+12:13:40--El avión con ID: TD-0007 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:40--Han salido 45 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1149
+12:13:40--El autobús con ID B-0007 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:40--El autobús con ID B-0037 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:40--Han salido 2 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1147
+12:13:40--El autobús con ID B-0013 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:40--Han entrado 8 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1155
+12:13:40--El autobús con ID B-0023 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:40--El autobús con ID B-0034 yendo hacia el Aeropuerto de Madrid con 5 pasajeros.
+12:13:40--Han entrado 25 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1180
+12:13:40--El autobús con ID B-0001 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:40--El autobús con ID B-0038 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:40--Han entrado 19 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1199
+12:13:40--El autobús con ID B-0021 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:41--Han entrado 13 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1141
+12:13:41--El autobús con ID B-0000 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:41--Han salido 12 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1187
+12:13:41--El autobús con ID B-0009 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:41--El avión con ID: ZR-0006 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:13:41--Avión con ID ZR-0006 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Madrid
+12:13:41--En el avión con ID ZR-0006 se han subido 292 pasajeros en el Aeropuerto de Madrid
+12:13:41--Avión con ID GE-0002 usando aerovía aeroviaMadridBarcelona . Total aviones en ruta: 1
+12:13:41--El avión con ID GE-0002 está volando hacia Aeropuerto de Barcelona
+12:13:41--El autobús con ID B-0039 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:41--Han entrado 23 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1210
+12:13:41--El autobús con ID B-0025 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:41--Han salido 36 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1174
+12:13:41--El autobús con ID B-0015 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:41--El autobús con ID B-0035 yendo hacia el Aeropuerto de Barcelona con 11 pasajeros.
+12:13:41--El autobús con ID B-0029 yendo hacia el Aeropuerto de Barcelona con 7 pasajeros.
+12:13:41--El avión con ID: TD-0007 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:41--Avión con ID TD-0007 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Barcelona
+12:13:41--El autobús con ID B-0028 yendo hacia el Aeropuerto de Madrid con 26 pasajeros.
+12:13:42--El autobús con ID B-0030 yendo hacia el Aeropuerto de Madrid con 27 pasajeros.
+12:13:42--El avión con ID PW-0000 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Madrid
+12:13:42--El avión con ID PW-0000 ha accedido a una pista y está despegando en el Aeropuerto de Madrid
+12:13:42--El avión con ID PW-0000 ha despegado con éxito desde el Aeropuerto de Madrid
+12:13:42--El autobús con ID B-0017 yendo hacia el Aeropuerto de Barcelona con 2 pasajeros.
+12:13:42--El autobús con ID B-0033 yendo hacia el Aeropuerto de Barcelona con 45 pasajeros.
+12:13:42--El autobús con ID B-0002 yendo hacia el Aeropuerto de Madrid con 32 pasajeros.
+12:13:42--El autobús con ID B-0032 yendo hacia el Aeropuerto de Madrid con 43 pasajeros.
+12:13:42--El autobús con ID B-0006 yendo hacia el Aeropuerto de Madrid con 9 pasajeros.
+12:13:42--El autobús con ID B-0004 yendo hacia el Aeropuerto de Madrid con 43 pasajeros.
+12:13:42--Avión con ID MZ-0003 usando aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 2
+12:13:42--El avión con ID MZ-0003 está volando hacia Aeropuerto de Madrid
+12:13:43--El autobús con ID B-0009 yendo hacia el Aeropuerto de Barcelona con 26 pasajeros.
+12:13:43--El autobús con ID B-0036 yendo hacia el Aeropuerto de Madrid con 1 pasajeros.
+12:13:43--El autobús con ID B-0037 yendo hacia el Aeropuerto de Barcelona con 10 pasajeros.
+12:13:44--El autobús con ID B-0038 yendo hacia el Aeropuerto de Madrid con 40 pasajeros.
+12:13:44--El autobús con ID B-0007 yendo hacia el Aeropuerto de Barcelona con 22 pasajeros.
+12:13:44--El autobús con ID B-0013 yendo hacia el Aeropuerto de Barcelona con 46 pasajeros.
+12:13:41--La puerta de embarque del avión con ID ZR-0006 en el Aeropuerto de Madrid se cierra. No se admiten más pasajeros
+12:13:45--El autobús con ID B-0015 yendo hacia el Aeropuerto de Barcelona con 30 pasajeros.
+12:13:46--El autobús con ID B-0039 yendo hacia el Aeropuerto de Barcelona con 4 pasajeros.
+12:13:46--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Barcelona
+12:13:46--Han entrado 35 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1209
+12:13:46--El autobús con ID B-0005 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--El autobús con ID B-0045 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--Han salido 24 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1185
+12:13:46--El autobús con ID B-0025 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--Han salido 7 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1178
+12:13:46--El autobús con ID B-0021 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--Han entrado 27 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1205
+12:13:46--El autobús con ID B-0027 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--El autobús con ID B-0043 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--Han salido 4 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1201
+12:13:46--El autobús con ID B-0001 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--Han entrado 45 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1246
+12:13:46--El autobús con ID B-0003 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--Han salido 7 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1239
+12:13:46--El autobús con ID B-0041 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--Han salido 38 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1201
+12:13:46--Han salido 21 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1180
+12:13:46--El autobús con ID B-0019 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:42--Se le ha asignado la pista 0 al avión con ID: JW-0005 en el Aeropuerto de Barcelona
+12:13:46--El autobús con ID B-0011 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--El autobús con ID B-0023 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:46--El avión con ID: TD-0007 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:13:46--El avión con ID: JW-0005 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:13:46--Han entrado 13 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1193
+12:13:46--El autobús con ID B-0031 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:47--El autobús con ID B-0047 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:47--El avión con ID JW-0005 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Barcelona
+12:13:47--El avión con ID JW-0005 ha accedido a una pista y está despegando en el Aeropuerto de Barcelona
+12:13:47--El avión con ID JW-0005 ha despegado con éxito desde el Aeropuerto de Barcelona
+12:13:47--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:13:47--El avión con ID JW-0005 ha salido de la pista.
+12:13:47--Han entrado 2 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1195
+12:13:47--El autobús con ID B-0017 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:47--Han entrado 11 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1206
+12:13:47--El autobús con ID B-0035 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:48--El autobús con ID B-0049 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:48--El autobús con ID B-0025 yendo hacia el Aeropuerto de Barcelona con 21 pasajeros.
+12:13:48--Han salido 6 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1200
+12:13:48--El autobús con ID B-0003 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:48--El autobús con ID B-0001 yendo hacia el Aeropuerto de Barcelona con 6 pasajeros.
+12:13:49--Se le ha asignado la pista 0 al avión con ID: TD-0007 en el Aeropuerto de Barcelona
+12:13:49--El avión con ID: TD-0007 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:13:49--El autobús con ID B-0019 yendo hacia el Aeropuerto de Barcelona con 31 pasajeros.
+12:13:49--El autobús con ID B-0047 yendo hacia el Aeropuerto de Barcelona con 2 pasajeros.
+12:13:49--Han salido 10 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1190
+12:13:49--El autobús con ID B-0005 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:49--Han entrado 22 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1212
+12:13:49--El autobús con ID B-0007 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:49--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Madrid
+12:13:49--Han entrado 43 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1184
+12:13:49--El autobús con ID B-0004 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--El autobús con ID B-0050 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han entrado 27 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1211
+12:13:49--El autobús con ID B-0030 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han entrado 5 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1216
+12:13:49--El autobús con ID B-0034 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han entrado 1 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1217
+12:13:49--El autobús con ID B-0036 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han entrado 9 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1226
+12:13:49--El autobús con ID B-0006 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han entrado 32 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1258
+12:13:49--El autobús con ID B-0002 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--El autobús con ID B-0048 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han entrado 26 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1284
+12:13:49--El autobús con ID B-0028 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--El autobús con ID B-0046 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--El autobús con ID B-0044 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han entrado 44 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1328
+12:13:49--El autobús con ID B-0026 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han entrado 5 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1333
+12:13:49--El autobús con ID B-0020 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han salido 42 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1291
+12:13:49--El autobús con ID B-0000 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han salido 33 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1258
+12:13:49--El autobús con ID B-0010 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--El autobús con ID B-0042 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han salido 45 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1213
+12:13:49--El autobús con ID B-0024 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han salido 34 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1179
+12:13:49--El autobús con ID B-0012 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han salido 1 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1178
+12:13:49--El autobús con ID B-0016 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han salido 43 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1135
+12:13:43--Se le ha asignado la pista 1 al avión con ID: PG-0004 en el Aeropuerto de Madrid
+12:13:49--El autobús con ID B-0014 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han salido 18 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1117
+12:13:49--El autobús con ID B-0008 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Se ha liberado la pista 0 del Aeropuerto de Madrid
+12:13:49--El avión con ID PW-0000 ha salido de la pista.
+12:13:49--Han entrado 10 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1127
+12:13:49--El autobús con ID B-0018 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--Han entrado 9 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1136
+12:13:49--El autobús con ID B-0022 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--El autobús con ID B-0040 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:49--El avión con ID: AD-0008 está en el hangar del Aeropuerto de Madrid
+12:13:49--El autobús con ID B-0051 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:50--Han entrado 10 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1222
+12:13:50--El autobús con ID B-0037 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:50--El autobús con ID B-0043 yendo hacia el Aeropuerto de Barcelona con 28 pasajeros.
+12:13:50--El avión con ID TD-0007 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Barcelona
+12:13:50--El avión con ID TD-0007 ha accedido a una pista y está despegando en el Aeropuerto de Barcelona
+12:13:50--El avión con ID TD-0007 ha despegado con éxito desde el Aeropuerto de Barcelona
+12:13:50--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:13:50--El avión con ID TD-0007 ha salido de la pista.
+12:13:50--El autobús con ID B-0011 yendo hacia el Aeropuerto de Barcelona con 11 pasajeros.
+12:13:50--Han entrado 45 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1267
+12:13:50--El autobús con ID B-0033 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:50--Avión con ID JW-0005 usando aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 3
+12:13:50--El avión con ID JW-0005 está volando hacia Aeropuerto de Madrid
+12:13:50--Han salido 4 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1263
+12:13:50--El autobús con ID B-0035 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:50--El autobús con ID B-0049 yendo hacia el Aeropuerto de Barcelona con 20 pasajeros.
+12:13:50--El autobús con ID B-0021 yendo hacia el Aeropuerto de Barcelona con 49 pasajeros.
+12:13:50--El avión con ID: AD-0008 ha salido del hangar del Aeropuerto de Madrid
+12:13:50--El avión con ID: AD-0008 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:13:50--El avión con ID: PG-0004 ha salido del área de rodaje del Aeropuerto de Madrid
+12:13:50--El avión con ID: ZR-0006 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:13:50--El autobús con ID B-0052 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:50--Han entrado 43 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1179
+12:13:50--El autobús con ID B-0032 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:50--Han entrado 26 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1289
+12:13:50--El autobús con ID B-0009 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:50--El autobús con ID B-0041 yendo hacia el Aeropuerto de Barcelona con 35 pasajeros.
+12:13:50--El autobús con ID B-0023 yendo hacia el Aeropuerto de Barcelona con 48 pasajeros.
+12:13:51--El autobús con ID B-0045 yendo hacia el Aeropuerto de Barcelona con 15 pasajeros.
+12:13:51--Han entrado 7 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1296
+12:13:51--El autobús con ID B-0029 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:51--Avión con ID PW-0000 usando aerovía aeroviaMadridBarcelona . Total aviones en ruta: 2
+12:13:51--El avión con ID PW-0000 está volando hacia Aeropuerto de Barcelona
+12:13:51--El autobús con ID B-0053 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:51--Han salido 28 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1268
+12:13:51--El autobús con ID B-0031 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:51--Han salido 43 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1225
+12:13:51--El autobús con ID B-0027 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:51--El autobús con ID B-0003 yendo hacia el Aeropuerto de Barcelona con 18 pasajeros.
+12:13:51--El avión con ID: OG-0009 está en el hangar del Aeropuerto de Barcelona
+12:13:51--El autobús con ID B-0005 yendo hacia el Aeropuerto de Barcelona con 2 pasajeros.
+12:13:51--El autobús con ID B-0024 yendo hacia el Aeropuerto de Madrid con 21 pasajeros.
+12:13:51--El avión con ID: AD-0008 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:13:51--Avión con ID AD-0008 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Madrid
+12:13:51--El autobús con ID B-0042 yendo hacia el Aeropuerto de Madrid con 28 pasajeros.
+12:13:52--El autobús con ID B-0014 yendo hacia el Aeropuerto de Madrid con 38 pasajeros.
+12:13:52--El avión con ID PG-0004 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Madrid
+12:13:52--El avión con ID PG-0004 ha accedido a una pista y está despegando en el Aeropuerto de Madrid
+12:13:52--El avión con ID PG-0004 ha despegado con éxito desde el Aeropuerto de Madrid
+12:13:52--El autobús con ID B-0016 yendo hacia el Aeropuerto de Madrid con 22 pasajeros.
+12:13:52--El autobús con ID B-0046 yendo hacia el Aeropuerto de Madrid con 7 pasajeros.
+12:13:52--El autobús con ID B-0048 yendo hacia el Aeropuerto de Madrid con 20 pasajeros.
+12:13:52--El avión con ID: OG-0009 ha salido del hangar del Aeropuerto de Barcelona
+12:13:52--El avión con ID: OG-0009 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:52--Han salido 34 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1191
+12:13:52--El autobús con ID B-0017 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:52--El autobús con ID B-0012 yendo hacia el Aeropuerto de Madrid con 9 pasajeros.
+12:13:53--Han entrado 4 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1195
+12:13:53--El autobús con ID B-0039 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:53--El autobús con ID B-0055 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:53--El autobús con ID B-0051 yendo hacia el Aeropuerto de Barcelona con 47 pasajeros.
+12:13:53--Han entrado 30 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1225
+12:13:53--El autobús con ID B-0015 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:53--Avión con ID TD-0007 usando aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 4
+12:13:53--El avión con ID TD-0007 está volando hacia Aeropuerto de Madrid
+12:13:53--Han entrado 46 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1271
+12:13:53--El autobús con ID B-0013 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:53--Han salido 24 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1247
+12:13:53--El autobús con ID B-0037 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:53--El autobús con ID B-0010 yendo hacia el Aeropuerto de Madrid con 48 pasajeros.
+12:13:53--El autobús con ID B-0044 yendo hacia el Aeropuerto de Madrid con 49 pasajeros.
+12:13:53--El autobús con ID B-0035 yendo hacia el Aeropuerto de Barcelona con 28 pasajeros.
+12:13:53--Han salido 11 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1236
+12:13:53--El autobús con ID B-0009 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:53--El autobús con ID B-0000 yendo hacia el Aeropuerto de Madrid con 30 pasajeros.
+12:13:54--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Madrid
+12:13:54--Han salido 30 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1149
+12:13:54--El autobús con ID B-0056 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 36 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1113
+12:13:54--Han entrado 40 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1153
+12:13:54--El autobús con ID B-0038 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 4 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1149
+12:13:54--El autobús con ID B-0052 yendo hacia el Aeropuerto de Madrid con 40 pasajeros.
+12:13:54--El autobús con ID B-0004 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 32 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1117
+12:13:54--El autobús con ID B-0032 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 10 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1107
+12:13:54--El autobús con ID B-0030 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 26 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1081
+12:13:54--El autobús con ID B-0022 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 24 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1057
+12:13:54--El autobús con ID B-0028 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 28 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1029
+12:13:54--El autobús con ID B-0018 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 15 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1014
+12:13:54--El autobús con ID B-0026 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 7 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1007
+12:13:54--El autobús con ID B-0006 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Se ha liberado la pista 1 del Aeropuerto de Madrid
+12:13:54--El avión con ID PG-0004 ha salido de la pista.
+12:13:54--El autobús con ID B-0054 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 39 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 968
+12:13:54--El autobús con ID B-0002 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Han salido 28 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1208
+12:13:54--El autobús con ID B-0007 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:54--El autobús con ID B-0020 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--El autobús con ID B-0036 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--El avión con ID: AD-0008 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:13:54--El avión con ID: OY-0010 está en el hangar del Aeropuerto de Madrid
+12:13:54--El autobús con ID B-0050 yendo hacia el Aeropuerto de Madrid con 15 pasajeros.
+12:13:54--Han salido 8 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1200
+12:13:54--El autobús con ID B-0033 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:54--El autobús con ID B-0040 yendo hacia el Aeropuerto de Madrid con 18 pasajeros.
+12:13:54--El autobús con ID B-0057 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:54--El autobús con ID B-0053 yendo hacia el Aeropuerto de Barcelona con 5 pasajeros.
+12:13:54--El autobús con ID B-0008 yendo hacia el Aeropuerto de Madrid con 11 pasajeros.
+12:13:54--Han entrado 6 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1206
+12:13:54--El autobús con ID B-0001 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:55--El autobús con ID B-0027 yendo hacia el Aeropuerto de Barcelona con 38 pasajeros.
+12:13:55--Han entrado 2 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1208
+12:13:55--El autobús con ID B-0047 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:55--El avión con ID: OY-0010 ha salido del hangar del Aeropuerto de Madrid
+12:13:55--El avión con ID: OY-0010 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:13:55--Han salido 32 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 936
+12:13:55--Han entrado 31 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1239
+12:13:55--El autobús con ID B-0034 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:54--Se le ha asignado la pista 0 al avión con ID: ZR-0006 en el Aeropuerto de Madrid
+12:13:55--El autobús con ID B-0019 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:55--El avión con ID: ZR-0006 ha salido del área de rodaje del Aeropuerto de Madrid
+12:13:55--El autobús con ID B-0031 yendo hacia el Aeropuerto de Barcelona con 17 pasajeros.
+12:13:55--El avión con ID: OG-0009 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:13:55--Avión con ID OG-0009 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Barcelona
+12:13:55--El autobús con ID B-0058 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:56--El autobús con ID B-0017 yendo hacia el Aeropuerto de Barcelona con 14 pasajeros.
+12:13:56--El autobús con ID B-0009 yendo hacia el Aeropuerto de Barcelona con 1 pasajeros.
+12:13:56--Se le ha asignado la pista 1 al avión con ID: SJ-0001 en el Aeropuerto de Madrid
+12:13:56--El avión con ID SJ-0001 está solicitando una pista para aterrizar en el Aeropuerto de Madrid
+12:13:56--El avión con ID SJ-0001 ha accedido a una pista y está aterrizando en el Aeropuerto de Madrid
+12:13:56--El avión con ID SJ-0001 ha aterrizado en el Aeropuerto de Madrid
+12:13:56--Se ha liberado la pista 1 del Aeropuerto de Madrid
+12:13:56--El avión con ID SJ-0001 ha salido de la pista.
+12:13:56--Avión con ID SJ-0001 ha dejado la aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 3
+12:13:56--El autobús con ID B-0022 yendo hacia el Aeropuerto de Madrid con 8 pasajeros.
+12:13:56--El autobús con ID B-0007 yendo hacia el Aeropuerto de Barcelona con 9 pasajeros.
+12:13:56--El autobús con ID B-0060 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:56--El avión con ID ZR-0006 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Madrid
+12:13:56--El avión con ID ZR-0006 ha accedido a una pista y está despegando en el Aeropuerto de Madrid
+12:13:56--El avión con ID ZR-0006 ha despegado con éxito desde el Aeropuerto de Madrid
+12:13:56--Se ha liberado la pista 0 del Aeropuerto de Madrid
+12:13:56--El avión con ID ZR-0006 ha salido de la pista.
+12:13:56--El autobús con ID B-0028 yendo hacia el Aeropuerto de Madrid con 14 pasajeros.
+12:13:56--Avión con ID PG-0004 usando aerovía aeroviaMadridBarcelona . Total aviones en ruta: 3
+12:13:56--El avión con ID PG-0004 está volando hacia Aeropuerto de Barcelona
+12:13:57--Se le ha asignado la pista 0 al avión con ID: AD-0008 en el Aeropuerto de Madrid
+12:13:57--El avión con ID: AD-0008 ha salido del área de rodaje del Aeropuerto de Madrid
+12:13:57--El autobús con ID B-0002 yendo hacia el Aeropuerto de Madrid con 45 pasajeros.
+12:13:57--El autobús con ID B-0032 yendo hacia el Aeropuerto de Madrid con 20 pasajeros.
+12:13:57--El autobús con ID B-0033 yendo hacia el Aeropuerto de Barcelona con 33 pasajeros.
+12:13:57--El autobús con ID B-0055 yendo hacia el Aeropuerto de Barcelona con 12 pasajeros.
+12:13:57--El autobús con ID B-0026 yendo hacia el Aeropuerto de Madrid con 30 pasajeros.
+12:13:57--Han salido 3 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 933
+12:13:57--El autobús con ID B-0038 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:57--El autobús con ID B-0018 yendo hacia el Aeropuerto de Madrid con 30 pasajeros.
+12:13:57--El autobús con ID B-0057 yendo hacia el Aeropuerto de Barcelona con 7 pasajeros.
+12:13:57--El avión con ID: OY-0010 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:13:57--Avión con ID OY-0010 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Madrid
+12:13:57--El autobús con ID B-0037 yendo hacia el Aeropuerto de Barcelona con 49 pasajeros.
+12:13:57--El autobús con ID B-0054 yendo hacia el Aeropuerto de Madrid con 11 pasajeros.
+12:13:57--El autobús con ID B-0056 yendo hacia el Aeropuerto de Madrid con 19 pasajeros.
+12:13:57--El autobús con ID B-0006 yendo hacia el Aeropuerto de Madrid con 29 pasajeros.
+12:13:58--El autobús con ID B-0030 yendo hacia el Aeropuerto de Madrid con 40 pasajeros.
+12:13:58--El autobús con ID B-0004 yendo hacia el Aeropuerto de Madrid con 39 pasajeros.
+12:13:58--El autobús con ID B-0020 yendo hacia el Aeropuerto de Madrid con 39 pasajeros.
+12:13:58--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Madrid
+12:13:58--El autobús con ID B-0062 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:58--Han entrado 22 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 955
+12:13:58--El autobús con ID B-0016 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:58--El avión con ID: OY-0010 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:13:58--Han entrado 38 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 993
+12:13:58--El autobús con ID B-0014 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:58--El autobús con ID B-0036 yendo hacia el Aeropuerto de Madrid con 18 pasajeros.
+12:13:58--Han entrado 21 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1014
+12:13:58--El autobús con ID B-0024 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:59--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Barcelona
+12:13:59--Han entrado 47 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1286
+12:13:59--El autobús con ID B-0051 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--Han salido 17 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1269
+12:13:59--El autobús con ID B-0019 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--Han entrado 21 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1290
+12:13:59--El autobús con ID B-0025 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--Han entrado 48 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1338
+12:13:59--El autobús con ID B-0023 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--El autobús con ID B-0061 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--Han salido 4 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1334
+12:13:59--El autobús con ID B-0039 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--Han salido 44 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1290
+12:13:59--El autobús con ID B-0013 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--Han salido 44 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1246
+12:13:59--El autobús con ID B-0001 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--Han salido 31 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1215
+12:13:59--El autobús con ID B-0015 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--Han entrado 49 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1264
+12:13:59--El autobús con ID B-0021 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--El autobús con ID B-0059 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--Han salido 31 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1233
+12:13:59--El autobús con ID B-0029 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:13:59--El avión con ID: GO-0011 está en el hangar del Aeropuerto de Barcelona
+12:13:59--El avión con ID AD-0008 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Madrid
+12:13:59--El avión con ID AD-0008 ha accedido a una pista y está despegando en el Aeropuerto de Madrid
+12:13:59--El avión con ID AD-0008 ha despegado con éxito desde el Aeropuerto de Madrid
+12:13:59--Se ha liberado la pista 0 del Aeropuerto de Madrid
+12:13:59--El avión con ID AD-0008 ha salido de la pista.
+12:13:59--Han entrado 20 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1034
+12:13:59--El autobús con ID B-0048 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:59--El autobús con ID B-0064 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:13:59--Han entrado 30 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1064
+12:13:59--El autobús con ID B-0000 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:0--Se le ha asignado la pista 0 al avión con ID: MZ-0003 en el Aeropuerto de Madrid
+12:14:0--El avión con ID MZ-0003 está solicitando una pista para aterrizar en el Aeropuerto de Madrid
+12:14:0--El avión con ID MZ-0003 ha accedido a una pista y está aterrizando en el Aeropuerto de Madrid
+12:14:0--El avión con ID MZ-0003 ha aterrizado en el Aeropuerto de Madrid
+12:14:0--Se ha liberado la pista 0 del Aeropuerto de Madrid
+12:14:0--El avión con ID MZ-0003 ha salido de la pista.
+12:14:0--Avión con ID MZ-0003 ha dejado la aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 2
+12:14:0--El autobús con ID B-0034 yendo hacia el Aeropuerto de Madrid con 8 pasajeros.
+12:14:0--El avión con ID: GO-0011 ha salido del hangar del Aeropuerto de Barcelona
+12:14:0--El avión con ID: GO-0011 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:0--El avión con ID: OG-0009 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:14:0--Han entrado 11 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1244
+12:14:0--El autobús con ID B-0011 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--Han entrado 18 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1262
+12:14:0--El autobús con ID B-0003 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--Han entrado 28 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1290
+12:14:0--El autobús con ID B-0043 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--Han entrado 28 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1318
+12:14:0--Han entrado 15 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1333
+12:14:0--El autobús con ID B-0045 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--Han entrado 2 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1335
+12:14:0--El autobús con ID B-0005 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--Han entrado 20 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1355
+12:14:0--El autobús con ID B-0049 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--Han salido 16 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1339
+12:14:0--El autobús con ID B-0047 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--El autobús con ID B-0063 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--El autobús con ID B-0035 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--El autobús con ID B-0058 yendo hacia el Aeropuerto de Madrid con 33 pasajeros.
+12:14:0--Han entrado 7 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1071
+12:14:0--El autobús con ID B-0046 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:0--Han entrado 5 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1344
+12:14:0--El autobús con ID B-0053 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--El autobús con ID B-0060 yendo hacia el Aeropuerto de Madrid con 24 pasajeros.
+12:14:0--El autobús con ID B-0038 yendo hacia el Aeropuerto de Madrid con 10 pasajeros.
+12:14:0--Han entrado 35 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1379
+12:14:0--El autobús con ID B-0041 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--Han entrado 15 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1086
+12:14:0--El autobús con ID B-0050 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:0--Han entrado 48 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1134
+12:14:0--El autobús con ID B-0010 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:0--Han entrado 9 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1143
+12:14:0--El autobús con ID B-0012 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:0--El avión con ID: SJ-0001 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:14:0--El autobús con ID B-0065 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:0--El avión con ID: VA-0012 está en el hangar del Aeropuerto de Madrid
+12:14:1--El autobús con ID B-0062 yendo hacia el Aeropuerto de Madrid con 20 pasajeros.
+12:14:1--Han salido 11 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1368
+12:14:1--El autobús con ID B-0023 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:1--El autobús con ID B-0001 yendo hacia el Aeropuerto de Barcelona con 38 pasajeros.
+12:14:1--Avión con ID ZR-0006 usando aerovía aeroviaMadridBarcelona . Total aviones en ruta: 4
+12:14:1--El avión con ID ZR-0006 está volando hacia Aeropuerto de Barcelona
+12:14:1--Han entrado 1 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1369
+12:14:1--El autobús con ID B-0009 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:1--El autobús con ID B-0015 yendo hacia el Aeropuerto de Barcelona con 18 pasajeros.
+12:14:1--El avión con ID: VA-0012 ha salido del hangar del Aeropuerto de Madrid
+12:14:1--El avión con ID: VA-0012 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:14:1--El autobús con ID B-0066 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:1--Han entrado 49 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1192
+12:14:1--El autobús con ID B-0044 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:1--Han salido 29 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1163
+12:14:1--Se le ha asignado la pista 0 al avión con ID: OG-0009 en el Aeropuerto de Barcelona
+12:14:1--El avión con ID: OG-0009 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:14:1--El autobús con ID B-0048 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:1--Han entrado 28 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1191
+12:14:1--El autobús con ID B-0042 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:1--Han entrado 18 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1209
+12:14:1--El autobús con ID B-0040 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:2--Han entrado 11 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1220
+12:14:2--El autobús con ID B-0008 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:2--El autobús con ID B-0019 yendo hacia el Aeropuerto de Barcelona con 11 pasajeros.
+12:14:2--El autobús con ID B-0067 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:2--Han salido 15 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1354
+12:14:2--El autobús con ID B-0003 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:2--Han salido 39 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1181
+12:14:2--El autobús con ID B-0016 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:2--Han salido 23 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1331
+12:14:2--El autobús con ID B-0021 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:2--Han salido 12 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1319
+12:14:2--El autobús con ID B-0043 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:2--Han entrado 30 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1211
+12:14:2--El autobús con ID B-0018 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:2--El avión con ID: MZ-0003 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:14:2--Han salido 19 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1300
+12:14:2--El autobús con ID B-0049 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:2--El autobús con ID B-0065 yendo hacia el Aeropuerto de Barcelona con 27 pasajeros.
+12:14:2--El avión con ID: GO-0011 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:2--Avión con ID GO-0011 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Barcelona
+12:14:2--Avión con ID AD-0008 usando aerovía aeroviaMadridBarcelona . Total aviones en ruta: 5
+12:14:2--El avión con ID AD-0008 está volando hacia Aeropuerto de Barcelona
+12:14:2--El autobús con ID B-0068 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:2--Han salido 32 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1179
+12:14:2--El autobús con ID B-0024 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:3--Se le ha asignado la pista 0 al avión con ID: OY-0010 en el Aeropuerto de Madrid
+12:14:3--El avión con ID: OY-0010 ha salido del área de rodaje del Aeropuerto de Madrid
+12:14:3--Han salido 11 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1168
+12:14:3--El autobús con ID B-0046 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:3--Han salido 16 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1152
+12:14:3--El autobús con ID B-0014 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:3--El autobús con ID B-0059 yendo hacia el Aeropuerto de Barcelona con 39 pasajeros.
+12:14:3--El autobús con ID B-0047 yendo hacia el Aeropuerto de Barcelona con 11 pasajeros.
+12:14:3--Han entrado 30 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1182
+12:14:3--El autobús con ID B-0026 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:3--El autobús con ID B-0061 yendo hacia el Aeropuerto de Barcelona con 42 pasajeros.
+12:14:3--El autobús con ID B-0029 yendo hacia el Aeropuerto de Barcelona con 41 pasajeros.
+12:14:3--El autobús con ID B-0039 yendo hacia el Aeropuerto de Barcelona con 25 pasajeros.
+12:14:3--Han entrado 40 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1222
+12:14:3--El autobús con ID B-0052 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:3--El autobús con ID B-0013 yendo hacia el Aeropuerto de Barcelona con 19 pasajeros.
+12:14:3--Han salido 43 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1179
+12:14:3--El autobús con ID B-0000 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:3--El avión con ID: VA-0012 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:14:3--Avión con ID VA-0012 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Madrid
+12:14:3--El avión con ID OG-0009 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Barcelona
+12:14:3--El avión con ID OG-0009 ha accedido a una pista y está despegando en el Aeropuerto de Barcelona
+12:14:3--El avión con ID OG-0009 ha despegado con éxito desde el Aeropuerto de Barcelona
+12:14:4--El autobús con ID B-0064 yendo hacia el Aeropuerto de Madrid con 20 pasajeros.
+12:14:4--El autobús con ID B-0063 yendo hacia el Aeropuerto de Barcelona con 11 pasajeros.
+12:14:4--El autobús con ID B-0066 yendo hacia el Aeropuerto de Madrid con 16 pasajeros.
+12:14:5--Han salido 8 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1292
+12:14:5--El autobús con ID B-0005 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--El autobús con ID B-0024 yendo hacia el Aeropuerto de Madrid con 27 pasajeros.
+12:14:5--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Barcelona
+12:14:5--Han salido 14 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1278
+12:14:5--El autobús con ID B-0041 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Han entrado 17 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1295
+12:14:5--Han entrado 38 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1333
+12:14:5--El autobús con ID B-0027 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Han entrado 7 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1340
+12:14:5--El autobús con ID B-0057 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Han salido 35 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1305
+12:14:5--El autobús con ID B-0011 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:14:5--El avión con ID OG-0009 ha salido de la pista.
+12:14:5--Han salido 3 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1302
+12:14:5--El autobús con ID B-0025 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Han entrado 14 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1316
+12:14:5--El autobús con ID B-0017 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--El autobús con ID B-0069 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Han salido 24 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1292
+12:14:5--El autobús con ID B-0035 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Han entrado 33 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1325
+12:14:5--El autobús con ID B-0033 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Han salido 26 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1299
+12:14:5--El autobús con ID B-0051 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Han salido 44 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1255
+12:14:5--El autobús con ID B-0045 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--Han salido 27 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1228
+12:14:5--El autobús con ID B-0053 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:5--El avión con ID: QU-0013 está en el hangar del Aeropuerto de Barcelona
+12:14:5--El avión con ID OY-0010 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Madrid
+12:14:5--El avión con ID OY-0010 ha accedido a una pista y está despegando en el Aeropuerto de Madrid
+12:14:5--El avión con ID OY-0010 ha despegado con éxito desde el Aeropuerto de Madrid
+12:14:5--El autobús con ID B-0003 yendo hacia el Aeropuerto de Barcelona con 36 pasajeros.
+12:14:5--El autobús con ID B-0023 yendo hacia el Aeropuerto de Barcelona con 4 pasajeros.
+12:14:5--El autobús con ID B-0016 yendo hacia el Aeropuerto de Madrid con 28 pasajeros.
+12:14:5--El autobús con ID B-0049 yendo hacia el Aeropuerto de Barcelona con 2 pasajeros.
+12:14:5--El autobús con ID B-0046 yendo hacia el Aeropuerto de Madrid con 27 pasajeros.
+12:14:5--El autobús con ID B-0021 yendo hacia el Aeropuerto de Barcelona con 49 pasajeros.
+12:14:6--El avión con ID: QU-0013 ha salido del hangar del Aeropuerto de Barcelona
+12:14:6--El avión con ID: QU-0013 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:6--El avión con ID: GO-0011 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:14:6--El autobús con ID B-0031 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:6--Han entrado 9 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1237
+12:14:6--El autobús con ID B-0007 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:6--Han salido 24 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1213
+12:14:6--El autobús con ID B-0009 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:6--El autobús con ID B-0071 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:6--El autobús con ID B-0043 yendo hacia el Aeropuerto de Barcelona con 31 pasajeros.
+12:14:6--El autobús con ID B-0048 yendo hacia el Aeropuerto de Madrid con 33 pasajeros.
+12:14:6--El autobús con ID B-0014 yendo hacia el Aeropuerto de Madrid con 3 pasajeros.
+12:14:6--El autobús con ID B-0073 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:6--Han entrado 12 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1225
+12:14:6--El autobús con ID B-0055 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:6--Han entrado 49 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1274
+12:14:6--El autobús con ID B-0037 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:6--El autobús con ID B-0067 yendo hacia el Aeropuerto de Barcelona con 5 pasajeros.
+12:14:7--El autobús con ID B-0000 yendo hacia el Aeropuerto de Madrid con 9 pasajeros.
+12:14:7--El autobús con ID B-0068 yendo hacia el Aeropuerto de Madrid con 41 pasajeros.
+12:14:7--Han salido 45 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1229
+12:14:7--El autobús con ID B-0033 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:7--El autobús con ID B-0074 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 39 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1218
+12:14:7--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Madrid
+12:14:7--El autobús con ID B-0004 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Avión con ID MZ-0003 ha entrado en la puerta 2 del tipo DESEMBARQUE en Aeropuerto de Madrid
+12:14:7--Han entrado 239 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1468
+12:14:7--Del avión con ID MZ-0003 se han bajado 292 pasajeros en el Aeropuerto de Barcelona
+12:14:7--El avión con ID: MZ-0003 ha salido del área de rodaje del Aeropuerto de Madrid
+12:14:7--Han salido 44 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1174
+12:14:7--El autobús con ID B-0052 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 20 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1194
+12:14:7--El autobús con ID B-0032 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han salido 25 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1169
+12:14:7--El autobús con ID B-0018 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 18 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1187
+12:14:7--El autobús con ID B-0036 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 39 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1226
+12:14:7--El autobús con ID B-0020 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 19 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1245
+12:14:7--El autobús con ID B-0056 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 14 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1259
+12:14:7--El autobús con ID B-0028 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--El autobús con ID B-0072 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 45 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1304
+12:14:7--El autobús con ID B-0002 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 29 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1333
+12:14:7--El autobús con ID B-0006 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han salido 18 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1315
+12:14:7--El autobús con ID B-0026 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 8 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1323
+12:14:7--El autobús con ID B-0022 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han entrado 8 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1331
+12:14:7--El autobús con ID B-0034 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han salido 49 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1282
+12:14:7--El autobús con ID B-0040 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han salido 33 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1249
+12:14:7--El autobús con ID B-0012 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han salido 31 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1218
+12:14:7--El autobús con ID B-0044 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Se ha liberado la pista 0 del Aeropuerto de Madrid
+12:14:7--El avión con ID OY-0010 ha salido de la pista.
+12:14:7--Han entrado 11 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1229
+12:14:7--El autobús con ID B-0054 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han salido 6 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1223
+12:14:7--El autobús con ID B-0050 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--El autobús con ID B-0070 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han salido 27 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1196
+12:14:7--El autobús con ID B-0042 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Avión con ID SJ-0001 ha entrado en la puerta 3 del tipo MIXTA en Aeropuerto de Madrid
+12:14:7--Han entrado 252 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1720
+12:14:7--Del avión con ID SJ-0001 se han bajado 0 pasajeros en el Aeropuerto de Barcelona
+12:14:7--El avión con ID: SJ-0001 ha salido del área de rodaje del Aeropuerto de Madrid
+12:14:7--Han entrado 40 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1236
+12:14:7--El autobús con ID B-0030 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han salido 11 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1225
+12:14:7--El autobús con ID B-0008 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--Han salido 21 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1204
+12:14:7--El autobús con ID B-0010 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:7--El avión con ID: VA-0012 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:14:7--El autobús con ID B-0053 yendo hacia el Aeropuerto de Barcelona con 8 pasajeros.
+12:14:7--El avión con ID: ÑE-0014 está en el hangar del Aeropuerto de Madrid
+12:14:8--Se le ha asignado la pista 0 al avión con ID: GO-0011 en el Aeropuerto de Barcelona
+12:14:8--El avión con ID: GO-0011 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:14:8--El avión con ID: QU-0013 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:8--Avión con ID QU-0013 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Barcelona
+12:14:8--El autobús con ID B-0041 yendo hacia el Aeropuerto de Barcelona con 5 pasajeros.
+12:14:8--El autobús con ID B-0051 yendo hacia el Aeropuerto de Barcelona con 23 pasajeros.
+12:14:8--El autobús con ID B-0045 yendo hacia el Aeropuerto de Barcelona con 45 pasajeros.
+12:14:8--Avión con ID OG-0009 usando aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 3
+12:14:8--El avión con ID OG-0009 está volando hacia Aeropuerto de Madrid
+12:14:8--El autobús con ID B-0071 yendo hacia el Aeropuerto de Barcelona con 38 pasajeros.
+12:14:8--El autobús con ID B-0005 yendo hacia el Aeropuerto de Barcelona con 24 pasajeros.
+12:14:8--El autobús con ID B-0009 yendo hacia el Aeropuerto de Barcelona con 16 pasajeros.
+12:14:8--El autobús con ID B-0011 yendo hacia el Aeropuerto de Barcelona con 21 pasajeros.
+12:14:8--El avión con ID: ÑE-0014 ha salido del hangar del Aeropuerto de Madrid
+12:14:8--El avión con ID: ÑE-0014 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:14:8--El autobús con ID B-0076 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:8--Han entrado 33 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1237
+12:14:8--El autobús con ID B-0058 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:8--Han entrado 10 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1247
+12:14:8--El autobús con ID B-0038 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:9--Puerta 2 del tipo DESEMBARQUE liberada del Aeropuerto de Madrid
+12:14:9--El avión con ID: MZ-0003 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:14:9--Se le ha asignado la pista 0 al avión con ID: VA-0012 en el Aeropuerto de Madrid
+12:14:9--El avión con ID: VA-0012 ha salido del área de rodaje del Aeropuerto de Madrid
+12:14:9--El avión con ID GO-0011 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Barcelona
+12:14:9--El avión con ID GO-0011 ha accedido a una pista y está despegando en el Aeropuerto de Barcelona
+12:14:9--El avión con ID GO-0011 ha despegado con éxito desde el Aeropuerto de Barcelona
+12:14:9--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Barcelona
+12:14:9--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:14:9--El avión con ID GO-0011 ha salido de la pista.
+12:14:9--Han salido 14 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1706
+12:14:9--Se le ha asignado la pista 1 al avión con ID: GE-0002 en el Aeropuerto de Barcelona
+12:14:9--Han entrado 38 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1744
+12:14:9--El avión con ID GE-0002 está solicitando una pista para aterrizar en el Aeropuerto de Barcelona
+12:14:9--El avión con ID GE-0002 ha accedido a una pista y está aterrizando en el Aeropuerto de Barcelona
+12:14:9--El avión con ID GE-0002 ha aterrizado en el Aeropuerto de Barcelona
+12:14:9--El autobús con ID B-0001 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:9--El avión con ID: ER-0015 está en el hangar del Aeropuerto de Barcelona
+12:14:9--El autobús con ID B-0025 yendo hacia el Aeropuerto de Barcelona con 27 pasajeros.
+12:14:9--El autobús con ID B-0069 yendo hacia el Aeropuerto de Barcelona con 5 pasajeros.
+12:14:9--Han entrado 20 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1267
+12:14:9--El autobús con ID B-0062 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:9--Puerta 3 del tipo MIXTA liberada del Aeropuerto de Madrid
+12:14:9--El avión con ID: SJ-0001 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:14:9--El autobús con ID B-0072 yendo hacia el Aeropuerto de Madrid con 38 pasajeros.
+12:14:9--El autobús con ID B-0035 yendo hacia el Aeropuerto de Barcelona con 28 pasajeros.
+12:14:9--El autobús con ID B-0078 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:10--El avión con ID: ÑE-0014 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:14:10--Avión con ID ÑE-0014 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Madrid
+12:14:10--En el avión con ID ÑE-0014 se han subido 183 pasajeros en el Aeropuerto de Madrid
+12:14:10--El autobús con ID B-0026 yendo hacia el Aeropuerto de Madrid con 16 pasajeros.
+12:14:10--El avión con ID VA-0012 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Madrid
+12:14:10--El avión con ID VA-0012 ha accedido a una pista y está despegando en el Aeropuerto de Madrid
+12:14:10--El avión con ID VA-0012 ha despegado con éxito desde el Aeropuerto de Madrid
+12:14:10--El autobús con ID B-0074 yendo hacia el Aeropuerto de Madrid con 5 pasajeros.
+12:14:10--El avión con ID: ER-0015 ha salido del hangar del Aeropuerto de Barcelona
+12:14:10--El avión con ID: ER-0015 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:10--El autobús con ID B-0075 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--Han salido 33 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1711
+12:14:10--El autobús con ID B-0037 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--Han entrado 18 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1729
+12:14:10--El autobús con ID B-0015 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--Han entrado 42 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1771
+12:14:10--El autobús con ID B-0061 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--Han entrado 27 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1798
+12:14:10--El autobús con ID B-0065 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--Han salido 31 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1767
+12:14:10--El autobús con ID B-0057 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--Han salido 36 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1731
+12:14:10--El autobús con ID B-0077 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--Se ha liberado la pista 1 del Aeropuerto de Barcelona
+12:14:10--El avión con ID GE-0002 ha salido de la pista.
+12:14:10--Avión con ID GE-0002 ha dejado la aerovía aeroviaMadridBarcelona . Total aviones en ruta: 4
+12:14:10--Han salido 34 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1697
+12:14:10--El autobús con ID B-0027 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--El autobús con ID B-0017 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--El avión con ID: QU-0013 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:14:10--El autobús con ID B-0031 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--El autobús con ID B-0052 yendo hacia el Aeropuerto de Madrid con 11 pasajeros.
+12:14:10--Han entrado 39 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1736
+12:14:10--El autobús con ID B-0059 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--El autobús con ID B-0079 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--Han salido 20 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1716
+12:14:10--El autobús con ID B-0007 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--Avión con ID OY-0010 usando aerovía aeroviaMadridBarcelona . Total aviones en ruta: 5
+12:14:10--El avión con ID OY-0010 está volando hacia Aeropuerto de Barcelona
+12:14:10--Han entrado 11 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1727
+12:14:10--El autobús con ID B-0019 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:10--El autobús con ID B-0033 yendo hacia el Aeropuerto de Barcelona con 38 pasajeros.
+12:14:10--El autobús con ID B-0073 yendo hacia el Aeropuerto de Barcelona con 49 pasajeros.
+12:14:11--El autobús con ID B-0018 yendo hacia el Aeropuerto de Madrid con 23 pasajeros.
+12:14:11--El autobús con ID B-0070 yendo hacia el Aeropuerto de Madrid con 33 pasajeros.
+12:14:11--Han salido 47 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1680
+12:14:11--El autobús con ID B-0055 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:11--El autobús con ID B-0050 yendo hacia el Aeropuerto de Madrid con 36 pasajeros.
+12:14:11--Han salido 42 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1638
+12:14:11--El autobús con ID B-0001 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:11--Han entrado 2 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1640
+12:14:11--El autobús con ID B-0049 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:11--El autobús con ID B-0012 yendo hacia el Aeropuerto de Madrid con 3 pasajeros.
+12:14:11--El autobús con ID B-0044 yendo hacia el Aeropuerto de Madrid con 16 pasajeros.
+12:14:11--El autobús con ID B-0042 yendo hacia el Aeropuerto de Madrid con 5 pasajeros.
+12:14:11--Han entrado 4 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1644
+12:14:11--El autobús con ID B-0023 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:12--El autobús con ID B-0081 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:12--Avión con ID GO-0011 usando aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 4
+12:14:12--El avión con ID GO-0011 está volando hacia Aeropuerto de Madrid
+12:14:12--El autobús con ID B-0010 yendo hacia el Aeropuerto de Madrid con 49 pasajeros.
+12:14:12--Han entrado 11 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1655
+12:14:12--El autobús con ID B-0047 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:12--El avión con ID: ER-0015 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:12--Avión con ID ER-0015 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Barcelona
+12:14:12--El autobús con ID B-0076 yendo hacia el Aeropuerto de Madrid con 15 pasajeros.
+12:14:12--El autobús con ID B-0008 yendo hacia el Aeropuerto de Madrid con 40 pasajeros.
+12:14:12--El autobús con ID B-0040 yendo hacia el Aeropuerto de Madrid con 47 pasajeros.
+12:14:12--El autobús con ID B-0017 yendo hacia el Aeropuerto de Barcelona con 2 pasajeros.
+12:14:12--El autobús con ID B-0078 yendo hacia el Aeropuerto de Madrid con 14 pasajeros.
+12:14:12--El autobús con ID B-0007 yendo hacia el Aeropuerto de Barcelona con 10 pasajeros.
+12:14:13--El autobús con ID B-0037 yendo hacia el Aeropuerto de Barcelona con 22 pasajeros.
+12:14:13--El autobús con ID B-0031 yendo hacia el Aeropuerto de Barcelona con 34 pasajeros.
+12:14:13--El autobús con ID B-0027 yendo hacia el Aeropuerto de Barcelona con 1 pasajeros.
+12:14:10--La puerta de embarque del avión con ID ÑE-0014 en el Aeropuerto de Madrid se cierra. No se admiten más pasajeros
+12:14:13--El autobús con ID B-0075 yendo hacia el Aeropuerto de Barcelona con 44 pasajeros.
+12:14:14--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Barcelona
+12:14:14--Han salido 39 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1616
+12:14:14--El autobús con ID B-0059 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--Han entrado 38 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1654
+12:14:14--El autobús con ID B-0071 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--El avión con ID: GE-0002 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:14:14--El autobús con ID B-0083 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--Han entrado 11 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1665
+12:14:14--El autobús con ID B-0063 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--Han salido 29 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1636
+12:14:14--El autobús con ID B-0065 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--Han salido 34 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1602
+12:14:14--El autobús con ID B-0015 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--Han entrado 25 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1627
+12:14:14--El autobús con ID B-0039 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--Han entrado 41 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1668
+12:14:14--El autobús con ID B-0029 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:12--Se le ha asignado la pista 0 al avión con ID: QU-0013 en el Aeropuerto de Barcelona
+12:14:14--Han entrado 49 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1717
+12:14:14--El autobús con ID B-0021 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--Han entrado 19 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1736
+12:14:14--El autobús con ID B-0013 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--El avión con ID: QU-0013 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:14:14--El avión con ID: ER-0015 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:14:14--Han entrado 24 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1760
+12:14:14--El autobús con ID B-0005 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--Han salido 1 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1759
+12:14:14--El autobús con ID B-0019 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--El autobús con ID B-0001 yendo hacia el Aeropuerto de Barcelona con 45 pasajeros.
+12:14:14--Han entrado 23 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1782
+12:14:14--El autobús con ID B-0051 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--Han entrado 36 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1818
+12:14:14--El autobús con ID B-0003 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--El autobús con ID B-0077 yendo hacia el Aeropuerto de Barcelona con 24 pasajeros.
+12:14:14--Han salido 41 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1777
+12:14:14--El autobús con ID B-0061 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:14--El autobús con ID B-0055 yendo hacia el Aeropuerto de Barcelona con 32 pasajeros.
+12:14:15--El autobús con ID B-0081 yendo hacia el Aeropuerto de Barcelona con 29 pasajeros.
+12:14:15--El autobús con ID B-0057 yendo hacia el Aeropuerto de Barcelona con 42 pasajeros.
+12:14:15--El autobús con ID B-0085 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:15--Han entrado 5 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1782
+12:14:15--El autobús con ID B-0041 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:15--Han entrado 31 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1813
+12:14:15--El autobús con ID B-0043 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:15--El autobús con ID B-0079 yendo hacia el Aeropuerto de Barcelona con 29 pasajeros.
+12:14:15--Han entrado 5 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1818
+12:14:15--El autobús con ID B-0067 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:15--Han salido 48 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1770
+12:14:15--El autobús con ID B-0023 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:15--Han entrado 21 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1791
+12:14:15--El autobús con ID B-0011 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:16--El avión con ID QU-0013 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Barcelona
+12:14:16--El avión con ID QU-0013 ha accedido a una pista y está despegando en el Aeropuerto de Barcelona
+12:14:16--El avión con ID QU-0013 ha despegado con éxito desde el Aeropuerto de Barcelona
+12:14:16--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:14:16--El avión con ID QU-0013 ha salido de la pista.
+12:14:16--Han entrado 16 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1807
+12:14:16--El autobús con ID B-0009 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:16--Se le ha asignado la pista 0 al avión con ID: ER-0015 en el Aeropuerto de Barcelona
+12:14:16--El avión con ID: ER-0015 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:14:16--El autobús con ID B-0087 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:16--Han salido 42 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1765
+12:14:16--El autobús con ID B-0049 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:16--Han salido 30 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1735
+12:14:16--El autobús con ID B-0047 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:16--El autobús con ID B-0019 yendo hacia el Aeropuerto de Barcelona con 29 pasajeros.
+12:14:16--Han entrado 49 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1784
+12:14:16--El autobús con ID B-0073 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:16--Han salido 43 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1741
+12:14:16--El autobús con ID B-0005 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:16--El autobús con ID B-0065 yendo hacia el Aeropuerto de Barcelona con 18 pasajeros.
+12:14:17--El autobús con ID B-0015 yendo hacia el Aeropuerto de Barcelona con 17 pasajeros.
+12:14:17--Han entrado 45 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1786
+12:14:17--El autobús con ID B-0045 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:17--Han salido 37 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1749
+12:14:17--El autobús con ID B-0063 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:17--Han salido 28 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1721
+12:14:17--El autobús con ID B-0051 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:17--Avión con ID GE-0002 ha entrado en la puerta 2 del tipo DESEMBARQUE en Aeropuerto de Barcelona
+12:14:17--Han entrado 225 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1492
+12:14:17--Del avión con ID GE-0002 se han bajado 253 pasajeros en el Aeropuerto de Madrid
+12:14:17--El avión con ID: GE-0002 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:14:17--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Madrid
+12:14:17--Han entrado 36 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1528
+12:14:17--El autobús con ID B-0050 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--El autobús con ID B-0088 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han entrado 9 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1537
+12:14:17--El autobús con ID B-0000 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han entrado 16 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1553
+12:14:17--El autobús con ID B-0026 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han entrado 23 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1576
+12:14:17--El autobús con ID B-0018 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--El autobús con ID B-0086 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han entrado 3 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1579
+12:14:17--El autobús con ID B-0014 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--El autobús con ID B-0084 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han entrado 41 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1620
+12:14:17--El autobús con ID B-0068 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han entrado 27 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1647
+12:14:17--El autobús con ID B-0024 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han salido 16 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1631
+12:14:17--El avión con ID: SJ-0001 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:14:17--Han entrado 20 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1651
+12:14:17--El autobús con ID B-0064 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--El autobús con ID B-0082 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han salido 14 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1637
+12:14:17--El autobús con ID B-0028 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han salido 7 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1630
+12:14:17--El autobús con ID B-0034 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han salido 9 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1621
+12:14:17--El autobús con ID B-0062 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:12--Se le ha asignado la pista 2 al avión con ID: JW-0005 en el Aeropuerto de Madrid
+12:14:17--Han salido 40 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1581
+12:14:17--El avión con ID JW-0005 está solicitando una pista para aterrizar en el Aeropuerto de Madrid
+12:14:17--El autobús con ID B-0058 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han entrado 33 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1614
+12:14:17--El avión con ID JW-0005 ha accedido a una pista y está aterrizando en el Aeropuerto de Madrid
+12:14:17--El avión con ID JW-0005 ha aterrizado en el Aeropuerto de Madrid
+12:14:17--El autobús con ID B-0048 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Se ha liberado la pista 2 del Aeropuerto de Madrid
+12:14:17--El avión con ID JW-0005 ha salido de la pista.
+12:14:17--Avión con ID JW-0005 ha dejado la aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 3
+12:14:17--Han entrado 27 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1641
+12:14:17--El autobús con ID B-0046 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han salido 34 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1607
+12:14:17--El autobús con ID B-0002 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han salido 37 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1570
+12:14:17--El autobús con ID B-0080 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--El autobús con ID B-0059 yendo hacia el Aeropuerto de Barcelona con 17 pasajeros.
+12:14:17--Han salido 43 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1527
+12:14:17--El autobús con ID B-0032 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han salido 32 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1495
+12:14:17--El autobús con ID B-0036 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:10--Se le ha asignado la pista 1 al avión con ID: TD-0007 en el Aeropuerto de Madrid
+12:14:17--El avión con ID TD-0007 está solicitando una pista para aterrizar en el Aeropuerto de Madrid
+12:14:17--El avión con ID TD-0007 ha accedido a una pista y está aterrizando en el Aeropuerto de Madrid
+12:14:17--El avión con ID TD-0007 ha aterrizado en el Aeropuerto de Madrid
+12:14:17--Han entrado 28 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1523
+12:14:17--Han salido 43 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1678
+12:14:17--El autobús con ID B-0029 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:17--El autobús con ID B-0016 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--Han salido 39 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1484
+12:14:17--Han salido 8 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1476
+12:14:17--El autobús con ID B-0054 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--El autobús con ID B-0006 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:17--El avión con ID: EJ-0016 está en el hangar del Aeropuerto de Madrid
+12:14:17--Se le ha asignado la pista 1 al avión con ID: PW-0000 en el Aeropuerto de Barcelona
+12:14:17--El avión con ID PW-0000 está solicitando una pista para aterrizar en el Aeropuerto de Barcelona
+12:14:17--El avión con ID PW-0000 ha accedido a una pista y está aterrizando en el Aeropuerto de Barcelona
+12:14:17--El avión con ID PW-0000 ha aterrizado en el Aeropuerto de Barcelona
+12:14:17--Se ha liberado la pista 1 del Aeropuerto de Barcelona
+12:14:17--El avión con ID PW-0000 ha salido de la pista.
+12:14:17--Avión con ID PW-0000 ha dejado la aerovía aeroviaMadridBarcelona . Total aviones en ruta: 4
+12:14:17--Han entrado 8 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1686
+12:14:17--El avión con ID ER-0015 está realizando las últimas verificaciones antes del despegue en el Aeropuerto de Barcelona
+12:14:17--El avión con ID ER-0015 ha accedido a una pista y está despegando en el Aeropuerto de Barcelona
+12:14:17--El avión con ID ER-0015 ha despegado con éxito desde el Aeropuerto de Barcelona
+12:14:17--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:14:17--El avión con ID ER-0015 ha salido de la pista.
+12:14:17--El autobús con ID B-0053 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:18--Han salido 45 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1641
+12:14:18--El autobús con ID B-0067 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:18--Han entrado 10 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1651
+12:14:18--El autobús con ID B-0007 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:18--Han salido 44 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1607
+12:14:18--El autobús con ID B-0021 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:18--Avión con ID QU-0013 usando aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 4
+12:14:18--El avión con ID QU-0013 está volando hacia Aeropuerto de Madrid
+12:14:18--Han salido 24 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1583
+12:14:18--El autobús con ID B-0043 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:18--El autobús con ID B-0089 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:18--Han salido 27 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1556
+12:14:18--El autobús con ID B-0039 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:18--Han salido 24 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1532
+12:14:18--El autobús con ID B-0071 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:18--Han entrado 5 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1537
+12:14:18--El autobús con ID B-0069 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:18--El avión con ID: EJ-0016 ha salido del hangar del Aeropuerto de Madrid
+12:14:18--Han salido 48 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1428
+12:14:18--El autobús con ID B-0022 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--Han salido 39 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1389
+12:14:18--El autobús con ID B-0020 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--Se ha liberado la pista 0 del Aeropuerto de Madrid
+12:14:18--El avión con ID VA-0012 ha salido de la pista.
+12:14:18--Han salido 37 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1352
+12:14:18--El autobús con ID B-0056 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--Han entrado 24 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1376
+12:14:18--El autobús con ID B-0060 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--El avión con ID: MZ-0003 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:14:18--Han entrado 16 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1392
+12:14:18--El autobús con ID B-0066 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--Han salido 18 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1374
+12:14:18--El avión con ID: EJ-0016 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:14:18--El autobús con ID B-0090 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--Han entrado 47 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1421
+12:14:18--El autobús con ID B-0040 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--Han entrado 14 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1435
+12:14:18--El autobús con ID B-0078 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--Se ha liberado la pista 1 del Aeropuerto de Madrid
+12:14:18--El avión con ID TD-0007 ha salido de la pista.
+12:14:18--Avión con ID TD-0007 ha dejado la aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 3
+12:14:18--El autobús con ID B-0030 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--El autobús con ID B-0038 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--El avión con ID: ÑE-0014 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:14:18--El autobús con ID B-0004 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:18--El avión con ID: CI-0017 está en el hangar del Aeropuerto de Barcelona
+12:14:18--El autobús con ID B-0087 yendo hacia el Aeropuerto de Barcelona con 20 pasajeros.
+12:14:18--El autobús con ID B-0061 yendo hacia el Aeropuerto de Barcelona con 28 pasajeros.
+12:14:18--El autobús con ID B-0083 yendo hacia el Aeropuerto de Barcelona con 11 pasajeros.
+12:14:18--Puerta 2 del tipo DESEMBARQUE liberada del Aeropuerto de Barcelona
+12:14:18--Han entrado 40 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1475
+12:14:19--El autobús con ID B-0008 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:19--El autobús con ID B-0023 yendo hacia el Aeropuerto de Barcelona con 24 pasajeros.
+12:14:19--Han entrado 38 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1513
+12:14:19--El autobús con ID B-0072 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:19--Han entrado 3 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1516
+12:14:19--El autobús con ID B-0012 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:19--Han entrado 5 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1521
+12:14:19--El autobús con ID B-0074 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:19--Han entrado 16 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1537
+12:14:19--El autobús con ID B-0044 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:19--El autobús con ID B-0085 yendo hacia el Aeropuerto de Barcelona con 22 pasajeros.
+12:14:19--El autobús con ID B-0036 yendo hacia el Aeropuerto de Madrid con 35 pasajeros.
+12:14:19--Han entrado 5 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1542
+12:14:19--El autobús con ID B-0042 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:19--El avión con ID: CI-0017 ha salido del hangar del Aeropuerto de Barcelona
+12:14:19--El avión con ID: CI-0017 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:19--Han entrado 34 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1571
+12:14:19--El autobús con ID B-0031 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:19--El autobús con ID B-0091 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:19--Han salido 41 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1530
+12:14:19--El autobús con ID B-0003 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:19--Han entrado 27 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1557
+12:14:19--El autobús con ID B-0025 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:19--Han entrado 44 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1601
+12:14:19--El autobús con ID B-0075 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:19--Han salido 7 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1594
+12:14:19--El avión con ID: GE-0002 ha entrado en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:19--Han entrado 28 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1622
+12:14:19--El autobús con ID B-0035 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:19--Han salido 7 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1615
+12:14:19--El autobús con ID B-0013 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:19--El autobús con ID B-0041 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:19--El autobús con ID B-0084 yendo hacia el Aeropuerto de Madrid con 6 pasajeros.
+12:14:19--Han salido 41 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1501
+12:14:19--El autobús con ID B-0064 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:20--El avión con ID: JW-0005 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:14:20--Han salido 14 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1601
+12:14:20--El autobús con ID B-0045 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:20--Han entrado 11 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1512
+12:14:20--El autobús con ID B-0052 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:20--El autobús con ID B-0092 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:20--Han salido 30 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1571
+12:14:20--El autobús con ID B-0009 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:20--El autobús con ID B-0067 yendo hacia el Aeropuerto de Barcelona con 22 pasajeros.
+12:14:20--Han salido 29 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1483
+12:14:20--El autobús con ID B-0024 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:20--Han entrado 1 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1572
+12:14:20--El autobús con ID B-0027 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:20--El avión con ID: EJ-0016 ha salido en el área de estacionamiento del Aeropuerto de Madrid
+12:14:20--Avión con ID EJ-0016 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Madrid
+12:14:20--En el avión con ID EJ-0016 se han subido 189 pasajeros en el Aeropuerto de Madrid
+12:14:20--El autobús con ID B-0058 yendo hacia el Aeropuerto de Madrid con 45 pasajeros.
+12:14:20--El autobús con ID B-0049 yendo hacia el Aeropuerto de Barcelona con 36 pasajeros.
+12:14:20--El autobús con ID B-0029 yendo hacia el Aeropuerto de Barcelona con 4 pasajeros.
+12:14:20--Han salido 35 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1537
+12:14:20--El autobús con ID B-0073 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:20--Han entrado 38 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1575
+12:14:20--El autobús con ID B-0033 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:20--El avión con ID: PW-0000 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:14:20--El autobús con ID B-0051 yendo hacia el Aeropuerto de Barcelona con 24 pasajeros.
+12:14:20--El autobús con ID B-0071 yendo hacia el Aeropuerto de Barcelona con 39 pasajeros.
+12:14:20--El autobús con ID B-0080 yendo hacia el Aeropuerto de Madrid con 36 pasajeros.
+12:14:20--Han entrado 29 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1604
+12:14:20--El autobús con ID B-0081 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:20--Han salido 20 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1584
+12:14:20--El autobús con ID B-0011 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:20--El autobús con ID B-0062 yendo hacia el Aeropuerto de Madrid con 5 pasajeros.
+12:14:20--Han salido 11 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1573
+12:14:20--El autobús con ID B-0007 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:20--Han entrado 29 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1602
+12:14:20--El autobús con ID B-0079 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:21--El autobús con ID B-0034 yendo hacia el Aeropuerto de Madrid con 31 pasajeros.
+12:14:21--Han entrado 24 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1626
+12:14:21--El autobús con ID B-0077 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:21--Se le ha asignado la pista 0 al avión con ID: ZR-0006 en el Aeropuerto de Barcelona
+12:14:21--El avión con ID ZR-0006 está solicitando una pista para aterrizar en el Aeropuerto de Barcelona
+12:14:21--El avión con ID ZR-0006 ha accedido a una pista y está aterrizando en el Aeropuerto de Barcelona
+12:14:21--El avión con ID ZR-0006 ha aterrizado en el Aeropuerto de Barcelona
+12:14:21--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:14:21--El avión con ID ZR-0006 ha salido de la pista.
+12:14:21--Avión con ID ZR-0006 ha dejado la aerovía aeroviaMadridBarcelona . Total aviones en ruta: 3
+12:14:21--El autobús con ID B-0093 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:21--El autobús con ID B-0047 yendo hacia el Aeropuerto de Barcelona con 45 pasajeros.
+12:14:21--El autobús con ID B-0032 yendo hacia el Aeropuerto de Madrid con 47 pasajeros.
+12:14:21--Han salido 2 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1624
+12:14:21--El autobús con ID B-0063 yendo hacia el Aeropuerto de Barcelona con 21 pasajeros.
+12:14:21--El autobús con ID B-0069 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:21--El autobús con ID B-0006 yendo hacia el Aeropuerto de Madrid con 41 pasajeros.
+12:14:21--El autobús con ID B-0028 yendo hacia el Aeropuerto de Madrid con 35 pasajeros.
+12:14:21--Avión con ID ER-0015 usando aerovía aeroviaBarcelonaMadrid . Total aviones en ruta: 4
+12:14:21--El avión con ID ER-0015 está volando hacia Aeropuerto de Madrid
+12:14:21--El autobús con ID B-0038 yendo hacia el Aeropuerto de Madrid con 48 pasajeros.
+12:14:21--El autobús con ID B-0005 yendo hacia el Aeropuerto de Barcelona con 39 pasajeros.
+12:14:21--El autobús con ID B-0082 yendo hacia el Aeropuerto de Madrid con 31 pasajeros.
+12:14:21--Han entrado 22 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1646
+12:14:21--El autobús con ID B-0037 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:21--El autobús con ID B-0086 yendo hacia el Aeropuerto de Madrid con 35 pasajeros.
+12:14:21--Han entrado 29 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1675
+12:14:21--El autobús con ID B-0019 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:21--Han salido 8 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1667
+12:14:21--El autobús con ID B-0053 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:21--El autobús con ID B-0043 yendo hacia el Aeropuerto de Barcelona con 32 pasajeros.
+12:14:21--El autobús con ID B-0089 yendo hacia el Aeropuerto de Barcelona con 30 pasajeros.
+12:14:22--El autobús con ID B-0064 yendo hacia el Aeropuerto de Madrid con 36 pasajeros.
+12:14:22--Han entrado 2 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1669
+12:14:22--El autobús con ID B-0017 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:22--El autobús con ID B-0030 yendo hacia el Aeropuerto de Madrid con 31 pasajeros.
+12:14:22--El autobús con ID B-0095 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:22--El autobús con ID B-0054 yendo hacia el Aeropuerto de Madrid con 23 pasajeros.
+12:14:22--Han entrado 32 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1701
+12:14:22--El autobús con ID B-0055 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:22--El autobús con ID B-0039 yendo hacia el Aeropuerto de Barcelona con 19 pasajeros.
+12:14:22--El autobús con ID B-0002 yendo hacia el Aeropuerto de Madrid con 25 pasajeros.
+12:14:22--El autobús con ID B-0045 yendo hacia el Aeropuerto de Barcelona con 9 pasajeros.
+12:14:22--El avión con ID: GE-0002 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:22--El autobús con ID B-0004 yendo hacia el Aeropuerto de Madrid con 9 pasajeros.
+12:14:22--El autobús con ID B-0088 yendo hacia el Aeropuerto de Madrid con 22 pasajeros.
+12:14:22--El autobús con ID B-0022 yendo hacia el Aeropuerto de Madrid con 46 pasajeros.
+12:14:22--El avión con ID: CI-0017 ha salido en el área de estacionamiento del Aeropuerto de Barcelona
+12:14:22--Avión con ID CI-0017 ha entrado en la puerta 1 del tipo EMBARQUE en Aeropuerto de Barcelona
+12:14:22--En el avión con ID CI-0017 se han subido 201 pasajeros en el Aeropuerto de Barcelona
+12:14:22--Avión con ID VA-0012 usando aerovía aeroviaMadridBarcelona . Total aviones en ruta: 4
+12:14:22--El avión con ID VA-0012 está volando hacia Aeropuerto de Barcelona
+12:14:22--El autobús con ID B-0021 yendo hacia el Aeropuerto de Barcelona con 44 pasajeros.
+12:14:22--El autobús con ID B-0092 yendo hacia el Aeropuerto de Madrid con 34 pasajeros.
+12:14:20--La puerta de embarque del avión con ID EJ-0016 en el Aeropuerto de Madrid se cierra. No se admiten más pasajeros
+12:14:22--El autobús con ID B-0041 yendo hacia el Aeropuerto de Barcelona con 7 pasajeros.
+12:14:23--El autobús con ID B-0073 yendo hacia el Aeropuerto de Barcelona con 8 pasajeros.
+12:14:23--El autobús con ID B-0056 yendo hacia el Aeropuerto de Madrid con 23 pasajeros.
+12:14:23--El autobús con ID B-0090 yendo hacia el Aeropuerto de Madrid con 45 pasajeros.
+12:14:23--El autobús con ID B-0020 yendo hacia el Aeropuerto de Madrid con 30 pasajeros.
+12:14:23--El autobús con ID B-0093 yendo hacia el Aeropuerto de Barcelona con 26 pasajeros.
+12:14:24--El autobús con ID B-0003 yendo hacia el Aeropuerto de Barcelona con 15 pasajeros.
+12:14:24--El autobús con ID B-0091 yendo hacia el Aeropuerto de Barcelona con 36 pasajeros.
+12:14:24--El autobús con ID B-0011 yendo hacia el Aeropuerto de Barcelona con 21 pasajeros.
+12:14:24--El autobús con ID B-0013 yendo hacia el Aeropuerto de Barcelona con 35 pasajeros.
+12:14:24--El autobús con ID B-0009 yendo hacia el Aeropuerto de Barcelona con 35 pasajeros.
+12:14:24--El autobús con ID B-0053 yendo hacia el Aeropuerto de Barcelona con 21 pasajeros.
+12:14:25--El autobús con ID B-0007 yendo hacia el Aeropuerto de Barcelona con 27 pasajeros.
+12:14:25--El autobús con ID B-0024 yendo hacia el Aeropuerto de Madrid con 32 pasajeros.
+12:14:22--La puerta de embarque del avión con ID CI-0017 en el Aeropuerto de Barcelona se cierra. No se admiten más pasajeros
+12:14:25--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Madrid
+12:14:25--Han salido 25 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1458
+12:14:25--El autobús con ID B-0012 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:25--El autobús con ID B-0098 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:25--Han salido 45 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1413
+12:14:25--Han salido 32 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1381
+12:14:25--El autobús con ID B-0072 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:23--Se le ha asignado la pista 1 al avión con ID: OG-0009 en el Aeropuerto de Madrid
+12:14:25--Avión con ID JW-0005 ha entrado en la puerta 2 del tipo DESEMBARQUE en Aeropuerto de Madrid
+12:14:25--El avión con ID OG-0009 está solicitando una pista para aterrizar en el Aeropuerto de Madrid
+12:14:25--Han entrado 253 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1954
+12:14:25--El avión con ID OG-0009 ha accedido a una pista y está aterrizando en el Aeropuerto de Madrid
+12:14:25--Del avión con ID JW-0005 se han bajado 189 pasajeros en el Aeropuerto de Barcelona
+12:14:25--El avión con ID OG-0009 ha aterrizado en el Aeropuerto de Madrid
+12:14:25--El avión con ID: JW-0005 ha salido del área de rodaje del Aeropuerto de Madrid
+12:14:25--El avión con ID: MZ-0003 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:14:25--El avión con ID: MZ-0003 está en el hangar del Aeropuerto de Madrid
+12:14:25--El autobús con ID B-0069 yendo hacia el Aeropuerto de Barcelona con 19 pasajeros.
+12:14:26--El autobús con ID B-0095 yendo hacia el Aeropuerto de Barcelona con 37 pasajeros.
+12:14:26--El avión con ID: MZ-0003 ha salido del hangar del Aeropuerto de Madrid
+12:14:26--El avión con ID: MZ-0003 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:14:26--Han salido 24 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1357
+12:14:26--El autobús con ID B-0044 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:26--El autobús con ID B-0096 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:26--Han salido 28 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1329
+12:14:26--El autobús con ID B-0040 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:26--Han salido 26 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1303
+12:14:26--Han salido 49 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1254
+12:14:26--El autobús con ID B-0068 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:26--Han salido 48 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1206
+12:14:26--El autobús con ID B-0052 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:26--El avión con ID: SJ-0001 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:14:26--El avión con ID: SJ-0001 está en el hangar del Aeropuerto de Madrid
+12:14:26--Puerta 1 del tipo EMBARQUE liberada del Aeropuerto de Barcelona
+12:14:26--El autobús con ID B-0101 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:26--Han salido 42 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1912
+12:14:26--El autobús con ID B-0055 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:26--Han entrado 24 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1936
+12:14:26--El autobús con ID B-0023 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:26--Han salido 17 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1919
+12:14:26--El autobús con ID B-0037 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:26--Han salido 2 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1917
+12:14:26--Han salido 8 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1909
+12:14:26--El autobús con ID B-0079 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:26--El avión con ID: GE-0002 está en el hangar del Aeropuerto de Barcelona
+12:14:27--El avión con ID: SJ-0001 ha salido del hangar del Aeropuerto de Madrid
+12:14:27--El avión con ID: SJ-0001 ha entrado en el área de estacionamiento del Aeropuerto de Madrid
+12:14:27--Han salido 2 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1204
+12:14:27--El autobús con ID B-0046 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 19 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1185
+12:14:27--El autobús con ID B-0074 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 28 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1157
+12:14:27--El autobús con ID B-0078 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--El avión con ID: TD-0007 ha entrado en el área de rodaje del Aeropuerto de Madrid
+12:14:27--El autobús con ID B-0094 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 36 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1121
+12:14:27--El autobús con ID B-0008 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 15 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1106
+12:14:27--El autobús con ID B-0048 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 39 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1067
+12:14:27--El autobús con ID B-0014 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 20 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1047
+12:14:27--El autobús con ID B-0026 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han entrado 49 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1096
+12:14:27--El autobús con ID B-0010 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 40 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1056
+12:14:27--El autobús con ID B-0066 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han entrado 15 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1071
+12:14:27--El autobús con ID B-0076 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han entrado 33 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1104
+12:14:27--El autobús con ID B-0070 se encuentra en el Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:20--Se le ha asignado la pista 0 al avión con ID: ÑE-0014 en el Aeropuerto de Madrid
+12:14:27--Han salido 5 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1099
+12:14:27--El autobús con ID B-0016 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 25 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1074
+12:14:27--El autobús con ID B-0000 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 14 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1060
+12:14:27--El autobús con ID B-0050 se encuentra en la parada del centro de Aeropuerto de Madrid esperando nuevos pasajeros.
+12:14:27--Han salido 23 pasajeros del Aeropuerto de Madrid . Total de pasajeros: 1037
+12:14:27--El avión con ID: CC-0018 está en el hangar del Aeropuerto de Madrid
+12:14:27--Han salido 48 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1861
+12:14:27--Han entrado 28 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1889
+12:14:27--El autobús con ID B-0061 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 20 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1909
+12:14:27--El autobús con ID B-0099 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--El autobús con ID B-0087 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 18 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1927
+12:14:27--El autobús con ID B-0065 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 17 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1944
+12:14:27--El autobús con ID B-0059 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han salido 11 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1933
+12:14:27--El autobús con ID B-0033 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han salido 22 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1911
+12:14:27--El autobús con ID B-0017 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han salido 1 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1910
+12:14:27--El autobús con ID B-0075 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Avión con ID PW-0000 ha entrado en la puerta 2 del tipo DESEMBARQUE en Aeropuerto de Barcelona
+12:14:27--Han entrado 137 pasajeros en el Aeropuerto de Madrid . Total de pasajeros: 1174
+12:14:27--Del avión con ID PW-0000 se han bajado 201 pasajeros en el Aeropuerto de Madrid
+12:14:27--El avión con ID: PW-0000 ha salido del área de rodaje del Aeropuerto de Barcelona
+12:14:27--Han salido 2 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1908
+12:14:27--El autobús con ID B-0031 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 11 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1919
+12:14:27--El autobús con ID B-0083 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--El autobús con ID B-0097 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 45 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1964
+12:14:27--El autobús con ID B-0001 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 17 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1981
+12:14:27--El autobús con ID B-0015 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han salido 14 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1967
+12:14:27--El autobús con ID B-0035 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han salido 25 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1942
+12:14:27--El autobús con ID B-0027 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han salido 3 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1939
+12:14:27--El autobús con ID B-0081 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--El avión con ID: ZR-0006 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:14:23--Se le ha asignado la pista 0 al avión con ID: PG-0004 en el Aeropuerto de Barcelona
+12:14:27--Han salido 11 pasajeros del Aeropuerto de Barcelona . Total de pasajeros: 1928
+12:14:27--El avión con ID PG-0004 está solicitando una pista para aterrizar en el Aeropuerto de Barcelona
+12:14:27--El avión con ID PG-0004 ha accedido a una pista y está aterrizando en el Aeropuerto de Barcelona
+12:14:27--El autobús con ID B-0025 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 42 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1970
+12:14:27--El avión con ID PG-0004 ha aterrizado en el Aeropuerto de Barcelona
+12:14:27--El autobús con ID B-0057 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--El autobús con ID B-0077 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 22 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 1992
+12:14:27--El autobús con ID B-0085 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Se le ha asignado la pista 2 al avión con ID: AD-0008 en el Aeropuerto de Barcelona
+12:14:27--Han entrado 45 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 2037
+12:14:27--El avión con ID AD-0008 está solicitando una pista para aterrizar en el Aeropuerto de Barcelona
+12:14:27--El autobús con ID B-0047 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 32 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 2069
+12:14:27--El avión con ID AD-0008 ha accedido a una pista y está aterrizando en el Aeropuerto de Barcelona
+12:14:27--El avión con ID AD-0008 ha aterrizado en el Aeropuerto de Barcelona
+12:14:27--El autobús con ID B-0043 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--Han entrado 30 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 2099
+12:14:27--El autobús con ID B-0089 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:26--Se le ha asignado la pista 1 al avión con ID: OY-0010 en el Aeropuerto de Barcelona
+12:14:27--El autobús con ID B-0019 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:27--El avión con ID: CI-0017 ha entrado en el área de rodaje del Aeropuerto de Barcelona
+12:14:27--El avión con ID OY-0010 está solicitando una pista para aterrizar en el Aeropuerto de Barcelona
+12:14:27--El avión con ID OY-0010 ha accedido a una pista y está aterrizando en el Aeropuerto de Barcelona
+12:14:27--El avión con ID OY-0010 ha aterrizado en el Aeropuerto de Barcelona
+12:14:27--Se ha liberado la pista 2 del Aeropuerto de Barcelona
+12:14:27--El avión con ID AD-0008 ha salido de la pista.
+12:14:27--Avión con ID AD-0008 ha dejado la aerovía aeroviaMadridBarcelona . Total aviones en ruta: 3
+12:14:27--Se ha liberado la pista 0 del Aeropuerto de Barcelona
+12:14:27--El avión con ID PG-0004 ha salido de la pista.
+12:14:27--Se ha liberado la pista 1 del Aeropuerto de Barcelona
+12:14:27--Avión con ID PG-0004 ha dejado la aerovía aeroviaMadridBarcelona . Total aviones en ruta: 2
+12:14:27--El avión con ID OY-0010 ha salido de la pista.
+12:14:27--Avión con ID OY-0010 ha dejado la aerovía aeroviaMadridBarcelona . Total aviones en ruta: 1
+12:14:28--Puerta 2 del tipo DESEMBARQUE liberada del Aeropuerto de Madrid
+12:14:28--El autobús con ID B-0072 yendo hacia el Aeropuerto de Madrid con 18 pasajeros.
+12:14:28--Han entrado 36 pasajeros en el Aeropuerto de Barcelona . Total de pasajeros: 2135
+12:14:28--El autobús con ID B-0049 se encuentra en el Aeropuerto de Barcelona esperando nuevos pasajeros.
+12:14:28--El autobús con ID B-0103 se encuentra en la parada del centro de Aeropuerto de Barcelona esperando nuevos pasajeros.
