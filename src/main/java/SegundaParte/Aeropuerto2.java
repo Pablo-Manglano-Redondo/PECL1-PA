@@ -2,7 +2,6 @@ package SegundaParte;
 
 import PrimeraParte.Aeropuerto;
 import PrimeraParte.Aerovia;
-import PrimeraParte.ListaVehiculos;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
@@ -34,8 +33,12 @@ public class Aeropuerto2 extends UnicastRemoteObject implements AeropuertoRemoto
         return aero.getAvionesEnAeraRodaje();
     }
     
-    
     public String aerovia() throws RemoteException {
         return aerovia.getAerovia().obtenerLista();
+    }
+    
+    @Override
+    public void setEstadoPista(int pistaId, boolean estado) {
+        aero.setEstadoPistaAeropuerto[pistaId] = estado;
     }
 }

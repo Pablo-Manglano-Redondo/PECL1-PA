@@ -1,6 +1,5 @@
 package SegundaParte;
 
-import PrimeraParte.ListaVehiculos;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
@@ -12,5 +11,5 @@ public interface AeropuertoRemoto extends Remote{
     public int avionesEnAreaEstacionamiento() throws RemoteException;
     public int avionesEnAreaRodaje() throws RemoteException;
     public String aerovia() throws RemoteException;
-    
+    public void setEstadoPista(int pistaId, boolean estado) throws RemoteException;
 }

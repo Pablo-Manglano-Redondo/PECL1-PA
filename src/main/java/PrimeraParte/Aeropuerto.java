@@ -40,6 +40,7 @@ public class Aeropuerto {
     private List<ListaVehiculos> pistas;
     private List<ListaVehiculos> gates;
     private LocalTime horaActual;
+    public boolean[] setEstadoPistaAeropuerto;
  
     // ------------------------------------------------------------------------------------------------------------------------------------------------------
     // -------------------------------------- CONSTRUCTOR CON LOS JTEXTFIELDS PARA CONECTAR CON LA INTERFAZ -------------------------------------------------
@@ -229,6 +230,14 @@ public class Aeropuerto {
             ea.escribirLog(h + ":" + m + ":" + s + "--Se ha liberado la pista " + indice + " del " + this.getNombreAeropuerto());
         }
         ea.escribirLog(h + ":" + m + ":" + s + "--El avión con ID " + a.getAvionId() + " ha salido de la pista.");
+    }
+
+    public boolean[] getEstadoPistas() {
+        return estadoPistas;
+    }
+    
+    public void setEstadoPistaAeropuerto(int pistaId, boolean estado) {
+        this.estadoPistas[pistaId] = estado;
     }
     
     // ------------------------------------------------------------------------------------------------------------------------------------------------------

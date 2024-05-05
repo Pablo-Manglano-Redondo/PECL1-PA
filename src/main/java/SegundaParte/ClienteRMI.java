@@ -1,15 +1,9 @@
 package SegundaParte;
 
-import PrimeraParte.Avion;
-import PrimeraParte.ListaVehiculos;
 import java.rmi.Naming;
-import java.util.List;
 import javax.swing.JTextField;
 
-
 public class ClienteRMI extends Thread{
-
-    private Avion a;
     
     private JTextField pasajerosAeropuerto;
     private JTextField hangar;
@@ -27,6 +21,15 @@ public class ClienteRMI extends Thread{
         this.areaRodaje = areaRodaje;
         this.aerovia = aerovia;
         this.l = l;
+    }
+    
+    public void setEstadoPista(int pistaId, boolean estado) {
+        try {
+            AeropuertoRemoto aeroR = (AeropuertoRemoto) Naming.lookup("//127.0.0.1/OR" + l);
+            aeroR.setEstadoPista(pistaId, estado);
+        } catch (Exception ex) {
+            ex.printStackTrace();  // Asegúrate de manejar correctamente las excepciones
+        }
     }
     
     public void run() {

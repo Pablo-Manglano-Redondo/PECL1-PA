@@ -564,66 +564,82 @@ public class InterfazCliente extends javax.swing.JFrame{
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         // Cerrar pista 2 madrid
+        cMadrid.setEstadoPista(1, false);
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
         // Abrir pista 2 madrid
+        cMadrid.setEstadoPista(1, true);
     }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
         // Cerrar pista 1 madrid
+        cMadrid.setEstadoPista(0, false);
     }//GEN-LAST:event_jRadioButton3ActionPerformed
 
     private void jRadioButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton4ActionPerformed
         // Abrir pista 1 madrid
+        cMadrid.setEstadoPista(0, true);
     }//GEN-LAST:event_jRadioButton4ActionPerformed
 
     private void jRadioButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton5ActionPerformed
         // Cerrar pista 3 madrid
+        cMadrid.setEstadoPista(2, false);
     }//GEN-LAST:event_jRadioButton5ActionPerformed
 
     private void jRadioButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton6ActionPerformed
         // Abrir pista 3 madrid
+        cMadrid.setEstadoPista(2, true);
     }//GEN-LAST:event_jRadioButton6ActionPerformed
 
     private void jRadioButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton7ActionPerformed
         // Cerrar pista 4 madrid
+        cMadrid.setEstadoPista(3, false);
     }//GEN-LAST:event_jRadioButton7ActionPerformed
 
     private void jRadioButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton8ActionPerformed
         // Abrir pista 4 madrid
+        cMadrid.setEstadoPista(3, true);
     }//GEN-LAST:event_jRadioButton8ActionPerformed
 
     private void jRadioButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton9ActionPerformed
         // Abrir pista 4 barcelona
+        cBarcelona.setEstadoPista(3, true);
     }//GEN-LAST:event_jRadioButton9ActionPerformed
 
     private void jRadioButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton10ActionPerformed
         // Cerrar pista 2 barcelona
+        cBarcelona.setEstadoPista(1, false);
     }//GEN-LAST:event_jRadioButton10ActionPerformed
 
     private void jRadioButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton11ActionPerformed
         // Abrir pista 2 barcelona
+        cBarcelona.setEstadoPista(1, true);
     }//GEN-LAST:event_jRadioButton11ActionPerformed
 
     private void jRadioButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton12ActionPerformed
         // Cerrar pista 1 barcelona
+        cBarcelona.setEstadoPista(0, false);
     }//GEN-LAST:event_jRadioButton12ActionPerformed
 
     private void jRadioButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton13ActionPerformed
         // Abrir pista 1 barcelona
+        cBarcelona.setEstadoPista(0, true);
     }//GEN-LAST:event_jRadioButton13ActionPerformed
 
     private void jRadioButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton14ActionPerformed
         // Cerrar pista 3 barcelona
+        cBarcelona.setEstadoPista(2, false);
     }//GEN-LAST:event_jRadioButton14ActionPerformed
 
     private void jRadioButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton15ActionPerformed
         // Abrir pista 3 barcelona
+        cBarcelona.setEstadoPista(2, true);
     }//GEN-LAST:event_jRadioButton15ActionPerformed
 
     private void jRadioButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton16ActionPerformed
         // Cerrar pista 4 barcelona
+        cBarcelona.setEstadoPista(3, false);
     }//GEN-LAST:event_jRadioButton16ActionPerformed
 
     /**
@@ -658,6 +674,7 @@ public class InterfazCliente extends javax.swing.JFrame{
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new InterfazCliente().setVisible(true);
+                
             }
         });
     }
