@@ -37,8 +37,8 @@ public class Aeropuerto2 extends UnicastRemoteObject implements AeropuertoRemoto
         return aerovia.getAerovia().obtenerLista();
     }
     
-    @Override
     public void setEstadoPista(int pistaId, boolean estado) {
-        aero.setEstadoPistaAeropuerto[pistaId] = estado;
+        System.out.println("Aeropuerto 2");
+        aero.setEstadoPistaAeropuerto(pistaId, estado);
     }
 }

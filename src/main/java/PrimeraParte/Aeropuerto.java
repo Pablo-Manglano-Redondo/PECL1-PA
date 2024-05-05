@@ -40,7 +40,6 @@ public class Aeropuerto {
     private List<ListaVehiculos> pistas;
     private List<ListaVehiculos> gates;
     private LocalTime horaActual;
-    public boolean[] setEstadoPistaAeropuerto;
  
     // ------------------------------------------------------------------------------------------------------------------------------------------------------
     // -------------------------------------- CONSTRUCTOR CON LOS JTEXTFIELDS PARA CONECTAR CON LA INTERFAZ -------------------------------------------------
@@ -237,6 +236,10 @@ public class Aeropuerto {
     }
     
     public void setEstadoPistaAeropuerto(int pistaId, boolean estado) {
+        System.out.println("El metodo funciona bien");
+        if (estadoPistas == null) {
+            estadoPistas[pistaId] = true; 
+        }
         this.estadoPistas[pistaId] = estado;
     }
     
