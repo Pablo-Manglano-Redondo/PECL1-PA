@@ -19,7 +19,7 @@ public class Aeropuerto {
     private int avionesEnTaller = 0;
     private int avionesEnAeraEstacionamiento = 0;
     private int avionesEnAeraRodaje = 0;
-    //
+
     private int pasajerosEnAvion = 0;
     private String nombre;
     private int pasajerosAeropuerto;
@@ -226,7 +226,7 @@ public class Aeropuerto {
         if (indice >= 0 && indice < pistasSem.length) {
             pistasSem[indice].release();
             pistas.get(indice).quitar(a.getAvionId());
-            ea.escribirLog(h + ":" + m + ":" + s + "--Se ha liberado la pista " + indice + " del " + this.getNombreAeropuerto());
+            ea.escribirLog(h + ":" + m + ":" + s + "--Se ha liberado la pista " + indice + 1 + " del " + this.getNombreAeropuerto());
         }
         ea.escribirLog(h + ":" + m + ":" + s + "--El avión con ID " + a.getAvionId() + " ha salido de la pista.");
     }

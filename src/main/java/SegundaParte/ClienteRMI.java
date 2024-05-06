@@ -24,7 +24,6 @@ public class ClienteRMI extends Thread{
     }
     
     public void setEstadoPista(int pistaId, boolean estado) {
-        System.out.println("ClienteRMI");
         try {
             AeropuertoRemoto aeroR = (AeropuertoRemoto) Naming.lookup("//127.0.0.1/OR" + l);
             aeroR.setEstadoPista(pistaId, estado);

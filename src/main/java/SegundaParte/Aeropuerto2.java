@@ -38,7 +38,6 @@ public class Aeropuerto2 extends UnicastRemoteObject implements AeropuertoRemoto
     }
     
     public void setEstadoPista(int pistaId, boolean estado) {
-        System.out.println("Aeropuerto 2");
         aero.setEstadoPistaAeropuerto(pistaId, estado);
     }
 }
